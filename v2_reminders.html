@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>DCS Defenders Robotics</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<style type="text/css" media="screen">
+			body {
+				background:#f1f1f1;
+				font-size:0.9em;
+			}
+			.card-deck > .card {
+				max-width:24rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid mt-4">
+			<div class="row">
+				<div class="col-sm text-center"><h1>Rover v2 Reminders</h1></div>
+			</div>
+			<div class="row  mt-4 px-4">
+				<div class="card-deck">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">DO</h5>
+						</div>
+						<ul class="list-group list-group-flush">
+							 <li class="list-group-item">Issue commands to the bot by broadcasting messages</li>
+							 <li class="list-group-item">Receive feedback from sensors by examining variable values</li>
+							 <li class="list-group-item">Separate code into specific functions using custom blocks</li>
+							 <li class="list-group-item">Use multiple flag blocks to create code that you want to run at the same time—e.g. code to control movement and code to do sensor checking</li>
+						</ul>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">DO NOT</h5>
+						</div>
+						<ul class="list-group list-group-flush">
+							 <li class="list-group-item">Do not alter any code for the Bot, Heart, or the LR Sensor sprites</li>
+							 <li class="list-group-item">There should be absolutely NO Motion blocks in the keyboard sprite code. To move the bot, you need to broadcast commands to it.</li>
+							 <li class="list-group-item">There should be absolutely NO contact or color sensing blocks in the keyboard sprite code. You need to use the sensor commands and variables to learn about the bot's environment.</li>
+						</ul>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">REMEMBER</h5>
+						</div>
+						<ul class="list-group list-group-flush">
+							 <li class="list-group-item">Because this is a simulation, long range sensor checking is not instantaneous. You can change the sensitivity in the bot sprite, but that will make it more inaccurate. When sending a sensor "ping" be sure to wait a second or two for the response.</li>
+							 <li class="list-group-item">Nothing stops the bot from driving over obstacles. It's up to you to prevent that.</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+
+		</div>
+	</body>
+</html>

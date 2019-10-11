@@ -1,0 +1,198 @@
+<html>
+	<head>
+		<title>DCS Defenders Robotics</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<style type="text/css" media="screen">
+			body {
+				background:#f1f1f1;
+				font-size:0.9em;
+			}
+			.card-deck > .card {
+				max-width:24rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid mt-4">
+			<div class="row">
+				<div class="col-sm text-center"><h1>Rover v2 Capabilities</h1></div>
+			</div>
+			<div class="row px-4 border-bottom border-dark">
+				<div class="col-sm"><h2>Motor Commands</h2></div>
+			</div>
+			<div class="row  mt-4 px-4">
+				<div class="card-deck">
+					<div class="card">
+						<img src="http://scratched.gse.harvard.edu/sites/default/files/broadcast.jpg" class="card-img-top pt-3" style="width:50%;align-self: center;margin-bottom:-1rem;"/>
+						<div class="card-body">
+							<h5 class="card-title">Wheels</h5>
+							<p class="card-text">Numbers used are not degrees; roughly, they represent the speed of motor. Once set in motion, the motor will continue to spin until stopped, either by setting speed in the opposite direction or by issuing a stop command. To best program motion you'll need to experiment with how many speed commands to broadcast and how long to wait before sending a stop command.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							 <li class="list-group-item">LEFT CCW1</li>
+							 <li class="list-group-item">LEFT CW1</li>
+							 <li class="list-group-item">LEFT STOP</li>
+							 <li class="list-group-item">RIGHT CCW1</li>
+							 <li class="list-group-item">RIGHT CW1</li>
+							 <li class="list-group-item">RIGHT STOP</li>
+						</ul>
+					</div>
+					<div class="card">
+						<img src="http://scratched.gse.harvard.edu/sites/default/files/broadcast.jpg" class="card-img-top pt-3" style="width:50%;align-self: center;margin-bottom:-1rem;"/>
+						<div class="card-body">
+							<h5 class="card-title">Grabber Arm</h5>
+							<p class="card-text">Numbers are in degrees. The arm begins at 0, which is fully retracted. At 180&deg; counter-clockwise, the arm is fully extended. The arm animates at several points along the way.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							 <li class="list-group-item">ARM CCW1</li>
+							 <li class="list-group-item">ARM CW1</li>
+						</ul>
+					</div>
+					<div class="card">
+						<img src="http://scratched.gse.harvard.edu/sites/default/files/broadcast.jpg" class="card-img-top pt-3" style="width:50%;align-self: center;margin-bottom:-1rem;"/>
+						<div class="card-body">
+							<h5 class="card-title">Grabber Claw</h5>
+							<p class="card-text">Numbers are in degrees. The claw starts at 0, which is fully open. At 90&deg; clockwise, the claw is fully closed. There is no animation except for open and closed states.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							 <li class="list-group-item">CLAW CCW1</li>
+							 <li class="list-group-item">CLAW CW1</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+			<div class="row mt-4 px-4 border-bottom border-dark">
+				<div class="col-sm"><h2>Sensor Commands</h2></div>
+			</div>
+			<div class="row  mt-4 px-4">
+				<div class="card-deck">
+					<div class="card">
+						<img src="http://scratched.gse.harvard.edu/sites/default/files/broadcast.jpg" class="card-img-top pt-3" style="width:50%;align-self: center;margin-bottom:-1rem;"/>
+						<div class="card-body">
+							<h5 class="card-title">Long Range Sensors</h5>
+							<p class="card-text">The rover is equipped with distance sensors pointing forward, back, left, and right. They can be used to calculate distance toward obstacle in those directions. For the sensors to work, they must be specifically called using broadcast commands.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							 <li class="list-group-item">FRONT LRS</li>
+							 <li class="list-group-item">BACK LRS</li>
+							 <li class="list-group-item">LEFT LRS</li>
+							 <li class="list-group-item">RIGHT LRS</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+
+
+			<div class="row mt-4 px-4 border-bottom border-dark">
+				<div class="col-sm"><h2>Active Sensors</h2></div>
+			</div>
+			<div class="row  mt-4 px-4">
+				<div class="card-deck">
+					<div class="card">
+						<img src="images/myvariable.png" class="card-img-top pt-3" style="width:25%;align-self: center;margin-bottom:-1rem;"/>
+						<div class="card-body">
+							<h5 class="card-title">Long Range Sensors</h5>
+							<p class="card-text">Sensor values are accessed through Scratch variables. All long range sensors use &ndash;1 as a default "distance not calculated" value. 0 and positive numbers measure the distance from the bot to any obstacles in that direction. The bot sprite has a sensitivity setting; increasing that value that will make the sensors faster but less accurate.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							 <li class="list-group-item">FRONT LRS DISTANCE</li>
+							 <li class="list-group-item">BACK LRS DISTANCE</li>
+							 <li class="list-group-item">LEFT LRS DISTANCE</li>
+							 <li class="list-group-item">RIGHT LRS DISTANCE</li>
+						</ul>
+					</div>
+					<div class="card">
+						<img src="images/myvariable.png" class="card-img-top pt-3" style="width:25%;align-self: center;margin-bottom:-1rem;"/>
+						<div class="card-body">
+							<h5 class="card-title">Vision Sensors</h5>
+							<p class="card-text">This variable contains a value of 1 if there is red (a heart) directly in the forward path of the bot. This sensor value is set after calling FRONT LRS. Note that only the front sensor detects color.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							 <li class="list-group-item">SEEING RED</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+
+
+
+
+			<div class="row mt-4 px-4 border-bottom border-dark">
+				<div class="col-sm"><h2>Passive Sensors</h2></div>
+			</div>
+			<div class="row  mt-4 px-4">
+				<div class="card-deck">
+					<div class="card">
+						<img src="images/myvariable.png" class="card-img-top pt-3" style="width:25%;align-self: center;margin-bottom:-1rem;"/>
+						<div class="card-body">
+							<h5 class="card-title">General Contact Sensors</h5>
+							<p class="card-text">These are passive sensors, which mean you do not need to issue any command for the values to be available to you. All are boolean values, 0 or 1. This set of sensors is activated by any contact with any part of the bot. Separate sensors allow for detecting what part of the rover was touched.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							 <li class="list-group-item">TOUCHING EDGE <div class="text-muted small">This sensor variable should almost never actually be 1. The backgrounds for this simulation are built with purple obstacle walls around the edge which should prevent "edge" detection.</div></li>
+							 <li class="list-group-item">TOUCHING OBSTACLE<div class="text-muted small">Walls and obstacles are purple. If any part of the bot is touching an obstacle, this sensor variable will be 1.</div></li>
+							 <li class="list-group-item">TOUCHING RED<div class="text-muted small">Similar to obstacle detection, this sensor variable will be 1 if any part of the bot is touching a red heart.</div></li>
+						</ul>
+					</div>
+					<div class="card">
+						<img src="images/myvariable.png" class="card-img-top pt-3" style="width:25%;align-self: center;margin-bottom:-1rem;"/>
+						<div class="card-body">
+							<h5 class="card-title">Directional Contact Sensors</h5>
+							<p class="card-text">These sensor variables correspond to the yellow bars around the bot. They return 1 if that particular sensor is touching EITHER red or a purple obstacle. Note that each directional sensor could be touching both red and purple. The sensors themselves do not let you know which is which. </p>
+						</div>
+						<ul class="list-group list-group-flush">
+							 <li class="list-group-item">FRONT TOUCHING</li>
+							 <li class="list-group-item">BACK TOUCHING</li>
+							 <li class="list-group-item">LEFT TOUCHING</li>
+							 <li class="list-group-item">RIGHT TOUCHING</li>
+						</ul>
+					</div>
+					<div class="card">
+						<img src="images/myvariable.png" class="card-img-top pt-3" style="width:25%;align-self: center;margin-bottom:-1rem;"/>
+						<div class="card-body">
+							<h5 class="card-title">Claw Contact Sensors</h5>
+							<p class="card-text">This sensor variable returns 1 if the tip of the claw (which is also red) is touching a red heart. This sensor will only work when the grabber arm is fully extended.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							 <li class="list-group-item">CLAW TOUCHING</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mt-4 px-4 border-bottom border-dark">
+				<div class="col-sm"><h2>Miscellaneous Commands</h2></div>
+			</div>
+			<div class="row  mt-4 px-4">
+				<div class="card-deck">
+					<div class="card">
+						<img src="http://scratched.gse.harvard.edu/sites/default/files/broadcast.jpg" class="card-img-top pt-3" style="width:50%;align-self: center;margin-bottom:-1rem;"/>
+						<div class="card-body">
+							<h5 class="card-title">Quick Setup</h5>
+							<p class="card-text">Broadcasting this command doesn't technically control the rover. It simply acts as a convenient way to put the rover back in the middle of the stage, facing direction 0.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							 <li class="list-group-item">RESET LOCATION</li>
+						</ul>
+					</div>
+					<div class="card">
+						<img src="http://scratched.gse.harvard.edu/sites/default/files/broadcast.jpg" class="card-img-top pt-3" style="width:50%;align-self: center;margin-bottom:-1rem;"/>
+						<div class="card-body">
+							<h5 class="card-title">Resetting Sensors</h5>
+							<p class="card-text">Some sensor values are "sticky" meaning that they keep their positive value until updated. Broadcasting this command will manually reset all the bot's sensors to their default values (&ndash;1 for distance sensors, 0 otherwise).</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							 <li class="list-group-item">RESET SENSORS</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>
