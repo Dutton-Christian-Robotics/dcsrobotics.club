@@ -1,15 +1,15 @@
 <html>
 	<head>
 		<title>DCS Defenders Robotics</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,400i,600,700,800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="/styles.css"/>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/edb9398a3c.js" crossorigin="anonymous"></script>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		<style type="text/css" media="screen">
-			body {
-				background:#f1f1f1;
-			}
 			.card-deck > .card {
 				max-width:24rem;
 				min-width:18rem;
@@ -18,8 +18,8 @@
 		</style>
 	</head>
 	<body>
-		<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-			<a class="navbar-brand" href="#"><i class="fa fa-robot"></i></a>
+		<nav class="navbar navbar-dark bg-dcs-blue navbar-expand-lg fixed-top">
+			<a class="navbar-brand" href="#"><i class="fad fa-robot fa-2x"></i></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -31,86 +31,37 @@
 				</ul>
 			</div>
 		</nav>
-		<div class="container-fluid mt-4">
-			<div class="row">
-				<div class="col-sm text-center"><h1>DCS Defenders Robotics</h1></div>
+		<div class="container-fluid mt-5rem">
+			<div class="row pt-4">
+				<div class="col-sm text-center"><h1 class="display-3">DCS Defenders Robotics</h1></div>
 			</div>
-			<div class="row justify-content-center mt-4 px-4">
-				<div class="card-deck">
-					<div class="card">
-						<img src="https://pbs.twimg.com/profile_images/1080557016463147008/sPN7F0Dd_400x400.jpg" class="card-img-top" style="width:25%;align-self: center;"/>
-						<div class="card-body border-top">
-							<h5 class="card-title">Moon Landing (starter)</h5>
-							<p class="card-text">This project involves developing controls to move a simulated lunar lander in a way that mimics a space ship in zero gravity. The end goal is to guide the lander to a safe and controlled landing on the moon's surface.</p>
-						</div>
-						<ul class="list-group list-group-flush">
-							 <li class="list-group-item"><a href="http://www.programmingbasics.org/en/downloads/scratchgames/moonlanding.pdf" target="_new">Project Instructions</a></li>
-						</ul>
-						<div class="card-footer text-right">
-							<a href="https://scratch.mit.edu/projects/30428484" target="_new" class="btn btn-primary btn-sm">Go to the Scratch project</a>
-						</div>
-					</div>
-					<div class="card">
-						<img src="https://pbs.twimg.com/profile_images/1080557016463147008/sPN7F0Dd_400x400.jpg" class="card-img-top" style="width:25%;align-self: center;"/>
-						<div class="card-body border-top">
-							<h5 class="card-title">Cat and Mouse (starter)</h5>
-							<p class="card-text">This project involves programming a mouse to respond to user interaction (following the cursor) and a cat to chase the mouse automatically. Several important skills are learned by working on this project.</p>
-						</div>
-						<ul class="list-group list-group-flush">
-							 <li class="list-group-item"><a href="http://www.programmingbasics.org/en/downloads/scratchgames/catandmouse.pdf" target="_new">Project Instructions</a></li>
-						</ul>
-						<div class="card-footer text-right">
-							<a href="https://scratch.mit.edu/projects/30428582" target="_new" class="btn btn-primary btn-sm">Go to the Scratch project</a>
-						</div>
-					</div>
-					<div class="card">
-						<img src="https://pbs.twimg.com/profile_images/1080557016463147008/sPN7F0Dd_400x400.jpg" class="card-img-top" style="width:25%;align-self: center;"/>
-						<div class="card-body border-top">
-							<h5 class="card-title">Rover Simulator v1</h5>
-							<p class="card-text">The bot in this simulator can respond to commands to rotate its two wheels, enough to move the bot forward, backwards, and to turn. The stage backdrop is an empty screen without obstacles.</p>
-						</div>
-						<div class="card-footer text-right">
-							<a href="http://bit.ly/dcs_roversim" target="_new" class="btn btn-primary btn-sm">Go to the Scratch project</a>
-						</div>
-					</div>
-					<div class="card">
-						<img src="https://pbs.twimg.com/profile_images/1080557016463147008/sPN7F0Dd_400x400.jpg" class="card-img-top" style="width:25%;align-self: center;"/>
-						<div class="card-body border-top">
-							<h5 class="card-title">Rover Simulator v2</h5>
-							<p class="card-text">This is a more advanced simulation than v1. The bot includes an array of active and passive sensors, as well as a mechanical arm and claw. Multiple backdrops are provided, all surrounded by a purple wall; some include multiple obstacle walls as well.</p>
-						</div>
-						<ul class="list-group list-group-flush">
-							 <li class="list-group-item"><a href="v2_capabilities.html">Rover capabilities</a></li>
-							 <li class="list-group-item"><a href="v2_reminders.html">Reminders about programming the rover</a></li>
-							 <li class="list-group-item"><a href="v2_todo.html">Programming To Do list</a></li>
+			<div class="row">
+				<div class="col-12 col-md-6 ">
+					<div class="jumbotron shadow border border-warning">
+						<img src="/images/FIRST-Skystone-RGB_Primary-full-color.png" class="d-block float-md-right w-50 mx-auto"/>
+						<h2 class="text-center text-md-left">2019-20 Season: SKYSTONE&#8480;</h2>
+						 <p class="lead">The challenge for this season involves developing a robot that can cooperate with others to build a city of the future.</p>
+						 <ul>
+							 <li><a href="https://www.firstinspires.org/robotics/ftc/game-and-season" target="_new">Game and Season info from First</a></li>
+							 <li><a href="https://www.youtube.com/watch?v=XiGB_8Ppnbs" target="_new">Description of the Game (video)</a></li>
+							 <li><a href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1.pdf" target="_new">Game Manual part 1</a></li>
+							 <li><a href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2.pdf" target="_new">Game Manual part 2</a></li>
+							 <li><a href="https://firstinspiresst01.blob.core.windows.net/ftc/2020/gbrm-neo-pg.pdf" target="_new">One page game description</a></li>
 						 </ul>
-						<div class="card-footer text-right">
-							<a href="http://bit.ly/dcs_roversim2" target="_new" class="btn btn-primary btn-sm">Go to the Scratch project</a>
-						</div>
 					</div>
-					<div class="card">
-						<img src="https://pbs.twimg.com/profile_images/1080557016463147008/sPN7F0Dd_400x400.jpg" class="card-img-top" style="width:25%;align-self: center;"/>
-						<div class="card-body border-top">
-							<h5 class="card-title">Rover Simulator v2b</h5>
-							<p class="card-text">This variation of Rover v2 adds an opposing rover that has the ability to destroy hearts. Also, if it touches you the game is over.</p>
-						</div>
-						<div class="card-footer text-right">
-							<a href="https://scratch.mit.edu/projects/301378202/" target="_new" class="btn btn-primary btn-sm">Go to the Scratch project</a>
-						</div>
+				</div>
+				<div class=" col-12 col-md-6">
+					<div class="card  ml-md-2 shadow">
+						<h5 class="card-header">Programming Resources</h5>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item"><a href="https://github.com/Dutton-Christian-Robotics/Skystone19-20" target="_new">DCS SKYSTONE GitHub Repository</a></li>
+							<li class="list-group-item"><a href="https://first-tech-challenge.github.io/SkyStone/doc/javadoc/index.html" target="_new">SKYSTONE JavaDocs</a></li>
+							<li class="list-group-item"><a href="https://www.youtube.com/playlist?list=PLEuGrYl8iBm6SyJ41h1qQdl6en5YNCydi" target="_new">REV Electronics Tutorials</a></li>
+						</ul>
 					</div>
-					<div class="card">
-						<img src="https://pbs.twimg.com/profile_images/1080557016463147008/sPN7F0Dd_400x400.jpg" class="card-img-top" style="width:25%;align-self: center;"/>
-						<div class="card-body border-top">
-							<h5 class="card-title">Rover Simulator v2.5</h5>
-							<p class="card-text">An updated version of the simulator that eliminates the "SEEING RED" and "TOUCHING RED" sensors, adding a "SEEING COLOR" sensor in its place. Long-range sensors also now stop at any color. Also added a cargo capacity limitation for the rover and a green base sprite where hearts can be unloaded.</p>
-						</div>
-						<div class="card-footer text-right">
-							<a href="https://scratch.mit.edu/projects/293413769/" target="_new" class="btn btn-primary btn-sm">Go to the Scratch project</a>
-						</div>
-					</div>
-
 				</div>
 			</div>
 		</div>
+		<div id="background"/>
 	</body>
 </html>
