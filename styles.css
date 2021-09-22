@@ -1,14 +1,26 @@
 :root {
-	--font-family-my-sans-serif: 'Open Sans', sans-serif;
+	--font-family-my-sans-serif: Lato, 'Open Sans', sans-serif;
 	--font-family-my-serif: Georgia, Times, serif;
 	--font-family-headline:'Alfa Slab One', cursive;
 	--dcs-blue: #02a0e0;
 }
 
 body {
-	background:#f1f1f1;
+	background: var(--dcs-blue) !important;
 	font-family: var(--font-family-my-sans-serif) !important;
 	position:relative;
+}
+
+a:link, a:visited {
+	color:var(--bs-orange);
+}
+
+a:hover {
+	color:var(--bs-warning);
+}
+
+a:active {
+	color:var(--bs-yellow);
 }
 
 .bg-dcs-blue {
@@ -23,6 +35,11 @@ h1 {
 	font-family:var(--font-family-headline);
 }
 
+div.card-img-top {
+	height:10rem;
+	background-size:cover !important;
+}
+
 div#background {
 	background: url(/images/team2018-2019.png);
 	position: fixed;
@@ -32,7 +49,22 @@ div#background {
 	right: 0;
 	z-index: -1;
 	background-size: cover;
-	-webkit-filter: blur(0.35rem) opacity(0.25);
+	filter: blur(0.35rem) opacity(0.25);
 	width: 100%;
 	height: 100%;
+}
+
+div#front-img-header {
+	background:url(/images/team2018-2019.png);
+	background-size:cover !important;
+	background-position-y:50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	filter:brightness(0.35);
+	
 }
