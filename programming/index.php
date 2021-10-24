@@ -8,92 +8,24 @@
 		<link rel="stylesheet" href="/styles.css"/>
 
 		<script src="https://kit.fontawesome.com/c905323e14.js" crossorigin="anonymous"></script>
-		<style media="screen">
-			.card-deck > .card {
-				max-width:24rem;
-				min-width:18rem;
-				margin-bottom:2rem;
-			}
-		</style>
 	</head>
 	<body>
-		<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
-			<a class="navbar-brand" href="#"><i class="fad fa-robot fa-2x"></i></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<div class="position-relative" style="height:20rem;">
-			<div id="front-img-header"></div>
+		<? include "{$_SERVER['DOCUMENT_ROOT']}/includes/navbar.php"; ?>
+
+		<div class="position-relative h-20rem">
+			<div class="img-header" style="background:url(/images/team2018-2019.png);background-position-y:50%;filter:grayscale(1) brightness(0.5);opacity:0.5;"></div>
 			<div class="position-absolute start-0 end-0 text-white text-center" style="bottom:1rem;">
-				<h1 class="display-3 mb-0 pb-0">DCS Defenders Robotics</h1>
-				<h2>Team #15815</h2>
+				<h2>DCS Defenders Robotics #15815</h2>
+				<h1 class="display-3 text-shadow-3">Programming</h1>			
 			</div>
 		</div>
-
-		<div class="d-flex flex-column flex-lg-row gap-4 p-4 align-items-start">
-			<div class="card flex-grow-1">
-				<div style="background:url(/images/FREIGHT_FRENZY_Logo_Horizontal_RGB_FullColor-01.jpg);" class="card-img-top" alt="Logo for Freight Frenzy"></div>
-				<div class="card-body p-4">
-					
-					<h3 class="card-title fw-bold">2021-2022 Season</h3>
-					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-circle-play fa-3x text-secondary fa-fw"></i></div>
-						<div>
-							<div><a href="https://www.youtube.com/watch?v=I6lX12idAf8" target="_blank">Description of the Game</a></div>
-							<div class="small text-secondary">This video gives an overview of how the season's game is played.</div>
-						</div>
-					</div>
-					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-file-pdf fa-3x text-secondary fa-fw"></i></div>
-						<div>
-							<div><a href="https://firstinspiresst01.blob.core.windows.net/first-forward-ftc/game-one-page.pdf" target="_blank">One Page Game Description</a></div>
-							<div class="small text-secondary">This document is a quick summary of how the game is played and, more importantly, a summary of how points can be scored.</div>
-						</div>
-					</div>
-					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-book fa-3x text-secondary fa-fw"></i></div>
-						<div>
-							<div><a href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1-traditional-events.pdf" target="_blank">Game Manual, Part 1</a> (traditional events)</div>
-							<div class="small text-secondary">The first part of the game manual covers general topics of how FTC competitions are run.</div>
-						</div>
-					</div>
-					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-book fa-3x text-secondary fa-fw"></i></div>
-						<div>
-							<div><a href="https://firstinspiresst01.blob.core.windows.net/first-forward-ftc/game-manual-part-2-traditional.pdf" target="_blank">Game Manual, Part 2</a> (traditional events)</div>
-							<div class="small text-secondary">The second part of the game manual covers the specifics of the Freight Frenzy game, and is the authoritative source for rules.</div>
-						</div>
-					</div>
-					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-trophy fa-3x text-secondary fa-fw"></i></div>
-						<div>
-							<div><a href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/award-descriptions.pdf" target="_blank">FTC Award Criteria</a></div>
-							<div class="small text-secondary">This document describes the criteria for the different awards that an FTC team can win throughout the season.</div>
-						</div>
-					</div>
-					
-					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-books fa-3x text-secondary fa-fw"></i></div>
-						<div>
-							<div><a href="https://www.firstinspires.org/resource-library/ftc/game-and-season-info" target="_blank">FTC Resource Library</a></div>
-							<div class="small text-secondary">This page is the definitive place to find information or resources for this year's game.</div>
-						</div>
-					</div>
-					
-				</div>
+		
+		<div class="d-flex mt-5 gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center">
+			<div class="flex-basis-sm-40rem m-md-0">
+				<img src="/images/IMG_7377.jpg" class="w-100 rounded"/>
 			</div>
-
-			<div class="card flex-grow-1">
-				<div style="background:url(/images/IMG_7377.jpg);background-position-y:100%;" class="card-img-top" alt="Team members programming"></div>
-				<div class="card-body p-4">
+			<div class="card flex-basis-auto flex-basis-sm-40rem m-3 m-md-0">
+				<div class="card-body p-lg-4">
 					
 					<h3 class="card-title fw-bold">Learning to Program</h3>
 					<div class="d-flex gap-3 mt-4">
@@ -134,11 +66,15 @@
 					
 				</div>
 			</div>
-			<div class="card flex-grow-1">
-				<div style="background:url(/images/IMG_0028.jpg);background-position-y:100%;" class="card-img-top" alt="A team member wiring"></div>
+		</div>
+		
+		<div class="flex-basis-sm-40rem mt-md-5 vh-15" style="background:url(/images/IMG_0028.jpg);background-repeat:no-repeat;background-size:cover;background-position-y:100%;filter:brightness(0.5);background-attachment:fixed;"></div>
 
+
+		<div class="d-flex gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center mt-md-5 mb-5">
+			<div class="card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0">
 				<div class="card-body">
-					<h3 class="card-title fw-bold">Programming Resources</h3>
+					<h3 class="card-title fw-bold">The Basics</h3>
 
 					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
@@ -170,6 +106,49 @@
 							<div class="small text-secondary">These short YouTube videos, created by FTC, explore how to use various REV robotics components.</div>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div class="card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0">
+				<div class="card-body">
+					<h3 class="card-title fw-bold">Advanced</h3>
+
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://github.com/FIRST-Tech-Challenge/FtcRobotController" target="_blank">FtcRobotController repository</a></div>
+							<div class="small text-secondary">This repository contains the code for the FTC Robot Controller app.</div>
+						</div>
+					</div>
+
+
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-book-sparkles fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://wizards-exe.weebly.com/our-spellbooks.html" target="_blank">Programming "Spellbooks" from Wizards.exe</a></div>
+							<div class="small text-secondary">These video tutorials from FTC team #9794 cover both basics and more advanced topics in robot development.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-book-open-cover fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Advanced-Topics" target="_blank">FTC "Advanced Topics" Tutorials</a></div>
+							<div class="small text-secondary">These tutorials cover topics like object detection, managing electrostatic discharge, etc.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-arrow-trend-up fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://www.ctrlaltftc.com" target="_blank">CTRL ALT FTC</a></div>
+							<div class="small text-secondary">This guide from FTC Team #19376 covers the basics of control theory.</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0">
+				<div class="card-body">
+					<h3 class="card-title fw-bold">The FTC Community</h3>
+
 					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-comments fa-3x text-secondary fa-fw"></i></div>
 						<div>
@@ -178,21 +157,26 @@
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-book-sparkles fa-3x text-secondary fa-fw"></i></div>
+						<div><i class="fa-brands fa-reddit fa-3x text-secondary fa-fw"></i></div>
 						<div>
-							<div><a href="https://wizards-exe.weebly.com/our-spellbooks.html" target="_blank">Programming "Spellbooks" from Wizards.exe, FTC team #9794</a></div>
-							<div class="small text-secondary">These video tutorials cover both basics and more advanced topics in robot development.</div>
+							<div><a href="https://www.reddit.com/r/FTC/" target="_blank">FTC Subreddit</a></div>
+							<div class="small text-secondary">This the place to find an active FTC community on the Reddit platform.</div>
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-book-open-cover fa-3x text-secondary fa-fw"></i></div>
+						<div><i class="fa-brands fa-discord fa-3x text-secondary fa-fw"></i></div>
 						<div>
-							<div><a href="https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Advanced-Topics" target="_blank">FTC "Advanced Topics" Tutorials</a></div>
-							<div class="small text-secondary">These tutorials cover topics like object detection, managing electrostatic discharge, etc</div>
+							<div><a href="https://www.reddit.com/r/FTC/" target="_blank">(Un)Oofficial FTC Discord</a></div>
+							<div class="small text-secondary">This Discord server covers a lot of topics in the world of FTC.</div>
 						</div>
 					</div>
-				</ul>
+
+
+
+
+				</div>
 			</div>
+
 
 
 		</div>
