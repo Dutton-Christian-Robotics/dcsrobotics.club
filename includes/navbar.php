@@ -10,10 +10,10 @@
 					<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/2021-2022">Freight Frenzy</a>
+					<a class="nav-link" href="/2022-2023">Power Play</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/programming">Programming </a>
+					<a class="nav-link" href="/teams/programming">Programming </a>
 				</li>
 
 

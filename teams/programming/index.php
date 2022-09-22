@@ -71,7 +71,7 @@
 		<div class="flex-basis-sm-40rem mt-md-5 vh-15" style="background:url(/images/IMG_0028.jpg);background-repeat:no-repeat;background-size:cover;background-position-y:100%;filter:brightness(0.5);background-attachment:fixed;"></div>
 
 
-		<div class="d-flex gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center mt-md-5 mb-5">
+		<div class="d-flex gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center mt-md-5 mb-5 flex-wrap">
 			<div class="card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0">
 				<div class="card-body">
 					<h3 class="card-title fw-bold">The Basics</h3>
@@ -108,6 +108,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0">
 				<div class="card-body">
 					<h3 class="card-title fw-bold">Advanced</h3>
@@ -115,8 +116,8 @@
 					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
 						<div>
-							<div><a href="https://github.com/FIRST-Tech-Challenge/FtcRobotController" target="_blank">FtcRobotController repository</a></div>
-							<div class="small text-secondary">This repository contains the code for the FTC Robot Controller app.</div>
+							<div><a href="https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases/tag/v8.0" target="_blank">FtcRobotController repository</a></div>
+							<div class="small text-secondary">This repository contains the code for the FTC Robot Controller app. Version 8 is the official version for 2022-2023.</div>
 						</div>
 					</div>
 
@@ -145,39 +146,29 @@
 
 				</div>
 			</div>
+			
 			<div class="card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0">
 				<div class="card-body">
-					<h3 class="card-title fw-bold">The FTC Community</h3>
+					<h3 class="card-title fw-bold">Vision</h3>
 
 					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-comments fa-3x text-secondary fa-fw"></i></div>
+						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
 						<div>
-							<div><a href="https://ftcforum.firstinspires.org" target="_blank">FIRST Tech Challenge Discussion Forum</a></div>
-							<div class="small text-secondary">These discussion boards are a great place to ask questions and get help with various aspects of building a robot.</div>
+							<div><a href="https://github.com/OpenFTC/EasyOpenCV" target="_blank">EasyOpenCV repository</a></div>
+							<div class="small text-secondary">The code in this repository, created by the OpenFTC group, provides a simplified way to use the OpenCV computer vision library with FTC robots.</div>
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-brands fa-reddit fa-3x text-secondary fa-fw"></i></div>
+						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
 						<div>
-							<div><a href="https://www.reddit.com/r/FTC/" target="_blank">FTC Subreddit</a></div>
-							<div class="small text-secondary">This the place to find an active FTC community on the Reddit platform.</div>
+							<div><a href="https://github.com/deltacv/EOCV-Sim" target="_blank">EOCV-Sim repository</a></div>
+							<div class="small text-secondary">This repository contains a Java application that can be used for testing and debugging OpenCV pipelines.</div>
 						</div>
 					</div>
-					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-brands fa-discord fa-3x text-secondary fa-fw"></i></div>
-						<div>
-							<div><a href="https://www.reddit.com/r/FTC/" target="_blank">(Un)Oofficial FTC Discord</a></div>
-							<div class="small text-secondary">This Discord server covers a lot of topics in the world of FTC.</div>
-						</div>
-					</div>
-
-
 
 
 				</div>
 			</div>
-
-
 
 		</div>
 		

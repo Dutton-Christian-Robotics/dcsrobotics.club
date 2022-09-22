@@ -33,16 +33,16 @@
 			</div>
 		</div>
 		
-		<div class="p-4 mt-5 d-flex bg-dark bg-opacity-50 gap-3 flex-column flex-sm-row justify-content-sm-center">
+		<div class="p-4 mt-5 d-flex bg-dark bg-opacity-50 gap-3 flex-column flex-sm-row justify-content-sm-center align-items-start">
 			<div class="card flex-basis-sm-25rem">
 				<div class="card-body text-secondary">
 					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
 						<span>Current Season</span>
 						<i class="fa-duotone fa-calendar-star fa-3x text-secondary"></i>
 					</h5>
-					<p class="">The game for the 21-22 season is "Freight Frenzy." This page has everything you might want to know about the game.</p>
+					<p class="">The game for the 22-23 season is "PowerPlay." Use this page for access to official game materials.</p>
 					<div>
-						<a href="/2021-2022" class="btn btn-warning text-dark">Go</a>
+						<a href="/2022-2023" class="btn btn-warning text-dark">Go</a>
 					</div>
 
 				</div>
@@ -54,8 +54,61 @@
 						<i class="fa-duotone fa-timeline-arrow fa-3x text-secondary"></i>
 					</h5>
 					<p class="">Learn more about the different competitions we've played in and robots we've built.</p>
+					<div>
+						<a href="/history" class="btn btn-warning text-dark">Go</a>
+					</div>
+
 				</div>
 			</div>
+			<div class="card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0">
+				<div class="card-body">
+					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+						<span>The FTC Community</span>
+						<i class="fa-duotone fa-users fa-3x text-secondary"></i>
+					</h5>
+			
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-square-rss fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="http://firsttechchallenge.blogspot.com" target="_blank">Official FIRST Tech Challenge Blog</a></div>
+							<div class="small text-secondary">Good source for important announcements and FTC-related resources.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-comments fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://ftcforum.firstinspires.org" target="_blank">FIRST Tech Challenge Discussion Forum</a></div>
+							<div class="small text-secondary">These discussion boards are a great place to ask questions and get help with various aspects of building a robot.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-brands fa-reddit fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://www.reddit.com/r/FTC/" target="_blank">FTC Subreddit</a></div>
+							<div class="small text-secondary">This the place to find an active FTC community on the Reddit platform.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-brands fa-discord fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://www.reddit.com/r/FTC/" target="_blank">(Un)Official FTC Discord</a></div>
+							<div class="small text-secondary">This Discord server covers a lot of topics in the world of FTC.</div>
+						</div>
+					</div>
+			
+			
+			
+			
+				</div>
+			</div>
+			
+			
+
+
+			
+		</div>
+		
+		<div class="p-4 mt-5 d-flex bg-dark bg-opacity-50 gap-3 flex-column flex-sm-row justify-content-sm-center">
 			<div class="card flex-basis-sm-25rem">
 				<div class="card-body text-secondary">
 					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
@@ -64,14 +117,60 @@
 					</h5>
 					<p class="">Tutorials, resources, and instructions for members of the programming team&mdash;or anyone interested in learning more about programming an FTC robot.</p>
 					<div>
-						<a href="/programming" class="btn btn-warning text-dark">Go</a>
+						<a href="/teams/programming" class="btn btn-warning text-dark">Go</a>
+					</div>
+				</div>
+			</div>
+			<div class="card flex-basis-sm-25rem">
+				<div class="card-body text-secondary">
+					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+						<span>Mechanical Team</span>
+						<i class="fa-duotone fa-gears fa-3x text-secondary"></i>
+					</h5>
+					<p class="">Information on construction and design aspects of FTC robots.</p>
+					<div>
+						<a href="/teams/mechanical" class="btn btn-warning text-dark">Go</a>
+					</div>
+				</div>
+			</div>
+			<div class="card flex-basis-sm-25rem">
+				<div class="card-body text-secondary">
+					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+						<span>Marketing &amp; Promotions Team</span>
+						<i class="fa-duotone fa-megaphone fa-3x text-secondary"></i>
+					</h5>
+					<p class="">Coming Soon</p>
+					<div>
+						<a href="/teams/mechanical" class="btn btn-warning text-dark d-none">Go</a>
+					</div>
+				</div>
+			</div>
+			<div class="card flex-basis-sm-25rem">
+				<div class="card-body text-secondary">
+					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+						<span>CAD Team</span>
+						<i class="fa-duotone fa-ruler-triangle fa-3x text-secondary"></i>
+					</h5>
+					<p class="">Coming Soon</p>
+					<div>
+						<a href="/teams/cad" class="btn btn-warning text-dark d-none">Go</a>
+					</div>
+				</div>
+			</div>
+			<div class="card flex-basis-sm-25rem">
+				<div class="card-body text-secondary">
+					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+						<span>Strategy Team</span>
+						<i class="fa-duotone fa-chess fa-3x text-secondary"></i>
+					</h5>
+					<p class="">Coming Soon</p>
+					<div>
+						<a href="/teams/strategy" class="btn btn-warning text-dark d-none">Go</a>
 					</div>
 				</div>
 			</div>
 
-			
 		</div>
-		
 		<div class="mt-5 mb-5 d-flex justify-content-center gap-5 flex-column flex-sm-row align-items-center">
 			<div class="card bg-warning text-white">
 				<div class="card-body d-flex flex-column align-items-center">
@@ -89,6 +188,7 @@
 			
 		</div>
 		
+
 		
 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
