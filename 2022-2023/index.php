@@ -61,6 +61,15 @@
 							<div class="small text-secondary">This document is a quick summary of how the game is played and, more importantly, a summary of how points can be scored.</div>
 						</div>
 					</div>
+					
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-messages-question fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://ftc-qa.firstinspires.org/" target="_blank">FTC Question and Answer System</a></div>
+							<div class="small text-secondary">This board is considered the official place to get answers to questions about the rules, gameplay, or strategy.</div>
+						</div>
+					</div>
+
 
 
 
@@ -74,13 +83,6 @@
 							</div>
 						</div>
 						
-						<div class="d-flex gap-3 mt-4">
-							<div><i class="fa-duotone fa-messages-question fa-3x text-secondary fa-fw"></i></div>
-							<div>
-								<div><a href="https://ftc-qa.firstinspires.org" target="_blank">FTC Question and Answer System</a></div>
-								<div class="small text-secondary">This board is considered the official place to get answers to questions about the rules, gameplay, or strategy.</div>
-							</div>
-						</div>
 	
 						
 						
