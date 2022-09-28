@@ -94,7 +94,7 @@
 							</div>
 						</div>
 						
-						<div class="d-flex gap-3 mt-4">
+						<div class="d-flex gap-3 mt-3">
 							<div><i class="fa-duotone fa-books fa-3x text-secondary fa-fw"></i></div>
 							<div>
 								<div><a href="https://www.firstinspires.org/resource-library/ftc/game-and-season-info" target="_blank">FTC Resource Library</a></div>
@@ -106,6 +106,267 @@
 			</div>
 	
 			</div>
+		</div>
+
+		<div class="pt-5 mt-5 bg-dark bg-opacity-50 d-flex justify-content-center">
+			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Team Members</h5>
+		</div>
+		
+		<div class="p-4 mt-0 d-flex bg-dark bg-opacity-50 gap-3 flex-column flex-sm-row justify-content-sm-center align-items-start">
+
+			<div class="card flex-basis-sm-25rem">
+				<div class="card-body text-secondary">
+					<h3 class="card-title d-flex align-items-center justify-content-between text-dark">
+						<span>8th Grade</span>
+					</h3>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Angell</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Emerson</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Lauren</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Bradley</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Luca</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Brayden</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Ben</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Gavin</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Mason</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Jacob</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Lucas B</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Nate</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Caleb</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Kate</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Milo Cravino</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Kyleigh</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+
+				</div>
+				
+			</div>
+			<div class="card flex-basis-sm-25rem">
+				<div class="card-body text-secondary">
+					<h3 class="card-title d-flex align-items-center justify-content-between text-dark">
+						<span>7th Grade</span>
+					</h3>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Brennen DeLange</div>
+							<div class="small text-secondary">Programming Team</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Kenden</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Josh</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Grant</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Sam</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="card flex-basis-sm-25rem">
+				<div class="card-body text-secondary">
+					<h3 class="card-title d-flex align-items-center justify-content-between text-dark">
+						<span>Mentors and Coaches</span>
+					</h3>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Eric Beezhold</div>
+							<div class="small text-secondary">Programming Team</div>
+						</div>
+					</div>
+			
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Darren Cupery</div>
+							<div class="small text-secondary">Mentor</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Mike Faber</div>
+							<div class="small text-secondary">Coach / Mechanical Team</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Matt Hantle</div>
+							<div class="small text-secondary">Marketing &amp; Promotions Team</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Marc Huisman</div>
+							<div class="small text-secondary">Mentor</div>
+						</div>
+					</div>
+			
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Joe Klynstra</div>
+							<div class="small text-secondary">Mechanical Team</div>
+						</div>
+					</div>
+			
+			
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Matt Leonard</div>
+							<div class="small text-secondary">Strategy Team</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Matt Roberts</div>
+							<div class="small text-secondary">Coach / Programming Team</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Penn Roberts</div>
+							<div class="small text-secondary">Mentor</div>
+						</div>
+					</div>
+			
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Mike VanLaan</div>
+							<div class="small text-secondary">Mechanical Team</div>
+						</div>
+					</div>
+			
+					<div class="d-none">
+						<a href="/2022-2023" class="btn btn-warning text-dark">Go</a>
+					</div>
+			
+				</div>
+			</div>
+
+
 		</div>
 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
