@@ -122,98 +122,98 @@
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Angell</div>
+							<div class="text-dark">Angell Chekin</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Emerson</div>
+							<div class="text-dark">Emersen Roodvoets</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Lauren</div>
+							<div class="text-dark">Lauren VanLaan</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Bradley</div>
+							<div class="text-dark">Bradley Bykerk</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Luca</div>
+							<div class="text-dark">Luca Balsitis</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Brayden</div>
+							<div class="text-dark">Brayden Teitsma</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Ben</div>
+							<div class="text-dark">Ben ?</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Gavin</div>
+							<div class="text-dark">Gavin Griffen</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Mason</div>
+							<div class="text-dark">Mason Rozema</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Jacob</div>
+							<div class="text-dark">Jacob Klynstra</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Lucas B</div>
+							<div class="text-dark">Lucas Beezhold</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Nate</div>
+							<div class="text-dark">Nate Cardosa</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Caleb</div>
+							<div class="text-dark">Caleb Zoodsma</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Kate</div>
+							<div class="text-dark">Kate Koeman</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
@@ -227,7 +227,7 @@
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Kyleigh</div>
+							<div class="text-dark">Kyleigh Rottman</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
@@ -250,14 +250,14 @@
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Kenden</div>
+							<div class="text-dark">Kenden Hantle</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Josh</div>
+							<div class="text-dark">Josh Cupery</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
@@ -271,7 +271,21 @@
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Sam</div>
+							<div class="text-dark">Sam Cupery</div>
+							<div class="small text-secondary">?</div>
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="card flex-basis-sm-25rem">
+				<div class="card-body text-secondary">
+					<h3 class="card-title d-flex align-items-center justify-content-between text-dark">
+						<span>Unknown</span>
+					</h3>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Graham Huisman</div>
 							<div class="small text-secondary">?</div>
 						</div>
 					</div>
@@ -347,6 +361,13 @@
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Penn Roberts</div>
+							<div class="small text-secondary">Mentor</div>
+						</div>
+					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Levi Roodvoets</div>
 							<div class="small text-secondary">Mentor</div>
 						</div>
 					</div>

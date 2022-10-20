@@ -35,7 +35,14 @@
 							<div class="small text-secondary">Instructions for how to run more than four motors from a single Control or Expansion Hub using a REV Spark Mini. Westside Robotics have a number of other tutorials available as GitHub repository wikis.</div>
 						</div>
 					</div>
-					
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-gears fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://ftc-tricks.com" target="_blank">FTC Tricks</a></div>
+							<div class="small text-secondary">The information on this site is not very current, but it does provide some insight into different parts of the hardware system.</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
