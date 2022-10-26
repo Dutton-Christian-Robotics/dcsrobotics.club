@@ -165,6 +165,14 @@
 							<div class="small text-secondary">This repository contains a Java application that can be used for testing and debugging OpenCV pipelines.</div>
 						</div>
 					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://github.com/OpenFTC/EOCV-AprilTag-Plugin" target="_blank">AprilTag Plugin</a></div>
+							<div class="small text-secondary">A repository that adds the ability to detect AprilTags (a kind of 2d barcode).</div>
+						</div>
+					</div>
+
 
 
 				</div>
