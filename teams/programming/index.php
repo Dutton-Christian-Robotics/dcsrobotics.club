@@ -79,7 +79,7 @@
 					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
 						<div>
-							<div><a href="https://github.com/Dutton-Christian-Robotics/FreightFrenzy21-22" target="_blank">DCS 21-22 Freight Frenzy GitHub repository</a></div>
+							<div><a href="https://github.com/Dutton-Christian-Robotics/DCS_PowerPlay_1" target="_blank">DCS 22-22 PowerPlay GitHub repository</a></div>
 							<div class="small text-secondary">This repository will contain the code written for this season's robots.</div>
 						</div>
 					</div>
@@ -120,8 +120,6 @@
 							<div class="small text-secondary">This repository contains the code for the FTC Robot Controller app. Version 8 is the official version for 2022-2023.</div>
 						</div>
 					</div>
-
-
 					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-book-sparkles fa-3x text-secondary fa-fw"></i></div>
 						<div>
@@ -134,6 +132,13 @@
 						<div>
 							<div><a href="https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Advanced-Topics" target="_blank">FTC "Advanced Topics" Tutorials</a></div>
 							<div class="small text-secondary">These tutorials cover topics like object detection, managing electrostatic discharge, etc.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-road fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://learnroadrunner.com" target="_blank">RoadRunner</a></div>
+							<div class="small text-secondary">RoadRunner is a motion planning library that can be used for precision navigation.</div>
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4">
@@ -168,8 +173,16 @@
 					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
 						<div>
-							<div><a href="https://github.com/OpenFTC/EOCV-AprilTag-Plugin" target="_blank">AprilTag Plugin</a></div>
-							<div class="small text-secondary">A repository that adds the ability to detect AprilTags (a kind of 2d barcode).</div>
+							<div><a href="https://april.eecs.umich.edu/software/apriltag" target="_blank">AprilTags</a></div>
+							<div class="small text-secondary">AprilTags are a two dimensional barcode technology that can be used in image recognition.</div>
+						</div>
+					</div>
+
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://github.com/OpenFTC/EOCV-AprilTag-Plugin" target="_blank">AprilTags Plugin</a></div>
+							<div class="small text-secondary">A repository that adds the ability to detect AprilTags.</div>
 						</div>
 					</div>
 
