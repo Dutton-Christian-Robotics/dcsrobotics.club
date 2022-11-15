@@ -20,7 +20,7 @@
 			</div>
 		</div>
 		
-		<div class="d-flex mt-5 gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center">
+		<div class="d-flex my-5 gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center">
 			<div class="d-flex flex-basis-sm-40rem m-3 p-2 m-md-0 flex-column bg-white align-items-center">
 				<img src="/images/powerplay_logo.jpg" class="w-50"/>
 				<img src="/images/powerplay_field.jpg" class="w-100"/>
@@ -28,10 +28,7 @@
 			<div class="card flex-basis-auto flex-basis-sm-40rem m-3 m-md-0">
 				<div class="card-body p-4">
 					
-					<h3 class="card-title fw-bold">2022-2023 Season</h3>
-					<div class="d-flex gap-3 mt-4">
-						More information coming soon!
-					</div>
+					<h3 class="card-title fw-bold">2022-2023 Season Resources</h3>
 					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-circle-play fa-3x text-secondary fa-fw"></i></div>
 						<div>
@@ -108,11 +105,74 @@
 			</div>
 		</div>
 
-		<div class="pt-5 mt-5 bg-dark bg-opacity-50 d-flex justify-content-center">
+		<div class="p-5 mt-0 d-flex bg-dark bg-opacity-50 gap-5 flex-column flex-sm-row justify-content-sm-center align-items-start">
+	
+			<div class="d-flex flex-basis-sm-20rem m-3 p-2 m-md-0 flex-column bg-white align-items-center">
+				
+				<img src="/images/powerplay_edward1.jpg" class="w-100"/>
+			</div>
+			
+			<div class="d-flex flex-column text-white ">
+				<h5 class="w-auto text-headline fw-normal fs-2 fw-normal text-align-center d-inline-block text-shadow-1">Meet Our Bot</h5>
+				<table>
+					<tbody class="text-white fs-5">
+						<tr>
+							<td class="p-2 ps-0"><span class="badge bg-dark">Name</span></td>
+							<td class="p-2">Edward Scissorlift, aka "Eddy"</td>
+						</tr>
+						<tr>
+							<td class="p-2 ps-0"><span class="badge bg-dark">Drivetrain</span></td>
+							<td class="p-2">four wheel mecanum, each wheel powered by a REV HD Hex motor with UltraPlanetary Gearbox, geared at 12:1</td>
+						</tr>
+						<tr>
+							<td class="p-2 ps-0"><span class="badge bg-dark">Lift</span></td>
+							<td class="p-2">double-sided, double-motor chain-driven scissorlift</td>
+						</tr>
+						<tr>
+							<td class="p-2 ps-0"><span class="badge bg-dark">Grabber</span></td>
+							<td class="p-2">servo-powered claw, with rubber bands and 3D-printed fingers</td>
+						</tr>
+
+					</tbody>
+				</table>
+			</div>
+			
+			<div class="card flex-basis-auto flex-basis-sm-40rem m-md-0 border-0">
+				<div class="card-body p-4 bg-warning">
+					
+					<div class="d-flex gap-3">
+						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
+						<div>
+							<div class="fw-bold text-black-50">Kentwood Qualifier, 11/5/22</div>
+							<ul class="mb-0 pb-0">
+								<li>Ranked 9th after 39 qualifying matches</li>
+								<li>Ranked 5th by OPR</li>
+								<li>First pick by Alliance 3</li>
+								<li>Design Award winner</li>
+							</ul>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
+						<div>
+							<div class="fw-bold text-black-50">Fruitport Qualifier, 11/19/22</div>
+							<ul class="mb-0 pb-0">
+								<li>TBA</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+		</div>
+
+
+		<div class="pt-5 mt-5 bg-dark bg-opacity-50 d-none justify-content-center">
 			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Team Members</h5>
 		</div>
 		
-		<div class="p-4 mt-0 d-flex bg-dark bg-opacity-50 gap-3 flex-column flex-sm-row justify-content-sm-center align-items-start">
+		<div class="p-4 mt-0 d-none bg-dark bg-opacity-50 gap-3 flex-column flex-sm-row justify-content-sm-center align-items-start">
 
 			<div class="card flex-basis-sm-25rem">
 				<div class="card-body text-secondary">

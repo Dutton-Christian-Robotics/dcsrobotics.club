@@ -52,7 +52,7 @@ div.card-img-top {
 }
 
 div#background {
-	background: url(/images/team2018-2019.png);
+	background: url(/images/ek_team_2022-11-04.jpg);
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -79,9 +79,9 @@ div.img-header {
 }
 
 div#front-img-header {
-	background:url(/images/team2018-2019.png);
+	background:url(/images/ek_team_2022-11-04.jpg);
 	background-size:cover !important;
-	background-position-y:50%;
+	background-position-y:30%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position:absolute;
@@ -90,6 +90,11 @@ div#front-img-header {
 	right:0;
 	bottom:0;
 	filter:brightness(0.35);	
+}
+
+.text-white-25 {
+	--bs-text-opacity: 0.25;
+	color: rgba(255,255,255,.5)!important;
 }
 
 .text-shadow-1 {

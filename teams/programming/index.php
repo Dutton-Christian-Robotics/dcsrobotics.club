@@ -148,6 +148,13 @@
 							<div class="small text-secondary">This guide from FTC Team #19376 covers the basics of control theory.</div>
 						</div>
 					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-gauge fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://acmerobotics.github.io/ftc-dashboard/" target="_blank">FTC Dashboard</a></div>
+							<div class="small text-secondary">A utility that aids in debugging FTC robots, allowing a web browser to connect to a special "dashboard" view of information from the robot.</div>
+						</div>
+					</div>
 
 				</div>
 			</div>

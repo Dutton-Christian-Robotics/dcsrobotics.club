@@ -20,13 +20,13 @@
 		</div>
 		<div class="m-3 mt-5 gap-3 d-flex flex-column flex-md-row text-white align-items-md-start justify-content-lg-center">
 			<div class="order-1 order-md-0 flex-basis-sm-40rem">
-				<img src="/images/79534735_10100982024037904_7982818377477390336_n.jpg" class="w-100 rounded" style=""/>
+				<img src="/images/ek_field_2022-11-04.jpg" class="w-100 rounded" style=""/>
 			</div>
 			<div class="card bg-transparent border-0 flex-basis-auto flex-basis-sm-40rem order-0 order-md-1">
 				<div class="card-body p-lg-4 text-shadow-1">
 					<i class="fa-duotone fa-house-chimney fa-5x float-end"></i>
 					<h5 class="card-title text-headline fw-normal fs-2 border-bottom w-75">Welcome!</h5>
-					<p class="fs-5">This is the home for Dutton Christian School's FTC robotics team, #15815. The team is currently in its fourth season, having started in the 2018-2019 academic year. Our FIRST Tech Challenge team includes approximately a dozen students in grades 7 and 8.</p>
+					<p class="fs-5">This is the home for Dutton Christian School's FTC robotics team, #15815. The team is currently in its fifth season, having started in the 2018-2019 academic year. Our FIRST Tech Challenge team includes approximately a dozen students in grades 7 and 8.</p>
 					<p class="fs-5"><a href="https://duttonchristianschool.org" target="_blank" class="text-white">Dutton Christian School</a> is a private Christian school located to the south of Grand Rapids, Michigan. The school offers pre-K through 8th grades.</p>
 				</div>
 				
@@ -40,13 +40,32 @@
 						<span>Current Season</span>
 						<i class="fa-duotone fa-calendar-star fa-3x text-secondary"></i>
 					</h5>
-					<p class="">The game for the 22-23 season is "PowerPlay." Use this page for access to official game materials.</p>
-					<div>
-						<a href="/2022-2023" class="btn btn-warning text-dark">Go</a>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-trophy fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div class="fw-bold">East Kentwood Qualifier, 11/5/22</div>
+							<div class="small text-secondary">Overall our team came in 9th during the qualification rounds, and was selected to be a part of Alliance 3. While our alliance was eliminated in our semi-final round, the judges awarded us the Design Award, which recognizes robots that are "durable, efficiently designed, and effectively address the game challenge."</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-dice-six fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div class="fw-bold">Fruitport Qualifier, 11/19/22</div>
+							<div class="small text-secondary">Our second chance to qualify for the state championship will take place at Fruitport Middle School. Come and cheer us on!</div>
+						</div>
 					</div>
 
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-plug fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div class="fw-bold"><a href="/2022-2023">PowerPlay</a></div>
+							<div class="small text-secondary">The game for the 22-23 season is "PowerPlay." Use this page for access to official game materials."</div>
+						</div>
+					</div>
+			
 				</div>
 			</div>
+
 			<div class="card flex-basis-sm-25rem">
 				<div class="card-body text-secondary">
 					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
