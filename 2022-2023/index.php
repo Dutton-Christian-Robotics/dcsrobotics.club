@@ -4,16 +4,18 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,400i,600,700,800&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<link href="/css/bootstrap.min.css" rel="stylesheet" ="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 		<link rel="stylesheet" href="/styles.css"/>
 
-		<script src="https://kit.fontawesome.com/c905323e14.js" crossorigin="anonymous"></script>
+		<link href="/css/fontawesome.css" rel="stylesheet">
+		<link href="/css/all.css" rel="stylesheet">
+  
 	</head>
 	<body>
 		<? include "{$_SERVER['DOCUMENT_ROOT']}/includes/navbar.php"; ?>
 
 		<div class="position-relative h-20rem">
-			<div class="img-header" style="background:url(/images/team2018-2019.png);background-position-y:50%;filter:grayscale(1) brightness(0.5);opacity:0.5;"></div>
+			<div class="img-header"></div>
 			<div class="position-absolute start-0 end-0 text-white text-center" style="bottom:1rem;">
 				<h2>DCS Defenders Robotics #15815</h2>
 				<h1 class="display-3 text-shadow-3">PowerPlay</h1>			
@@ -168,8 +170,11 @@
 		</div>
 
 
-		<div class="pt-5 mt-5 bg-dark bg-opacity-50 d-none justify-content-center">
-			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Team Members</h5>
+		<div class="pt-5 d-flex align-items-center justify-content-center flex-column mb-5">
+			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Meet the Team</h5>
+			<div class="col-10 col-md-6 mt-3 p-2 bg-white">
+				<img src="/images/ek_team_2022-11-04.jpg" alt="Photo of the DCS Robotics team at the East Kentwood qualifier on November 4, 2022." class="w-100"/>
+			</div>
 		</div>
 		
 		<div class="p-4 mt-0 d-none bg-dark bg-opacity-50 gap-3 flex-column flex-sm-row justify-content-sm-center align-items-start">
@@ -450,6 +455,6 @@
 
 		</div>
 
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+		<script src="/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 	</body>
 </html>
