@@ -176,7 +176,7 @@
 
 
 		</div>
-		
+<? include "{$_SERVER['DOCUMENT_ROOT']}/includes/footer.php"; ?>		
 		<script src="/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 	</body>
 </html>

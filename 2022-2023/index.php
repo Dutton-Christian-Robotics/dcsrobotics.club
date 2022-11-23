@@ -23,17 +23,13 @@
 		</div>
 		
 
-		<div class="p-5 mt-0 d-flex  gap-5 flex-column flex-sm-row justify-content-sm-center align-items-start">
+		<div class="p-3 p-md-5 mt-0 d-flex gap-3 flex-column flex-sm-row justify-content-sm-center align-items-start">
 	
-			<div class="d-flex flex-basis-sm-20rem m-3 p-2 m-md-0 flex-column bg-white align-items-center">
-				
-				<img src="/images/powerplay_edward1.jpg" class="w-100"/>
-			</div>
 			
 			<div class="d-flex flex-column text-white ">
 				<h5 class="w-auto text-headline fw-normal fs-2 fw-normal text-align-center d-inline-block text-shadow-1">Meet Our Bot</h5>
-				<table>
-					<tbody class="text-white fs-5">
+				<table class="mt-md-3">
+					<tbody class="text-white fs-5 align-text-top">
 						<tr>
 							<td class="p-2 ps-0"><span class="badge bg-dark">Name</span></td>
 							<td class="p-2">Edward Scissorlift, aka "Eddy"</td>
@@ -52,19 +48,28 @@
 						</tr>
 						<tr>
 							<td class="p-2 ps-0"><span class="badge bg-dark">Awards</span></td>
-							<td class="p-2">Design Award 1st place, Design Award 2nd place, Innovation Award 3rd place</td>
+							<td class="p-2">Design Award 1st place (Kentwood), Design Award 2nd place (Fruitport), Innovation Award 3rd place (Fruitport)</td>
 						</tr>
 
 					</tbody>
 				</table>
 			</div>
+			<div class="d-flex flex-basis-sm-20rem p-2 flex-column bg-white align-items-center">				
+				<img src="/images/powerplay_edward1.jpg" class="w-100"/>
+			</div>
+			<div class="d-flex flex-basis-sm-20rem flex-column bg-white align-items-center">				
+				<img src="/images/edward_cad1.jpg" class="w-100"/>
+			</div>
+			<div class="d-flex flex-basis-sm-20rem flex-column bg-white align-items-center">				
+				<img src="/images/edward_cad2.jpg" class="w-100"/>
+			</div>
 			
 		</div>
 
 		<div class="d-flex flex-column bg-dark bg-opacity-50 p-3 p-md-5 gap-2">
-			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal d-inline-block text-shadow-1">Our Season</h5>
+			<h5 class="w-auto text-headline text-center text-md-start fw-normal fs-2 text-white fw-normal d-inline-block text-shadow-1">Our Season</h5>
 			
-			<div class="d-flex m-md-0 gap-4 flex-wrap">
+			<div class="d-flex m-md-0 gap-3 flex-wrap">
 				<div class="card bg-warning flex-grow-1 flex-lg-grow-0">
 					<div class="card-body p-4 d-flex gap-3">
 						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
@@ -127,22 +132,22 @@
 			</div>
 		</div>
 
-		<div class="d-flex align-items-center justify-content-center flex-column p-5">
+		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5">
 			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Meet the Team</h5>
 			<div class="col-10 col-md-6 mt-3 p-2 bg-white">
 				<img src="/images/ek_team_2022-11-04.jpg" alt="Photo of the DCS Robotics team at the East Kentwood qualifier on November 4, 2022." class="w-100"/>
 			</div>
 		</div>
 
-		<div class="d-flex align-items-center justify-content-center flex-column p-5 bg-dark bg-opacity-50">
+		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5 bg-dark bg-opacity-50">
 			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Meet the Game</h5>
 
-			<div class="d-flex my-3 gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center">
-				<div class="d-flex flex-basis-sm-40rem m-3 p-2 m-md-0 flex-column bg-white align-items-center">
+			<div class="d-flex gap-3 mt-3 flex-column flex-md-row align-items-md-start justify-content-md-center">
+				<div class="d-flex flex-basis-sm-40rem p-2 flex-column bg-white align-items-center rounded">
 					<img src="/images/powerplay_logo.jpg" class="w-50"/>
 					<img src="/images/powerplay_field.jpg" class="w-100"/>
 				</div>
-				<div class="card flex-basis-auto flex-basis-sm-40rem m-3 m-md-0 ">
+				<div class="card flex-basis-auto flex-basis-sm-40rem">
 					<div class="card-body p-4">
 						
 						<h3 class="card-title fw-bold">2022-2023 Season Resources</h3>
@@ -222,7 +227,7 @@
 			</div>
 		</div>
 		
-		<div class="p-4 mt-5 d-flex bg-dark bg-opacity-50 gap-3 flex-column flex-sm-row justify-content-sm-center">
+		<div class="p-3 p-md-5 d-flex gap-3 flex-column flex-md-row justify-content-sm-center flex-wrap">
 			<div class="card flex-basis-sm-25rem">
 				<div class="card-body text-secondary">
 					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
@@ -231,7 +236,7 @@
 					</h5>
 					<p class="">Tutorials, resources, and instructions for members of the programming team&mdash;or anyone interested in learning more about programming an FTC robot.</p>
 					<div>
-						<a href="/teams/programming" class="btn btn-warning text-dark">Go</a>
+						<a href="/2022-2023/teams/programming" class="btn btn-warning text-dark">Go</a>
 					</div>
 				</div>
 			</div>
@@ -243,7 +248,7 @@
 					</h5>
 					<p class="">Information on construction and design aspects of FTC robots.</p>
 					<div>
-						<a href="/teams/mechanical" class="btn btn-warning text-dark">Go</a>
+						<a href="/2022-2023/teams/mechanical" class="btn btn-warning text-dark">Go</a>
 					</div>
 				</div>
 			</div>
@@ -563,7 +568,7 @@
 
 
 		</div>
-
+<? include "{$_SERVER['DOCUMENT_ROOT']}/includes/footer.php"; ?>
 		<script src="/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 	</body>
 </html>

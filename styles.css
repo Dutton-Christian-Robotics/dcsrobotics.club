@@ -211,6 +211,10 @@ div.card-img-top {
 	background-size:cover !important;
 }
 
+.cursor-pointer {
+	cursor: pointer;
+}
+
 div#background {
 	background: url(/images/ek_team_2022-11-04.jpg);
 	position: fixed;
@@ -288,6 +292,10 @@ x-div#front-img-header {
 	max-width:20rem !important;
 }
 
+.mw-10rem {
+	max-width:10rem !important;
+}
+
 
 .minw-20rem {
 	min-width:20rem !important;
@@ -328,4 +336,10 @@ x-div#front-img-header {
 	}		
 
 
+}
+
+@media (min-width: 768px) {
+	.w-md-auto {
+		width:auto !important;
+	}	
 }

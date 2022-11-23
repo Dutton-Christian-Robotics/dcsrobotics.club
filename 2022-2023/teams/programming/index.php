@@ -144,6 +144,14 @@
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-ruler fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://openodometry.weebly.com" target="_blank">OpenOdometry</a></div>
+							<div class="small text-secondary">Information about building "dead wheel" odometry pods for more precise motion control.</div>
+						</div>
+					</div>
+
+					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-arrow-trend-up fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div><a href="https://www.ctrlaltftc.com" target="_blank">CTRL ALT FTC</a></div>
@@ -201,7 +209,8 @@
 			</div>
 
 		</div>
-		
+	<? include "{$_SERVER['DOCUMENT_ROOT']}/includes/footer.php"; ?>
+	
 		<script src="/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 	</body>
 </html>
