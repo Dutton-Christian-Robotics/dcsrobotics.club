@@ -1,14 +1,7 @@
 <html>
 	<head>
 		<title>DCS Defenders Robotics</title>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,400i,600,700,800&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-		<link href="/css/bootstrap.min.css" rel="stylesheet" ="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-		<link rel="stylesheet" href="/styles.css"/>
-
-		<link href="/css/fontawesome.css" rel="stylesheet">
-		<link href="/css/all.css" rel="stylesheet">
+		<? include "{$_SERVER['DOCUMENT_ROOT']}/includes/header.php"; ?>
   
 	</head>
 	<body>
@@ -22,8 +15,8 @@
 			</div>
 		</div>
 		
-		<div class="d-flex gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center mt-md-5 mb-5 flex-wrap">
-			<div class="card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0">
+		<div class="p-3 p-md-5 d-flex gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center flex-wrap">
+			<div class="card flex-basis-auto flex-basis-sm-30rem">
 				<div class="card-body">
 					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
 						<div>
@@ -50,9 +43,8 @@
 					</div>
 				</div>
 			</div>
-
 			
-			<div class="card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0">
+			<div class="card flex-basis-auto flex-basis-sm-30rem">
 				<div class="card-body">
 					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
 						<div>
@@ -80,7 +72,7 @@
 				</div>
 			</div>
 
-			<div class="card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0">
+			<div class="card flex-basis-auto flex-basis-sm-30rem">
 				<div class="card-body">
 					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
 						<div>
@@ -109,7 +101,7 @@
 				</div>
 			</div>
 			
-			<div class="card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0">
+			<div class="card flex-basis-auto flex-basis-sm-30rem">
 				<div class="card-body">
 					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
 						<div>
@@ -139,9 +131,7 @@
 				</div>
 			</div>
 
-
-
-			<div class="card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0">
+			<div class="card flex-basis-auto flex-basis-sm-30rem">
 				<div class="card-body">
 					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
 						<div>

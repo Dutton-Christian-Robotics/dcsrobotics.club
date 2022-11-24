@@ -1,14 +1,7 @@
 <html>
 	<head>
 		<title>DCS Defenders Robotics</title>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,400i,600,700,800&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-		<link href="/css/bootstrap.min.css" rel="stylesheet" ="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-		<link rel="stylesheet" href="/styles.css"/>
-
-		<link href="/css/fontawesome.css" rel="stylesheet">
-		<link href="/css/all.css" rel="stylesheet">
+		<? include "{$_SERVER['DOCUMENT_ROOT']}/includes/header.php"; ?>
   
 	</head>
 	<body>
