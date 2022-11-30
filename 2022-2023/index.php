@@ -476,6 +476,13 @@
 							<div class="small text-secondary">Programming Team</div>
 						</div>
 					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Finn Cravino</div>
+							<div class="small text-secondary">Junior Mentor</div>
+						</div>
+					</div>
 			
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
@@ -491,6 +498,14 @@
 							<div class="small text-secondary">Coach / Mechanical Team</div>
 						</div>
 					</div>
+					<div class="d-flex gap-2 mt-3">
+						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
+						<div>
+							<div class="text-dark">Jason Griffen</div>
+							<div class="small text-secondary">Strategy Team</div>
+						</div>
+					</div>
+
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
@@ -533,7 +548,7 @@
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Penn Roberts</div>
-							<div class="small text-secondary">Mentor</div>
+							<div class="small text-secondary">Junior Mentor</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
