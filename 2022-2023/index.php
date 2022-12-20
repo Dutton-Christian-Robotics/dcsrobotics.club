@@ -69,7 +69,8 @@
 						<div>
 							<div class="fw-bold text-black-50"><span class="fs-5">MI State Championship NW</span><br/><span>12/16/2 &ndash; 12/17/22</span></div>
 							<ul class="mt-2 mb-0 pb-0">
-								<li>Coming soon!</li>
+								<li>Ranked 5th after two days and 54 qualifying matches</li>
+								<li>First pick of Alliance 1, which ultimately came in second after three hard-fought finals matches</li>
 							</ul>
 						</div>	
 						

@@ -41,6 +41,14 @@
 							<div class="small text-secondary">More information about the season's game and the DCS team.</div>
 						</div>
 					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a xhref="/2020-2021">Highlights</a></div>
+							<div class="small text-secondary">Our best season so far: two qualifying events, one where we finished with a first ranking and the Inspire award. And our second time at states!</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 			
@@ -69,6 +77,13 @@
 							<div class="small text-secondary">More information about the season's game and the DCS team.</div>
 						</div>
 					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a xhref="/2020-2021">Highlights</a></div>
+							<div class="small text-secondary">It was back to competition this year&mdash;but with masks for safety. We upped our autonomous game this season by adding computer vision.</div>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -95,6 +110,13 @@
 						<div>
 							<div><a xhref="/2020-2021">Season Website</a></div>
 							<div class="small text-secondary">More information about the season's game and the DCS team.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a xhref="/2020-2021">Highlights</a></div>
+							<div class="small text-secondary">With the pandemic still in its early stages, we didn't attend any competition events this season and focused on showcasing the robotics program to the school community.</div>
 						</div>
 					</div>
 
@@ -126,6 +148,13 @@
 							<div class="small text-secondary">More information about the season's game and the DCS team.</div>
 						</div>
 					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a xhref="/2020-2021">Highlights</a></div>
+							<div class="small text-secondary">First season of real competition. Definitely still learning, but at our qualifying event we were chosen for an alliance and ultimately went to the state championships.</div>
+						</div>
+					</div>
 
 
 				</div>
@@ -154,6 +183,13 @@
 						<div>
 							<div><a xhref="/2020-2021">Season Website</a></div>
 							<div class="small text-secondary">More information about the season's game and the DCS team.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a xhref="/2020-2021">Highlights</a></div>
+							<div class="small text-secondary">Our rookie year! We started the season after all Michigan qualifying events had taken place, but had a great time at our post-season tournament. Learned so much this year.</div>
 						</div>
 					</div>
 

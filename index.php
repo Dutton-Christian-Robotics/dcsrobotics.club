@@ -12,6 +12,13 @@
 				<h2>FTC Team #15815</h2>
 			</div>
 		</div>
+		<div class="d-none bg-warning p-3 gap-4 justify-content-center">
+			<i class="fa-solid fa-tower-cell fa-3x"></i>
+			<div>
+				<div>Can't make it to the state championship at Calvin University, 12/16 &ndash; 12/17?</div>
+				<div><a href="https://www.twitch.tv/theorangealliance1" target="_blank" class="text-black">Watch us on the live event stream</a>, courtesy of the Orange Alliance.</div>
+			</div>
+		</div>
 		<div class="p-3 p-md-5 mt-3 mt-md-0 gap-3 d-flex flex-column flex-md-row text-white align-items-md-start justify-content-lg-center">
 			<div class="order-1 order-md-0 flex-basis-sm-40rem">
 				<img src="/images/fruitport_inspire_2022-11-19.jpg" class="w-100 rounded" style=""/>
@@ -36,6 +43,14 @@
 						<i class="fa-duotone fa-calendar-star fa-3x text-secondary"></i>
 					</h5>
 					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-mitten fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div class="fw-bold">State Championship!</div>
+							<div class="small text-secondary">DCS Robotics placed fifth in their division after two days of competition, and were the first pick of Alliance 1. After three hard-fought matches, the Alliance came in second in the division finals.</div>
+						</div>
+					</div>
+
+					<div class="d-none gap-3 mt-4">
 						<div><i class="fa-duotone fa-trophy fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div class="fw-bold">It's on to states!</div>
