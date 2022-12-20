@@ -13,8 +13,7 @@
 				<h2>DCS Defenders Robotics #15815</h2>
 				<h1 class="display-3 text-shadow-3">PowerPlay</h1>			
 			</div>
-		</div>
-		
+		</div>		
 
 		<div class="p-3 p-md-5 mt-0 d-flex gap-3 flex-column flex-sm-row justify-content-sm-center align-items-start">
 	
@@ -59,11 +58,21 @@
 			
 		</div>
 
-		<div class="d-flex flex-column bg-dark bg-opacity-50 p-3 p-md-5 gap-2">
-			<h5 class="w-auto text-headline text-center text-md-start fw-normal fs-2 text-white fw-normal d-inline-block text-shadow-1">Our Season</h5>
+		<div class="p-3 py-md-4 d-flex flex-row flex-wrap justify-content-center gap-3 bg-dark align-items-center">
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_001.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_002.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_003.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_004.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_005.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_006.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_007.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+		</div>
+
+		<div class="d-flex flex-column bg-dark bg-opacity-50 p-3 p-md-5 gap-2 justify-content-center align-items-center">
+			<h5 class="w-auto text-headline text-align-center text-md-start fw-normal fs-2 text-white fw-normal d-inline-block text-shadow-1">Our Season</h5>
 			
-			<div class="d-flex m-md-0 gap-3 flex-wrap">
-				<div class="card bg-warning flex-grow-1 flex-lg-grow-0">
+			<div class="d-flex m-md-0 gap-3 flex-wrap justify-content-center">
+				<div class="card bg-warning flex-grow-0 flex-lg-grow-0 flex-basis-md-30rem">
 					<div class="card-body p-4 d-flex gap-3">
 						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
 						<div>
@@ -80,7 +89,7 @@
 						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MFSC');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Page</button>
 					</div>
 				</div>
-				<div class="card bg-warning flex-grow-1 flex-lg-grow-0">
+				<div class="card bg-warning flex-grow-0 flex-lg-grow-0 flex-basis-md-30rem">
 					<div class="card-body p-4 d-flex gap-3">
 						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
 						<div>
@@ -102,7 +111,7 @@
 
 					</div>
 				</div>
-				<div class="card bg-warning flex-grow-1 flex-lg-grow-0">
+				<div class="card bg-warning flex-grow-0 flex-lg-grow-0 flex-basis-md-30rem">
 					<div class="card-body p-4 d-flex gap-3">
 						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
 						<div>
@@ -128,10 +137,87 @@
 
 		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5">
 			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Meet the Team</h5>
-			<div class="col-10 col-md-6 mt-3 p-2 bg-white">
-				<img src="/images/ek_team_2022-11-04.jpg" alt="Photo of the DCS Robotics team at the East Kentwood qualifier on November 4, 2022." class="w-100"/>
+			<div class="d-flex align-items-start flex-column flex-md-row">
+				<div class="col-12 col-md-4 mt-3 p-2 bg-white">
+					<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/ek_team_2022-11-04.jpg" alt="Photo of the DCS Robotics team at the East Kentwood qualifier on November 4, 2022." class="w-100"/></a>
+				</div>
+				<div class="p-3 d-flex gap-3 flex-column flex-md-row justify-content-sm-center flex-wrap flex-grow-md-1">
+					<div class="card flex-basis-sm-25rem">
+						<div class="card-body text-secondary">
+							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+								<span>Programming Team</span>
+								<i class="fa-duotone fa-rectangle-terminal fa-3x text-secondary"></i>
+							</h5>
+							<p class="">Tutorials, resources, and instructions for members of the programming team&mdash;or anyone interested in learning more about programming an FTC robot.</p>
+							<div>
+								<a href="/2022-2023/teams/programming" class="btn btn-warning text-dark">Go</a>
+							</div>
+						</div>
+					</div>
+					<div class="card flex-basis-sm-25rem">
+						<div class="card-body text-secondary">
+							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+								<span>Mechanical Team</span>
+								<i class="fa-duotone fa-gears fa-3x text-secondary"></i>
+							</h5>
+							<p class="">Information on construction and design aspects of FTC robots.</p>
+							<div>
+								<a href="/2022-2023/teams/mechanical" class="btn btn-warning text-dark">Go</a>
+							</div>
+						</div>
+					</div>
+					<div class="card flex-basis-sm-25rem">
+						<div class="card-body text-secondary">
+							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+								<span>Marketing &amp; Promotions Team</span>
+								<i class="fa-duotone fa-megaphone fa-3x text-secondary"></i>
+							</h5>
+							<p class="">Coming Soon</p>
+							<div>
+								<a href="/teams/mechanical" class="btn btn-warning text-dark d-none">Go</a>
+							</div>
+						</div>
+					</div>
+					<div class="card flex-basis-sm-25rem">
+						<div class="card-body text-secondary">
+							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+								<span>CAD Team</span>
+								<i class="fa-duotone fa-ruler-triangle fa-3x text-secondary"></i>
+							</h5>
+							<p class="">Coming Soon</p>
+							<div>
+								<a href="/teams/cad" class="btn btn-warning text-dark d-none">Go</a>
+							</div>
+						</div>
+					</div>
+					<div class="card flex-basis-sm-25rem">
+						<div class="card-body text-secondary">
+							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+								<span>Strategy Team</span>
+								<i class="fa-duotone fa-chess fa-3x text-secondary"></i>
+							</h5>
+							<p class="">Coming Soon</p>
+							<div>
+								<a href="/teams/strategy" class="btn btn-warning text-dark d-none">Go</a>
+							</div>
+						</div>
+					</div>
+				
+				</div>
 			</div>
 		</div>
+		
+		<div class="p-3 py-md-4 d-flex flex-row flex-wrap justify-content-center gap-3 bg-dark align-items-center">
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_states22/picture_000.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_states22/picture_001.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_states22/picture_002.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_states22/picture_003.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_states22/picture_004.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_states22/picture_005.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_states22/picture_006.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_states22/picture_007.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+		</div>
+
 
 		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5 bg-dark bg-opacity-50">
 			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Meet the Game</h5>
@@ -221,69 +307,7 @@
 			</div>
 		</div>
 		
-		<div class="p-3 p-md-5 d-flex gap-3 flex-column flex-md-row justify-content-sm-center flex-wrap">
-			<div class="card flex-basis-sm-25rem">
-				<div class="card-body text-secondary">
-					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
-						<span>Programming Team</span>
-						<i class="fa-duotone fa-rectangle-terminal fa-3x text-secondary"></i>
-					</h5>
-					<p class="">Tutorials, resources, and instructions for members of the programming team&mdash;or anyone interested in learning more about programming an FTC robot.</p>
-					<div>
-						<a href="/2022-2023/teams/programming" class="btn btn-warning text-dark">Go</a>
-					</div>
-				</div>
-			</div>
-			<div class="card flex-basis-sm-25rem">
-				<div class="card-body text-secondary">
-					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
-						<span>Mechanical Team</span>
-						<i class="fa-duotone fa-gears fa-3x text-secondary"></i>
-					</h5>
-					<p class="">Information on construction and design aspects of FTC robots.</p>
-					<div>
-						<a href="/2022-2023/teams/mechanical" class="btn btn-warning text-dark">Go</a>
-					</div>
-				</div>
-			</div>
-			<div class="card flex-basis-sm-25rem">
-				<div class="card-body text-secondary">
-					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
-						<span>Marketing &amp; Promotions Team</span>
-						<i class="fa-duotone fa-megaphone fa-3x text-secondary"></i>
-					</h5>
-					<p class="">Coming Soon</p>
-					<div>
-						<a href="/teams/mechanical" class="btn btn-warning text-dark d-none">Go</a>
-					</div>
-				</div>
-			</div>
-			<div class="card flex-basis-sm-25rem">
-				<div class="card-body text-secondary">
-					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
-						<span>CAD Team</span>
-						<i class="fa-duotone fa-ruler-triangle fa-3x text-secondary"></i>
-					</h5>
-					<p class="">Coming Soon</p>
-					<div>
-						<a href="/teams/cad" class="btn btn-warning text-dark d-none">Go</a>
-					</div>
-				</div>
-			</div>
-			<div class="card flex-basis-sm-25rem">
-				<div class="card-body text-secondary">
-					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
-						<span>Strategy Team</span>
-						<i class="fa-duotone fa-chess fa-3x text-secondary"></i>
-					</h5>
-					<p class="">Coming Soon</p>
-					<div>
-						<a href="/teams/strategy" class="btn btn-warning text-dark d-none">Go</a>
-					</div>
-				</div>
-			</div>
 		
-		</div>
 		
 		<div class="p-4 mt-0 d-none bg-dark bg-opacity-50 gap-3 flex-column flex-sm-row justify-content-sm-center align-items-start">
 
@@ -579,5 +603,6 @@
 		</div>
 <? include "{$_SERVER['DOCUMENT_ROOT']}/includes/footer.php"; ?>
 		<script src="/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<? include "{$_SERVER['DOCUMENT_ROOT']}/includes/photoModal.php"; ?>				
 	</body>
 </html>

@@ -35,7 +35,9 @@
 			</div>
 		</div>
 		
-		<div class="p-3 p-md-5 mt-5 d-flex bg-dark bg-opacity-50 gap-3 flex-column flex-md-row justify-content-md-center align-items-start">
+
+		
+		<div class="p-3 p-md-5 d-flex bg-dark bg-opacity-50 gap-3 flex-column flex-md-row justify-content-md-center align-items-start">
 			<div class="card flex-basis-sm-25rem">
 				<div class="card-body text-secondary">
 					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
@@ -85,14 +87,20 @@
 			</div>
 		</div>
 		
-		<div class="p-3 py-md-5 d-flex flex-row flex-wrap justify-content-center gap-3 bg-dark">
-			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_001.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
-			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_002.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
-			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_003.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
-			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_004.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
-			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_005.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
-			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_006.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
-			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_007.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
+		<div class="p-3 py-md-4 d-flex flex-column gap-3 align-items-center bg-dark">
+			<div class="text-white">
+				We are truly grateful to our generous sponsors:
+			</div>
+			<div class="d-flex flex-row flex-wrap justify-content-center gap-3">
+				<a href="http://duttonchristianschool.org" target="_blank"><img src="/images/sponsor_logos/dscs.png" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://duttonchristianschool.org/about-dcs/school-circle/" target="_blank"><img src="/images/sponsor_logos/dcs_school_circle.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://buistelectric.com" target="_blank"><img src="/images/sponsor_logos/buist_electric.png" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://burgessconcrete.com" target="_blank"><img src="/images/sponsor_logos/burgess_concrete.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://www.bykerk.com" target="_blank"><img src="/images/sponsor_logos/bykerk_landscape_management.png" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://www.cascade-cdc.com" target="_blank"><img src="/images/sponsor_logos/cascade_die_casting_group.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://mbiautomation.com" target="_blank"><img src="/images/sponsor_logos/mbi_automation.png" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://www.railtownbrewing.com" target="_blank"><img src="/images/sponsor_logos/railtown_brewing.png" class="mh-5rem bg-white p-1 rounded"/></a>
+			</div>
 		</div>
 
 		<div class="p-3 p-md-5 gap-3 d-flex align-items-md-start justify-content-lg-center flex-column flex-md-row">		
@@ -178,28 +186,6 @@
 		</div>
 <? include "{$_SERVER['DOCUMENT_ROOT']}/includes/footer.php"; ?>
 		<script src="/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-		
-		<div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered modal-lg">
-				<div class="modal-content">
-					<div class="modal-body">
-						<img src="" class="w-100"/>
-					</div>
-				</div>
-			</div>
-		</div>
-		<script>
-			(() => {
-				const photoModal = document.getElementById('photoModal')
-				photoModal.addEventListener('show.bs.modal', event => {
-					const link = event.relatedTarget
-					const url = link.querySelector('img').getAttribute('src')
-					const modalImage = photoModal.querySelector('img')
-					
-					modalImage.src = url;
-				})
-			})();
-			
-		</script>
+<? include "{$_SERVER['DOCUMENT_ROOT']}/includes/photoModal.php"; ?>		
 	</body>
 </html>

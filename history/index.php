@@ -45,7 +45,7 @@
 						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div><a xhref="/2020-2021">Highlights</a></div>
-							<div class="small text-secondary">Our best season so far: two qualifying events, one where we finished with a first ranking and the Inspire award. And our second time at states!</div>
+							<div class="small text-secondary">Our best season so far: two qualifying events, one where we finished with a first ranking and the Inspire award. And our second time at states, where we ranked fifth and were chosen first by the Alliance 1 captain.</div>
 						</div>
 					</div>
 
