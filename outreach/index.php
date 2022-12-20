@@ -34,7 +34,7 @@
 
 
 		</div>
-		<div class="p-3 p-md-5 d-flex gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center flex-wrap flex-md-nowrap">
+		<div class="p-3 p-md-5 d-flex gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center flex-wrap flex-md-nowrap bg-dark bg-opacity-25">
 			<div class="p-3 d-flex flex-row flex-wrap gap-3 flex-basis-auto justify-content-center order-1 order-md-0">
 				<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_outreach/picture_000.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
 				<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_outreach/picture_001.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
