@@ -19,6 +19,9 @@
 				<li class="nav-item">
 					<a class="nav-link" href="/2022-2023/teams/programming">Programming </a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/outreach">Outreach </a>
+				</li>
 
 
 			</ul>
