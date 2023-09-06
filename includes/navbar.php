@@ -10,7 +10,7 @@
 					<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/2022-2023">Power Play</a>
+					<a class="nav-link" href="/2023-2024">CenterStage</a>
 				</li>
 
 				<li class="nav-item">

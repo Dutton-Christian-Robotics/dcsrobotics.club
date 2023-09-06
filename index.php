@@ -45,25 +45,10 @@
 						<i class="fa-duotone fa-calendar-star fa-3x text-secondary"></i>
 					</h5>
 					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-mitten fa-3x text-secondary fa-fw"></i></div>
+						<div><i class="fa-duotone fa-microphone fa-3x text-secondary fa-fw"></i></div>
 						<div>
-							<div class="fw-bold">State Championship!</div>
-							<div class="small text-secondary">DCS Robotics placed fifth in their division after two days of competition, and were the first pick of Alliance 1. After three hard-fought matches, the Alliance came in second in the division finals.</div>
-						</div>
-					</div>
-
-					<div class="d-none gap-3 mt-4">
-						<div><i class="fa-duotone fa-trophy fa-3x text-secondary fa-fw"></i></div>
-						<div>
-							<div class="fw-bold">It's on to states!</div>
-							<div class="small text-secondary">The Fruitport qualifier was an incredible day. The team slowly rose through the ranks until we sat at number one. We were the only team undefeated going into the elimination tournament. While our alliance ultimately came in second, we were honored and thrilled to receive the Inspire Award&mdash;which automatically qualifies us for states.</div>
-						</div>
-					</div>
-					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-plug fa-3x text-secondary fa-fw"></i></div>
-						<div>
-							<div class="fw-bold"><a href="/2022-2023">PowerPlay</a></div>
-							<div class="small text-secondary">The game for the 22-23 season is "PowerPlay." Use this page for access to official game materials."</div>
+							<div class="fw-bold"><a href="/2023-2024">CenterStage</a></div>
+							<div class="small text-secondary">The game for the 23-24 season is "CenterStage." Use this page for access to official game materials."</div>
 						</div>
 					</div>
 			
