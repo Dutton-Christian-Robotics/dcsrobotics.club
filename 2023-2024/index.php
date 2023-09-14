@@ -1,4 +1,6 @@
-<html>
+<?
+	$private = $_GET['pwd'] == "6729";
+?><html>
 	<head>
 		<title>DCS Defenders Robotics</title>
 		<? include "{$_SERVER['DOCUMENT_ROOT']}/includes/header.php"; ?>
@@ -69,77 +71,6 @@
 		</div>
 
 
-		<div class="d-none align-items-center justify-content-center flex-column p-3 p-md-5">
-			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Meet the Team</h5>
-			<div class="d-flex align-items-start flex-column flex-md-row">
-				<div class="col-12 col-md-4 mt-3 p-2 bg-white">
-					<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/ek_team_2022-11-04.jpg" alt="Photo of the DCS Robotics team at the East Kentwood qualifier on November 4, 2022." class="w-100"/></a>
-				</div>
-				<div class="p-3 d-flex gap-3 flex-column flex-md-row justify-content-sm-center flex-wrap flex-grow-md-1">
-					<div class="card flex-basis-sm-25rem">
-						<div class="card-body text-secondary">
-							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
-								<span>Programming Team</span>
-								<i class="fa-duotone fa-rectangle-terminal fa-3x text-secondary"></i>
-							</h5>
-							<p class="">Tutorials, resources, and instructions for members of the programming team&mdash;or anyone interested in learning more about programming an FTC robot.</p>
-							<div>
-								<a href="/2022-2023/teams/programming" class="btn btn-warning text-dark">Go</a>
-							</div>
-						</div>
-					</div>
-					<div class="card flex-basis-sm-25rem">
-						<div class="card-body text-secondary">
-							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
-								<span>Mechanical Team</span>
-								<i class="fa-duotone fa-gears fa-3x text-secondary"></i>
-							</h5>
-							<p class="">Information on construction and design aspects of FTC robots.</p>
-							<div>
-								<a href="/2022-2023/teams/mechanical" class="btn btn-warning text-dark">Go</a>
-							</div>
-						</div>
-					</div>
-					<div class="card flex-basis-sm-25rem">
-						<div class="card-body text-secondary">
-							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
-								<span>Marketing &amp; Promotions Team</span>
-								<i class="fa-duotone fa-megaphone fa-3x text-secondary"></i>
-							</h5>
-							<p class="">Coming Soon</p>
-							<div>
-								<a href="/teams/mechanical" class="btn btn-warning text-dark d-none">Go</a>
-							</div>
-						</div>
-					</div>
-					<div class="card flex-basis-sm-25rem">
-						<div class="card-body text-secondary">
-							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
-								<span>CAD Team</span>
-								<i class="fa-duotone fa-ruler-triangle fa-3x text-secondary"></i>
-							</h5>
-							<p class="">Coming Soon</p>
-							<div>
-								<a href="/teams/cad" class="btn btn-warning text-dark d-none">Go</a>
-							</div>
-						</div>
-					</div>
-					<div class="card flex-basis-sm-25rem">
-						<div class="card-body text-secondary">
-							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
-								<span>Strategy Team</span>
-								<i class="fa-duotone fa-chess fa-3x text-secondary"></i>
-							</h5>
-							<p class="">Coming Soon</p>
-							<div>
-								<a href="/teams/strategy" class="btn btn-warning text-dark d-none">Go</a>
-							</div>
-						</div>
-					</div>
-				
-				</div>
-			</div>
-		</div>
 		
 		<div class="p-3 py-md-4 d-none flex-row flex-wrap justify-content-center gap-3 bg-dark align-items-center">
 			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_states22/picture_000.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
@@ -225,49 +156,58 @@
 			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Meet the Game</h5>
 
 			<div class="d-flex gap-3 mt-3 flex-column flex-md-row align-items-md-start justify-content-md-center">
-				<div class="d-none flex-basis-sm-40rem p-2 flex-column bg-white align-items-center rounded">
-					<img src="/images/powerplay_logo.jpg" class="w-50"/>
-					<img src="/images/powerplay_field.jpg" class="w-100"/>
+				<div class="d-flex flex-basis-sm-40rem p-2 flex-column bg-white align-items-center rounded">
+					<img src="/images/centerstage_logo.jpg" class="w-50"/>
+					<img src="/images/centerstage_field.jpg" class="w-100"/>
 				</div>
 				<div class="card flex-basis-auto flex-basis-sm-40rem">
 					<div class="card-body p-4">
 						
 						<h3 class="card-title fw-bold">2023-2024 Season Resources</h3>
-						<div class="d-none gap-3 mt-4">
+						<div class="d-flex gap-3 mt-4">
 							<div><i class="fa-duotone fa-circle-play fa-3x text-secondary fa-fw"></i></div>
 							<div>
-								<div><a href="https://www.youtube.com/watch?v=HsitvZ0JaDc" target="_blank">Description of the Game</a></div>
-								<div class="small text-secondary">This video gives an overview of how the season's game is played.</div>
+								<div><a href="https://www.youtube.com/watch?v=6e-5Uo1dRic" target="_blank">Description of the Game</a></div>
+								<div class="small text-secondary role-label">This video gives an overview of how the season's game is played.</div>
 							</div>
 						</div>
 				
 						<div class="d-flex gap-3 mt-4">
 							<div><i class="fa-duotone fa-book fa-3x text-secondary fa-fw"></i></div>
 							<div>
-								<div><a href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1-traditional-events.pdf" target="_blank">Game Manual, Part 1</a> (traditional events)</div>
-								<div class="small text-secondary">The first part of the game manual covers general topics of how FTC competitions are run.</div>
+								<div><a href="https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-1-traditional.pdf" target="_blank">Game Manual, Part 1</a> (traditional events)</div>
+								<div class="small text-secondary role-label">The first part of the game manual covers general topics of how FTC competitions are run.</div>
 							</div>
 						</div>
-						<div class="d-none gap-3 mt-4">
+						<div class="d-flex gap-3 mt-4">
 							<div><i class="fa-duotone fa-book fa-3x text-secondary fa-fw"></i></div>
 							<div>
-								<div><a href="https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/game-manual-part-2-traditional.pdf" target="_blank">Game Manual, Part 2</a> (traditional events)</div>
-								<div class="small text-secondary">The second part of the game manual covers the specifics of the PowerPlay game, and is the authoritative source for rules.</div>
+								<div><a href="https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-2-traditional.pdf" target="_blank">Game Manual, Part 2</a> (traditional events)</div>
+								<div class="small text-secondary role-label">The second part of the game manual covers the specifics of the CenterSgage game, and is the authoritative source for rules.</div>
 							</div>
 						</div>
-						<div class="d-none gap-3 mt-4">
+						<div class="d-flex gap-3 mt-4">
 							<div><i class="fa-duotone fa-file-pdf fa-3x text-secondary fa-fw"></i></div>
 							<div>
-								<div><a href="https://firstinspiresst01.blob.core.windows.net/first-energize-ftc/game-one-page.pdf" target="_blank">One Page Game Description</a></div>
-								<div class="small text-secondary">This document is a quick summary of how the game is played and, more importantly, a summary of how points can be scored.</div>
+								<div><a href="https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-one-page.pdf" target="_blank">One Page Game Description</a></div>
+								<div class="small text-secondary role-label">This document is a quick summary of how the game is played and, more importantly, a summary of how points can be scored.</div>
 							</div>
 						</div>
+						
+						<div class="d-flex gap-3 mt-4">
+							<div><i class="fa-duotone fa-calculator fa-3x text-secondary fa-fw"></i></div>
+							<div>
+								<div><a href="https://cyberknights.pages.team195.com/ftc/center-stage-score-calculator/" target="_blank">Pixel Backdrop Score Calculator</a></div>
+								<div class="small text-secondary role-label">Developed by an FTC team mentor, this tool allows you to quickly calculate a game's pixel point score.</div>
+							</div>
+						</div>
+
 						
 						<div class="d-none gap-3 mt-4">
 							<div><i class="fa-duotone fa-messages-question fa-3x text-secondary fa-fw"></i></div>
 							<div>
 								<div><a href="https://ftc-qa.firstinspires.org/" target="_blank">FTC Question and Answer System</a></div>
-								<div class="small text-secondary">This board is considered the official place to get answers to questions about the rules, gameplay, or strategy.</div>
+								<div class="small text-secondary role-label">This board is considered the official place to get answers to questions about the rules, gameplay, or strategy.</div>
 							</div>
 						</div>
 				
@@ -280,7 +220,7 @@
 								<div><i class="fa-duotone fa-book fa-3x text-secondary fa-fw"></i></div>
 								<div>
 									<div><a href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1-traditional-events.pdf" target="_blank">Game Manual, Part 1</a> (traditional events)</div>
-									<div class="small text-secondary">The first part of the game manual covers general topics of how FTC competitions are run.</div>
+									<div class="small text-secondary role-label">The first part of the game manual covers general topics of how FTC competitions are run.</div>
 								</div>
 							</div>
 							
@@ -291,7 +231,7 @@
 								<div><i class="fa-duotone fa-trophy fa-3x text-secondary fa-fw"></i></div>
 								<div>
 									<div><a href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/award-descriptions.pdf" target="_blank">FTC Award Criteria</a></div>
-									<div class="small text-secondary">This document describes the criteria for the different awards that an FTC team can win throughout the season.</div>
+									<div class="small text-secondary role-label">This document describes the criteria for the different awards that an FTC team can win throughout the season.</div>
 								</div>
 							</div>
 							
@@ -299,7 +239,7 @@
 								<div><i class="fa-duotone fa-books fa-3x text-secondary fa-fw"></i></div>
 								<div>
 									<div><a href="https://www.firstinspires.org/resource-library/ftc/game-and-season-info" target="_blank">FTC Resource Library</a></div>
-									<div class="small text-secondary">This page is the definitive place to find information or resources for this year's game.</div>
+									<div class="small text-secondary role-label">This page is the definitive place to find information or resources for this year's game.</div>
 								</div>
 							</div>
 						</div>
@@ -309,11 +249,322 @@
 			</div>
 		</div>
 		
-		
-		
-		<div class="p-4 mt-0 d-none bg-dark bg-opacity-50 gap-3 flex-column flex-sm-row justify-content-sm-center align-items-start">
+		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5 bg-dark bg-opacity-50">
+			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Our Team Organization</h5>
+			<div class="d-flex align-items-start flex-column flex-md-row">
+				<div class="col-12 col-md-4 mt-3 p-2 bg-white d-none">
+					<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/ek_team_2022-11-04.jpg" alt="Photo of the DCS Robotics team at the East Kentwood qualifier on November 4, 2022." class="w-100"/></a>
+				</div>
+				<div class="p-3 d-flex gap-3 flex-column flex-md-row justify-content-sm-center flex-wrap flex-grow-md-1">
+					<div class="card flex-basis-sm-25rem">
+						<div class="card-body text-secondary">
+							<h5 class="card-title d-flex align-items-center justify-content-between text-dark fw-bold">
+								<span>Programming Team</span>
+								<i class="fa-duotone fa-rectangle-terminal fa-3x text-secondary"></i>
+							</h5>
+							<p class="">Tutorials, resources, and instructions for members of the programming team&mdash;or anyone interested in learning more about programming an FTC robot.</p>
+						</div>
+						<? if ($private) { ?>
+						<div class="card-footer pt-3 team-members">
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Darren Cupery</div>
+									<div class="small text-secondary role-label">Mentor</div>
+								</div>
+							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Brennen DeLange</div>
+									<div class="small text-secondary role-label">8th Grade</div>
+								</div>
+							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Lydia Dombrowski</div>
+									<div class="small text-secondary role-label">7th Grade</div>
+								</div>
+							</div>
 
-			<div class="card flex-basis-sm-25rem">
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Matt Roberts</div>
+									<div class="small text-secondary role-label">Coach</div>
+								</div>
+
+							</div>
+
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Ike VanKalker</div>
+									<div class="small text-secondary role-label">7th Grade</div>
+								</div>
+							</div>
+
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Annalise Wiltjer</div>
+									<div class="small text-secondary role-label">7th Grade</div>
+								</div>
+							</div>
+
+							<div class="d-none">
+								<a href="/2022-2023/teams/programming" class="btn btn-warning text-dark">Go</a>
+							</div>
+						</div>
+						<? } ?>
+					</div>
+					<div class="card flex-basis-sm-25rem">
+						<div class="card-body text-secondary">
+							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+								<span>Mechanical Team</span>
+								<i class="fa-duotone fa-gears fa-3x text-secondary"></i>
+							</h5>
+							<p class="">Information on construction and design aspects of FTC robots.</p>
+							<div class="d-none">
+								<a href="/2022-2023/teams/mechanical" class="btn btn-warning text-dark">Go</a>
+							</div>
+						</div>
+						<? if ($private) { ?>
+						<div class="card-footer pt-3 team-members">
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Kenden Hantle</div>
+									<div class="small text-secondary role-label">8th Grade</div>
+								</div>
+							</div>
+
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Graham Huisman</div>
+									<div class="small text-secondary role-label">8th Grade</div>
+								</div>
+							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Jacob Klynstra</div>
+									<div class="small text-secondary role-label">Junior Mentor</div>
+								</div>
+							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Westin Koetje</div>
+									<div class="small text-secondary role-label">8th Grade</div>
+								</div>
+							</div>
+							
+
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Joe Klynstra</div>
+									<div class="small text-secondary role-label">Mentor</div>
+								</div>
+							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Aubrie Reinholtz</div>
+									<div class="small text-secondary role-label">7th Grade</div>
+								</div>
+							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Gage Roodvoets</div>
+									<div class="small text-secondary role-label">7th Grade</div>
+								</div>
+							</div>
+							
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Levi Roodvoets</div>
+									<div class="small text-secondary role-label">Mentor</div>
+								</div>
+							</div>
+						</div>
+						<? } ?>
+					</div>
+					<div class="card flex-basis-sm-25rem">
+						<div class="card-body text-secondary">
+							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+								<span>Marketing &amp; Promotions Team</span>
+								<i class="fa-duotone fa-megaphone fa-3x text-secondary"></i>
+							</h5>
+							<p class="">Coming Soon</p>
+							<div class="d-none">
+								<a href="/teams/mechanical" class="btn btn-warning text-dark">Go</a>
+							</div>
+						</div>
+						<? if ($private) { ?>
+						<div class="card-footer pt-3 team-members">
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Josh Cupery</div>
+									<div class="small text-secondary role-label">8th Grade</div>
+								</div>
+							</div>
+
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Sarah Cupery</div>
+									<div class="small text-secondary role-label">Mentor</div>
+								</div>
+							</div>
+
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Matt Hantle</div>
+									<div class="small text-secondary role-label">Mentor</div>
+								</div>
+							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Marc Huisman</div>
+									<div class="small text-secondary role-label">Mentor</div>
+								</div>
+							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Grace Klynstra</div>
+									<div class="small text-secondary role-label">7th Grade</div>
+								</div>
+							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Taylor Rottman</div>
+									<div class="small text-secondary role-label">7th Grade</div>
+								</div>
+							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Grayson Stulp</div>
+									<div class="small text-secondary role-label">8th Grade</div>
+								</div>
+							</div>
+
+						</div>
+						<? } ?>
+					</div>
+					<div class="card flex-basis-sm-25rem">
+						<div class="card-body text-secondary">
+							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+								<span>Strategy Team</span>
+								<i class="fa-duotone fa-chess fa-3x text-secondary"></i>
+							</h5>
+							<p class="">Coming Soon</p>
+							<div>
+								<a href="/teams/strategy" class="btn btn-warning text-dark d-none">Go</a>
+							</div>
+						</div>
+						<? if ($private) { ?>
+						<div class="card-footer pt-3 team-members">
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Sam Cupery</div>
+									<div class="small text-secondary role-label">8th Grade</div>
+								</div>
+							</div>					
+
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Blake Kelly</div>
+									<div class="small text-secondary role-label">Mentor</div>
+								</div>
+							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Logan Kelly</div>
+									<div class="small text-secondary role-label">7th Grade</div>
+								</div>
+							</div>					
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Brayden Leonard</div>
+									<div class="small text-secondary role-label">7th Grade</div>
+								</div>
+							</div>					
+							
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Matt Leonard</div>
+									<div class="small text-secondary role-label">Mentor</div>
+								</div>
+							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Dan VanKalker</div>
+									<div class="small text-secondary role-label">Mentor</div>
+								</div>
+							</div>
+
+						</div>	
+						<? } ?>
+					</div>	
+					<? if ($private) { ?>		
+					<div class="card flex-basis-sm-25rem">
+						<div class="card-body text-secondary">
+							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+								<span>Other</span>
+								<i class="fa-duotone fa-asterisk fa-3x text-secondary"></i>
+							</h5>
+							<p class="">Coming Soon</p>
+							<div>
+								<a href="/teams/strategy" class="btn btn-warning text-dark d-none">Go</a>
+							</div>
+						</div>
+						<div class="card-footer pt-3 team-members">
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Mike Faber</div>
+									<div class="small text-secondary role-label">Coach</div>
+								</div>
+							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Jack Greenland</div>
+									<div class="small text-secondary role-label">7th Grade</div>
+								</div>
+							</div>
+
+					
+						</div>
+					</div>
+					<? } ?>
+
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="p-4 mt-0 d-flex bg-dark bg-opacity-50 gap-3 flex-column flex-sm-row justify-content-sm-center align-items-start">
+
+			<div class="card flex-basis-sm-25rem d-none">
 				<div class="card-body text-secondary">
 					<h3 class="card-title d-flex align-items-center justify-content-between text-dark">
 						<span>8th Grade</span>
@@ -322,119 +573,112 @@
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Angell Chekin</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Emersen Roodvoets</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Lauren VanLaan</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Bradley Bykerk</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Luca Balsitis</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Brayden Teitsma</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Ben ?</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Gavin Griffen</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Mason Rozema</div>
-							<div class="small text-secondary">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Jacob Klynstra</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Lucas Beezhold</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Nate Cardosa</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Caleb Zoodsma</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Kate Koeman</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Milo Cravino</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
 							<div class="text-dark">Kyleigh Rottman</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
 
 				</div>
 				
 			</div>
-			<div class="card flex-basis-sm-25rem">
+			<div class="card flex-basis-sm-25rem d-none">
 				<div class="card-body text-secondary">
 					<h3 class="card-title d-flex align-items-center justify-content-between text-dark">
 						<span>7th Grade</span>
@@ -442,162 +686,18 @@
 					<div class="d-flex gap-2 mt-3">
 						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
 						<div>
-							<div class="text-dark">Brennen DeLange</div>
-							<div class="small text-secondary">Programming Team</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Kenden Hantle</div>
-							<div class="small text-secondary">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Josh Cupery</div>
-							<div class="small text-secondary">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
 							<div class="text-dark">Grant</div>
-							<div class="small text-secondary">?</div>
+							<div class="small text-secondary role-label">?</div>
 						</div>
 					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Sam Cupery</div>
-							<div class="small text-secondary">?</div>
-						</div>
-					</div>					
 				</div>
 			</div>
-			<div class="card flex-basis-sm-25rem">
+			<div class="card flex-basis-sm-25rem d-none">
 				<div class="card-body text-secondary">
 					<h3 class="card-title d-flex align-items-center justify-content-between text-dark">
 						<span>Unknown</span>
 					</h3>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Graham Huisman</div>
-							<div class="small text-secondary">?</div>
-						</div>
-					</div>
 					
-				</div>
-			</div>
-			<div class="card flex-basis-sm-25rem">
-				<div class="card-body text-secondary">
-					<h3 class="card-title d-flex align-items-center justify-content-between text-dark">
-						<span>Mentors and Coaches</span>
-					</h3>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Eric Beezhold</div>
-							<div class="small text-secondary">Programming Team</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Finn Cravino</div>
-							<div class="small text-secondary">Junior Mentor</div>
-						</div>
-					</div>
-			
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Darren Cupery</div>
-							<div class="small text-secondary">Mentor</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Mike Faber</div>
-							<div class="small text-secondary">Coach / Mechanical Team</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Jason Griffen</div>
-							<div class="small text-secondary">Strategy Team</div>
-						</div>
-					</div>
-
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Matt Hantle</div>
-							<div class="small text-secondary">Marketing &amp; Promotions Team</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Marc Huisman</div>
-							<div class="small text-secondary">Mentor</div>
-						</div>
-					</div>
-			
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Joe Klynstra</div>
-							<div class="small text-secondary">Mechanical Team</div>
-						</div>
-					</div>
-			
-			
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Matt Leonard</div>
-							<div class="small text-secondary">Strategy Team</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Matt Roberts</div>
-							<div class="small text-secondary">Coach / Programming Team</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Penn Roberts</div>
-							<div class="small text-secondary">Junior Mentor</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Levi Roodvoets</div>
-							<div class="small text-secondary">Mentor</div>
-						</div>
-					</div>
-			
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Mike VanLaan</div>
-							<div class="small text-secondary">Mechanical Team</div>
-						</div>
-					</div>
-			
-					<div class="d-none">
-						<a href="/2022-2023" class="btn btn-warning text-dark">Go</a>
-					</div>
-			
 				</div>
 			</div>
 
