@@ -197,6 +197,10 @@
 								<i class="fa-duotone fa-rectangle-terminal fa-3x text-secondary"></i>
 							</h5>
 							<p class="">Tutorials, resources, and instructions for members of the programming team&mdash;or anyone interested in learning more about programming an FTC robot.</p>
+							<div class="">
+								<a href="/2023-2024/teams/programming" class="btn btn-warning text-dark">Go</a>
+							</div>
+
 						</div>
 						<? if ($private) { ?>
 						<div class="card-footer pt-3 team-members">
@@ -247,9 +251,6 @@
 								</div>
 							</div>
 
-							<div class="d-none">
-								<a href="/2022-2023/teams/programming" class="btn btn-warning text-dark">Go</a>
-							</div>
 						</div>
 						<? } ?>
 					</div>

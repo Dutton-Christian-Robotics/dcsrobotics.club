@@ -48,7 +48,7 @@
 						<div><i class="fa-duotone fa-hexagon-image fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div class="fw-bold"><a href="/2023-2024">CenterStage</a></div>
-							<div class="small text-secondary">The game for the 23-24 season is "CenterStage." Use this page for access to official game materials."</div>
+							<div class="small text-secondary">The game for the 23-24 season is "CenterStage." Use this page for access to official game materials.</div>
 						</div>
 					</div>
 			
