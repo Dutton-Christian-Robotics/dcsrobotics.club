@@ -28,7 +28,7 @@
 				<div class="card-body p-0 p-lg-4 text-shadow-1">
 					<i class="fa-duotone fa-house-chimney fa-5x float-end"></i>
 					<h5 class="card-title text-headline fw-normal fs-2 border-bottom w-75 mb-3">Welcome!</h5>
-					<p class="fs-5">Welcome to the home for Dutton Christian School's FTC robotics team, #15815. The team is currently in its fifth season, having started in the 2018-2019 academic year. Our FIRST Tech Challenge team includes approximately twenty students in grades 7 and 8.</p>
+					<p class="fs-5">Welcome to the home for Dutton Christian School's FTC robotics team, #15815. The team is currently in its sixth season, having started in the 2018-2019 academic year. Our FIRST Tech Challenge team includes approximately twenty students in grades 7 and 8.</p>
 					<p class="fs-5"><a href="https://duttonchristianschool.org" target="_blank" class="text-white">Dutton Christian School</a> is a private Christian school located to the south of Grand Rapids, Michigan. The school offers pre-K through 8th grades.</p>
 				</div>
 				

@@ -1,4 +1,5 @@
 <?
+	error_reporting(E_ERROR);
 	$private = $_GET['pwd'] == "6729";
 ?><html>
 	<head>
@@ -83,73 +84,6 @@
 			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_states22/picture_007.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
 		</div>
 		
-		<div class="d-none flex-column bg-dark bg-opacity-50 p-3 p-md-5 gap-2 justify-content-center align-items-center">
-			<h5 class="w-auto text-headline text-align-center text-md-start fw-normal fs-2 text-white fw-normal d-inline-block text-shadow-1">Our Season</h5>
-			
-			<div class="d-flex m-md-0 gap-3 flex-wrap justify-content-center">
-				<div class="card bg-warning flex-grow-0 flex-lg-grow-0 flex-basis-md-30rem">
-					<div class="card-body p-4 d-flex gap-3">
-						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
-						<div>
-							<div class="fw-bold text-black-50"><span class="fs-5">MI State Championship NW</span><br/><span>12/16/2 &ndash; 12/17/22</span></div>
-							<ul class="mt-2 mb-0 pb-0">
-								<li>Ranked 5th after two days and 54 qualifying matches</li>
-								<li>First pick of Alliance 1, which ultimately came in second after three hard-fought finals matches</li>
-							</ul>
-						</div>	
-						
-					</div>
-					<div class="card-footer">
-						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMICMP');" target="_new" class="btn btn-secondary btn-sm">FTC Event Page</button>
-						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MFSC');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Page</button>
-					</div>
-				</div>
-				<div class="card bg-warning flex-grow-0 flex-lg-grow-0 flex-basis-md-30rem">
-					<div class="card-body p-4 d-flex gap-3">
-						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
-						<div>
-							<div class="fw-bold text-black-50"><span class="fs-5">Fruitport Qualifier</span><br/><span>11/19/22</span></div>
-							<ul class="mt-2 mb-0 pb-0">
-								<li>Ranked 1st after 43 qualifying matches</li>
-								<li>Ranked 2nd by OPR</li>
-								<li>Captain of Alliance 1</li>
-								<li>Innovation Award, 3rd place</li>
-								<li>Design Award, 2nd place</li>
-								<li>Inspire Award winner</li>
-								<li>Advanced to State Championship NW</li>
-							</ul>
-						</div>	
-					</div>
-					<div class="card-footer">
-						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIFRQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
-						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MFFQ1/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
-		
-					</div>
-				</div>
-				<div class="card bg-warning flex-grow-0 flex-lg-grow-0 flex-basis-md-30rem">
-					<div class="card-body p-4 d-flex gap-3">
-						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
-						<div>
-							<div class="fw-bold text-black-50"><span class="fs-5">Kentwood Qualifier</span><br/><span>11/5/22</span></div>
-							<ul class="mt-2 mb-0 pb-0">
-								<li>Ranked 9th after 39 qualifying matches</li>
-								<li>Ranked 5th by OPR</li>
-								<li>First pick by Alliance 3</li>
-								<li>Design Award winner</li>
-							</ul>
-						</div>
-				
-					</div>
-					<div class="card-footer">
-						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIKEQx');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
-						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MKFQ/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
-		
-		
-					</div>
-				</div>
-			</div>
-		</div>
-
 
 
 		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5">
@@ -250,12 +184,12 @@
 		</div>
 		
 		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5 bg-dark bg-opacity-50">
-			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Our Team Organization</h5>
+			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1 mb-3">Our Team Organization</h5>
 			<div class="d-flex align-items-start flex-column flex-md-row">
 				<div class="col-12 col-md-4 mt-3 p-2 bg-white d-none">
 					<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/ek_team_2022-11-04.jpg" alt="Photo of the DCS Robotics team at the East Kentwood qualifier on November 4, 2022." class="w-100"/></a>
 				</div>
-				<div class="p-3 d-flex gap-3 flex-column flex-md-row justify-content-sm-center flex-wrap flex-grow-md-1">
+				<div class="d-flex gap-3 flex-column flex-md-row justify-content-sm-center flex-wrap flex-grow-md-1">
 					<div class="card flex-basis-sm-25rem">
 						<div class="card-body text-secondary">
 							<h5 class="card-title d-flex align-items-center justify-content-between text-dark fw-bold">
@@ -538,7 +472,7 @@
 						</div>
 						<div class="card-footer pt-3 team-members">
 							<div class="team-member">
-								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
 									<div class="text-dark">Mike Faber</div>
 									<div class="small text-secondary role-label">Coach</div>
@@ -560,6 +494,57 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="d-flex flex-column p-3 p-md-5 gap-2 justify-content-center align-items-center">
+			<h5 class="w-auto text-headline text-align-center text-md-start fw-normal fs-2 text-white fw-normal d-inline-block text-shadow-1">Our Season</h5>
+			
+			<div class="d-flex m-md-0 gap-3 flex-wrap justify-content-center w-100">
+				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-30rem">
+					<div class="card-body p-4 d-flex gap-3">
+						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
+						<div>
+							<div class="fw-bold text-black-50"><span class="fs-5">Fruitport Qualifier</span><br/><span>11/18/23</span></div>
+							<ul class="mt-2 mb-0 pb-0 d-none">
+								<li>Ranked 1st after 43 qualifying matches</li>
+								<li>Ranked 2nd by OPR</li>
+								<li>Captain of Alliance 1</li>
+								<li>Innovation Award, 3rd place</li>
+								<li>Design Award, 2nd place</li>
+								<li>Inspire Award winner</li>
+								<li>Advanced to State Championship NW</li>
+							</ul>
+						</div>	
+					</div>
+					<div class="card-footer d-none">
+						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIFRQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MFFQ1/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
+		
+					</div>
+				</div>
+				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-30rem">
+					<div class="card-body p-4 d-flex gap-3">
+						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
+						<div>
+							<div class="fw-bold text-black-50"><span class="fs-5">Kentwood Qualifier</span><br/><span>11/4/23</span></div>
+							<ul class="mt-2 mb-0 pb-0 d-none">
+								<li>Ranked 9th after 39 qualifying matches</li>
+								<li>Ranked 5th by OPR</li>
+								<li>First pick by Alliance 3</li>
+								<li>Design Award winner</li>
+							</ul>
+						</div>
+				
+					</div>
+					<div class="card-footer d-none">
+						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIKEQx');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MKFQ/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
+		
+		
+					</div>
+				</div>
+			</div>
+		</div>
+		
 		
 		
 		<div class="p-4 mt-0 d-flex bg-dark bg-opacity-50 gap-3 flex-column flex-sm-row justify-content-sm-center align-items-start">

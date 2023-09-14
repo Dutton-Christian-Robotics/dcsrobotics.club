@@ -20,6 +20,42 @@
 				<div class="card-body">
 					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
 						<div>
+							<h5 class="text-dcs-blue mb-0">Season 6: 2023-2024</h5>
+							<div>CenterStage</div>
+						</div>
+						<i class="fa-duotone fa-hexagon-image fa-2x text-secondary"></i>
+					</h3>
+			
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-file-pdf fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-one-page.pdf" target="_blank">Game Description</a></div>
+							<div class="small text-secondary">Learn more about the season's game by reading the one page game summary.</div>
+						</div>
+					</div>
+			
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-sitemap fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="/2023-2024">Season Website</a></div>
+							<div class="small text-secondary">More information about the season's game and the DCS team.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4 d-none">
+						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a xhref="/2020-2021">Highlights</a></div>
+							<div class="small text-secondary">Our best season so far: two qualifying events, one where we finished with a first ranking and the Inspire award. And our second time at states, where we ranked fifth and were chosen first by the Alliance 1 captain.</div>
+						</div>
+					</div>
+			
+				</div>
+		</div>
+
+			<div class="card flex-basis-auto flex-basis-sm-30rem">
+				<div class="card-body">
+					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
+						<div>
 							<h5 class="text-dcs-blue mb-0">Season 5: 2022-2023</h5>
 							<div>PowerPlay</div>
 						</div>
