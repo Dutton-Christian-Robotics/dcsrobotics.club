@@ -131,10 +131,20 @@
 						<div class="d-flex gap-3 mt-4">
 							<div><i class="fa-duotone fa-calculator fa-3x text-secondary fa-fw"></i></div>
 							<div>
-								<div><a href="https://cyberknights.pages.team195.com/ftc/center-stage-score-calculator/" target="_blank">Pixel Backdrop Score Calculator</a></div>
-								<div class="small text-secondary role-label">Developed by an FTC team mentor, this tool allows you to quickly calculate a game's pixel point score.</div>
+								<div><a href="https://ftc-scoring.firstinspires.org/scoreCalculator" target="_blank">Match Score Calculator</a></div>
+								<div class="small text-secondary role-label">Developed by FTC, this webpage allows you to quickly calculate an overall score for a CenterStage match. Note that when using this, you must manually count the number of "mosaics" created on the backdrop.</div>
 							</div>
 						</div>
+
+						<div class="d-flex gap-3 mt-4">
+							<div><i class="fa-duotone fa-calculator fa-3x text-secondary fa-fw"></i></div>
+							<div>
+								<div><a href="https://cyberknights.pages.team195.com/ftc/center-stage-score-calculator/" target="_blank">Pixel Backdrop Score Calculator</a></div>
+								<div class="small text-secondary role-label">Developed by an FTC team mentor, this tool allows you to quickly calculate a game's pixel point score. Scores are calculated by visually "placing" pixels of different colors on a virtual backdrop. This means that the calculator will help you in determining how many "mosaics" have been created.</div>
+							</div>
+						</div>
+						
+						
 
 						
 						<div class="d-none gap-3 mt-4">
