@@ -5,7 +5,7 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav me-auto">
+			<ul class="navbar-nav me-auto align-items-center">
 				<li class="nav-item">
 					<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
 				</li>
@@ -21,9 +21,8 @@
 					<a class="nav-link" href="/2022-2023/teams/programming">Programming </a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/outreach">Outreach </a>
+					<a class="nav-link" href="/outreach">Outreach</a>
 				</li>
-
 
 			</ul>
 		</div>

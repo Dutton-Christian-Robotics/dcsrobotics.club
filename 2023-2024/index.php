@@ -239,6 +239,15 @@
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
+									<div class="text-dark">Dan Lucas</div>
+									<div class="small text-secondary role-label">Mentor</div>
+								</div>
+							
+							</div>
+
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
 									<div class="text-dark">Matt Roberts</div>
 									<div class="small text-secondary role-label">Coach</div>
 								</div>
@@ -414,7 +423,7 @@
 								<span>Strategy Team</span>
 								<i class="fa-duotone fa-chess fa-3x text-secondary"></i>
 							</h5>
-							<p class="">Coming Soon</p>
+							<p class="">Responsible for high-level game strategy, oversight of competition scouting, and field management.</p>
 							<div>
 								<a href="/teams/strategy" class="btn btn-warning text-dark d-none">Go</a>
 							</div>
@@ -493,6 +502,13 @@
 								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
 									<div class="text-dark">Jack Greenland</div>
+									<div class="small text-secondary role-label">7th Grade</div>
+								</div>
+							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Christian Izenbaard</div>
 									<div class="small text-secondary role-label">7th Grade</div>
 								</div>
 							</div>

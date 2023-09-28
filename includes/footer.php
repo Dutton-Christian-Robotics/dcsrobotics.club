@@ -14,5 +14,7 @@
 			<a href="https://www.facebook.com/groups/765245077170799" target="_blank"><i class="fa-brands fa-facebook-square fa-7x text-white"></i></a>
 		</div>
 	</div>
-	
 </div>
+<div class="mt-5 p-4 pt-0 d-flex justify-content-center">
+	<a class="text-white-50" href="/wafflebots"><i class="fa-solid fa-waffle fa-lg"></i></a>
+</div>	
