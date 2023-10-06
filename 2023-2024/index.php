@@ -117,7 +117,7 @@
 							<div><i class="fa-duotone fa-book fa-3x text-secondary fa-fw"></i></div>
 							<div>
 								<div><a href="https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-manual-part-2-traditional.pdf" target="_blank">Game Manual, Part 2</a> (traditional events)</div>
-								<div class="small text-secondary role-label">The second part of the game manual covers the specifics of the CenterSgage game, and is the authoritative source for rules.</div>
+								<div class="small text-secondary role-label">The second part of the game manual covers the specifics of the CenterStage game, and is the authoritative source for rules.</div>
 							</div>
 						</div>
 						<div class="d-flex gap-3 mt-4">
