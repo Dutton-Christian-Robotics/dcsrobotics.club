@@ -21,7 +21,6 @@
 				<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/wafflebots/images/wafflebot_2.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
 				<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/wafflebots/images/wafflebot_3.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
 				<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/wafflebots/images/wafflebot_4.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
-				<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/wafflebots/images/wafflebot_5.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
 				<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/wafflebots/images/wafflebot_6.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
 				<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/wafflebots/images/wafflebot_7.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
 				<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/wafflebots/images/wafflebot_8.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
