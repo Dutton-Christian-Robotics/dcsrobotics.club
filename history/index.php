@@ -180,7 +180,7 @@
 					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-sitemap fa-3x text-secondary fa-fw"></i></div>
 						<div>
-							<div><a href="/2020-2021">Season Website</a></div>
+							<div><a href="/2019-2020">Season Website</a></div>
 							<div class="small text-secondary">More information about the season's game and the DCS team.</div>
 						</div>
 					</div>
