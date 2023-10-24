@@ -18,31 +18,39 @@
 			</div>
 		</div>		
 
-		<div class="p-3 p-md-5 mt-0 d-none gap-3 flex-column flex-sm-row justify-content-sm-center align-items-start">
+		<div class="p-3 p-md-5 mt-0 gap-3 d-flex flex-column flex-sm-row justify-content-sm-center align-items-start ">
 	
 			
 			<div class="d-flex flex-column text-white ">
 				<h5 class="w-auto text-headline fw-normal fs-2 fw-normal text-align-center d-inline-block text-shadow-1">Meet Our Bot</h5>
 				<table class="mt-md-3">
 					<tbody class="text-white fs-5 align-text-top">
-						<tr>
-							<td class="p-2 ps-0"><span class="badge bg-dark">Name</span></td>
-							<td class="p-2">Edward Scissorlift, aka "Eddy"</td>
+						<tr class="t">
+							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Name</span></td>
+							<td class="p-2">The Sticky Bandit</td>
 						</tr>
 						<tr>
-							<td class="p-2 ps-0"><span class="badge bg-dark">Drivetrain</span></td>
+							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Drivetrain</span></td>
 							<td class="p-2">four wheel mecanum, each wheel powered by a REV HD Hex motor with UltraPlanetary Gearbox, geared at 12:1</td>
 						</tr>
 						<tr>
-							<td class="p-2 ps-0"><span class="badge bg-dark">Lift</span></td>
-							<td class="p-2">double-sided chain-driven scissorlift, powered by twin REV HD Hex motors with UltraPlanetary Gearbox, geared at 60:1</td>
+							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Lift</span></td>
+							<td class="p-2">double-sided chain-driven slide lift, powered by twin REV HD Hex motors with UltraPlanetary Gearbox, geared at 300:1</td>
 						</tr>
 						<tr>
-							<td class="p-2 ps-0"><span class="badge bg-dark">Grabber</span></td>
-							<td class="p-2">servo-powered claw, with rubber bands and 3D-printed fingers</td>
+							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Tilt</span></td>
+							<td class="p-2">powered by twin REV HD Hex motors with UltraPlanetary Gearbox, geared at 60:1</td>
 						</tr>
 						<tr>
-							<td class="p-2 ps-0"><span class="badge bg-dark">Awards</span></td>
+							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Wrist</span></td>
+							<td class="p-2">twin servo</td>
+						</tr>
+						<tr>
+							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Manipulator</span></td>
+							<td class="p-2">adhesive-based "sticky pads" with dual servo-actuated release mechanisms</td>
+						</tr>
+						<tr class="d-none">
+							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Awards</span></td>
 							<td class="p-2">Design Award 1st place (Kentwood), Design Award 2nd place (Fruitport), Innovation Award 3rd place (Fruitport)</td>
 						</tr>
 
@@ -50,15 +58,87 @@
 				</table>
 			</div>
 			<div class="d-flex flex-basis-sm-20rem p-2 flex-column bg-white align-items-center">				
-				<img src="/images/powerplay_edward1.jpg" class="w-100"/>
+				<img src="/images/centerstage_bandit_cad1.jpg" class="w-100"/>
 			</div>
-			<div class="d-flex flex-basis-sm-20rem flex-column bg-white align-items-center">				
+			<div class="d-none flex-basis-sm-20rem flex-column bg-white align-items-center">				
 				<img src="/images/edward_cad1.jpg" class="w-100"/>
 			</div>
-			<div class="d-flex flex-basis-sm-20rem flex-column bg-white align-items-center">				
+			<div class="d-none flex-basis-sm-20rem flex-column bg-white align-items-center">				
 				<img src="/images/edward_cad2.jpg" class="w-100"/>
 			</div>
 			
+		</div>
+
+		<div class="d-flex flex-column p-3 p-md-5 gap-2 justify-content-center align-items-center bg-dark bg-opacity-50">
+			<h5 class="w-auto text-headline text-align-center text-md-start fw-normal fs-2 text-white fw-normal d-inline-block text-shadow-1">Our Season</h5>
+			
+			<div class="d-flex m-md-0 gap-3 flex-wrap justify-content-center w-100">
+				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-30rem">
+					<div class="card-body p-4 d-flex gap-3">
+						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
+						<div>
+							<div class="fw-bold text-black-50"><span class="fs-5">Fruitport Qualifier</span><br/><span>11/18/23</span></div>
+							<ul class="mt-2 mb-0 pb-0 d-none">
+								<li>Ranked 1st after 43 qualifying matches</li>
+								<li>Ranked 2nd by OPR</li>
+								<li>Captain of Alliance 1</li>
+								<li>Innovation Award, 3rd place</li>
+								<li>Design Award, 2nd place</li>
+								<li>Inspire Award winner</li>
+								<li>Advanced to State Championship NW</li>
+							</ul>
+						</div>	
+					</div>
+					<div class="card-footer d-none">
+						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIFRQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MFFQ1/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
+		
+					</div>
+				</div>
+				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-30rem">
+					<div class="card-body p-4 d-flex gap-3">
+						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
+						<div>
+							<div class="fw-bold text-black-50"><span class="fs-5">Kentwood Qualifier</span><br/><span>11/4/23</span></div>
+							<ul class="mt-2 mb-0 pb-0 d-none">
+								<li>Ranked 9th after 39 qualifying matches</li>
+								<li>Ranked 5th by OPR</li>
+								<li>First pick by Alliance 3</li>
+								<li>Design Award winner</li>
+							</ul>
+						</div>
+				
+					</div>
+					<div class="card-footer d-none">
+						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIKEQx');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MKFQ/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
+		
+		
+					</div>
+				</div>
+				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-30rem">
+					<div class="card-body p-4 d-flex gap-3">
+						<i class="fa-duotone fa-hockey-sticks fa-3x text-dark"></i>
+						<div>
+							<div class="fw-bold text-black-50"><span class="fs-5">Scrimmage with Calvin Christian</span><br/><span>10/24/23</span></div>
+							<ul class="mt-2 mb-0 pb-0 d-none">
+								<li>Ranked 9th after 39 qualifying matches</li>
+								<li>Ranked 5th by OPR</li>
+								<li>First pick by Alliance 3</li>
+								<li>Design Award winner</li>
+							</ul>
+						</div>
+				
+					</div>
+					<div class="card-footer d-none">
+						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIKEQx');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MKFQ/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
+				
+				
+					</div>
+				</div>
+				
+			</div>
 		</div>
 
 		<div class="p-3 py-md-4 d-none flex-row flex-wrap justify-content-center gap-3 bg-dark align-items-center">
@@ -280,8 +360,8 @@
 								<i class="fa-duotone fa-gears fa-3x text-secondary"></i>
 							</h5>
 							<p class="">Information on construction and design aspects of FTC robots.</p>
-							<div class="d-none">
-								<a href="/2022-2023/teams/mechanical" class="btn btn-warning text-dark">Go</a>
+							<div class="">
+								<a href="/2023-2024/teams/mechanical" class="btn btn-warning text-dark">Go</a>
 							</div>
 						</div>
 						<? if ($private) { ?>
@@ -355,7 +435,7 @@
 								<span>Marketing &amp; Promotions Team</span>
 								<i class="fa-duotone fa-megaphone fa-3x text-secondary"></i>
 							</h5>
-							<p class="">Coming Soon</p>
+							<p class="">In charge of pit design, sponsorships, fundraising, apparel design, and other public elements of the team.</p>
 							<div class="d-none">
 								<a href="/teams/mechanical" class="btn btn-warning text-dark">Go</a>
 							</div>
@@ -477,8 +557,49 @@
 
 						</div>	
 						<? } ?>
-					</div>	
-					<? if ($private) { ?>		
+					</div>
+					<div class="card flex-basis-sm-25rem">
+					
+						<div class="card-body text-secondary">
+							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+								<span>Drive Team</span>
+								<i class="fa-duotone fa-steering-wheel fa-3x text-secondary"></i>
+							</h5>
+							<p class="">Responsible for play of the game during competitions.</p>
+							<div>
+								<a href="/teams/strategy" class="btn btn-warning text-dark d-none">Go</a>
+							</div>
+						</div>
+						<? if ($private) { ?>	
+
+						<div class="card-footer pt-3 team-members">
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Sam Cupery</div>
+									<div class="small text-secondary role-label">8th Grade</div>
+								</div>
+							</div>					
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Kenden Hantle</div>
+									<div class="small text-secondary role-label">8th Grade</div>
+								</div>
+							</div>					
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Brennen DeLange</div>
+									<div class="small text-secondary role-label">8th Grade</div>
+								</div>
+							</div>					
+						</div>
+						<? } ?>
+					</div>
+	
+					<? if ($private) { ?>	
+
 					<div class="card flex-basis-sm-25rem">
 						<div class="card-body text-secondary">
 							<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
@@ -522,58 +643,6 @@
 			</div>
 		</div>
 
-		<div class="d-flex flex-column p-3 p-md-5 gap-2 justify-content-center align-items-center">
-			<h5 class="w-auto text-headline text-align-center text-md-start fw-normal fs-2 text-white fw-normal d-inline-block text-shadow-1">Our Season</h5>
-			
-			<div class="d-flex m-md-0 gap-3 flex-wrap justify-content-center w-100">
-				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-30rem">
-					<div class="card-body p-4 d-flex gap-3">
-						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
-						<div>
-							<div class="fw-bold text-black-50"><span class="fs-5">Fruitport Qualifier</span><br/><span>11/18/23</span></div>
-							<ul class="mt-2 mb-0 pb-0 d-none">
-								<li>Ranked 1st after 43 qualifying matches</li>
-								<li>Ranked 2nd by OPR</li>
-								<li>Captain of Alliance 1</li>
-								<li>Innovation Award, 3rd place</li>
-								<li>Design Award, 2nd place</li>
-								<li>Inspire Award winner</li>
-								<li>Advanced to State Championship NW</li>
-							</ul>
-						</div>	
-					</div>
-					<div class="card-footer d-none">
-						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIFRQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
-						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MFFQ1/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
-		
-					</div>
-				</div>
-				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-30rem">
-					<div class="card-body p-4 d-flex gap-3">
-						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
-						<div>
-							<div class="fw-bold text-black-50"><span class="fs-5">Kentwood Qualifier</span><br/><span>11/4/23</span></div>
-							<ul class="mt-2 mb-0 pb-0 d-none">
-								<li>Ranked 9th after 39 qualifying matches</li>
-								<li>Ranked 5th by OPR</li>
-								<li>First pick by Alliance 3</li>
-								<li>Design Award winner</li>
-							</ul>
-						</div>
-				
-					</div>
-					<div class="card-footer d-none">
-						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIKEQx');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
-						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MKFQ/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
-		
-		
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		
-		
 		<div class="p-4 mt-0 d-flex bg-dark bg-opacity-50 gap-3 flex-column flex-sm-row justify-content-sm-center align-items-start">
 
 			<div class="card flex-basis-sm-25rem d-none">
