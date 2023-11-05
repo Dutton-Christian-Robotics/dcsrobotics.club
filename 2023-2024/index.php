@@ -16,13 +16,37 @@
 				<h2>DCS Defenders Robotics #15815</h2>
 				<h1 class="display-3 text-shadow-3">CenterStage</h1>			
 			</div>
-		</div>		
+		</div>	
+		
+		<div class="p-3 pb-md-2 d-flex flex-wrap justify-content-center align-items-start bg-dark text-white gap-4">
+			<div class="d-flex flex-column align-items-center gap-1 col-1 cursor-pointer" onclick="self.location.href='#bot'">
+				<i class="fa-solid fa-robot-astromech fa-2x"></i>
+				<span class="d-none d-md-block">Bot</span>
+			</div>
+			<div class="d-flex flex-column align-items-center gap-1 col-1 cursor-pointer" onclick="self.location.href='#team'">
+				<i class="fa-solid fa-users fa-2x"></i>
+				<span class="d-none d-md-block">Team</span>
+			</div>
+			<div class="d-flex flex-column align-items-center gap-1 col-1 cursor-pointer" onclick="self.location.href='#season'">
+				<i class="fa-solid fa-calendar fa-2x"></i>
+				<span class="d-none d-md-block">Season</span>
+			</div>
+			<div class="d-flex flex-column align-items-center gap-1 col-1 cursor-pointer" onclick="self.location.href='#game'">
+				<i class="fa-solid fa-hexagon-image fa-2x"></i>
+				<span class="d-none d-md-block">Game</span>
+			</div>
+			<div class="d-flex flex-column align-items-center gap-1 col-1 cursor-pointer" onclick="self.location.href='#organization'">
+				<i class="fa-solid fa-sitemap fa-2x"></i>
+				<span class="d-none d-md-block">Organization</span>
+			</div>
+
+		</div>	
 
 		<div class="p-3 p-md-5 mt-0 gap-3 d-flex flex-column flex-sm-row justify-content-sm-center align-items-start ">
 	
 			
 			<div class="d-flex flex-column text-white ">
-				<h5 class="w-auto text-headline fw-normal fs-2 fw-normal text-align-center d-inline-block text-shadow-1">Meet Our Bot</h5>
+				<h5 class="w-auto text-headline fw-normal fs-2 fw-normal text-align-center d-inline-block text-shadow-1"><a name="bot">Meet Our Bot</a></h5>
 				<table class="mt-md-3">
 					<tbody class="text-white fs-5 align-text-top">
 						<tr class="t">
@@ -70,7 +94,7 @@
 		</div>
 		
 		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5  bg-dark bg-opacity-50">
-			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Meet the Team</h5>
+			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1"><a name="team">Meet the Team</a></h5>
 			<div class="d-flex justify-content-center flex-column flex-md-row">
 				<div class="col-12 col-md-4 mt-3 p-2 bg-white">
 					<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/team_11-02-23.jpg" alt="Team photo taken on November 2, 2023." class="w-100"/></a>
@@ -81,7 +105,7 @@
 
 
 		<div class="d-flex flex-column p-3 p-md-5 gap-2 justify-content-center align-items-center">
-			<h5 class="w-auto text-headline text-align-center text-md-start fw-normal fs-2 text-white fw-normal d-inline-block text-shadow-1">Our Season</h5>
+			<h5 class="w-auto text-headline text-align-center text-md-start fw-normal fs-2 text-white fw-normal d-inline-block text-shadow-1"><a name="season">Our Season</a></h5>
 			
 			<div class="d-flex m-md-0 gap-3 flex-wrap justify-content-center w-100">
 				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-30rem">
@@ -180,7 +204,7 @@
 
 
 		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5 bg-dark bg-opacity-50">
-			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Meet the Game</h5>
+			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1"><a name="game">Meet the Game</a></h5>
 
 			<div class="d-flex gap-3 mt-3 flex-column flex-md-row align-items-md-start justify-content-md-center">
 				<div class="d-flex flex-basis-sm-40rem p-2 flex-column bg-white align-items-center rounded">
@@ -288,7 +312,7 @@
 		
 		
 		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5">
-			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1 mb-3">Our Team Organization</h5>
+			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1 mb-3"><a name="organization">Our Team Organization</a></h5>
 			<div class="d-flex align-items-start flex-column flex-md-row">
 				<div class="col-12 col-md-4 mt-3 p-2 bg-white d-none">
 					<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/ek_team_2022-11-04.jpg" alt="Photo of the DCS Robotics team at the East Kentwood qualifier on November 4, 2022." class="w-100"/></a>
@@ -657,147 +681,7 @@
 			</div>
 		</div>
 
-		<div class="p-4 mt-0 d-flex bg-dark bg-opacity-50 gap-3 flex-column flex-sm-row justify-content-sm-center align-items-start">
-
-			<div class="card flex-basis-sm-25rem d-none">
-				<div class="card-body text-secondary">
-					<h3 class="card-title d-flex align-items-center justify-content-between text-dark">
-						<span>8th Grade</span>
-					</h3>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Angell Chekin</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Emersen Roodvoets</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Lauren VanLaan</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Bradley Bykerk</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Luca Balsitis</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Brayden Teitsma</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Ben ?</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Gavin Griffen</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Mason Rozema</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Lucas Beezhold</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Nate Cardosa</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Caleb Zoodsma</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Kate Koeman</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Milo Cravino</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Kyleigh Rottman</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-
-				</div>
-				
-			</div>
-			<div class="card flex-basis-sm-25rem d-none">
-				<div class="card-body text-secondary">
-					<h3 class="card-title d-flex align-items-center justify-content-between text-dark">
-						<span>7th Grade</span>
-					</h3>
-					<div class="d-flex gap-2 mt-3">
-						<div><i class="fa-duotone fa-user fa-3x text-opacity-50 text-body fa-fw"></i></div>
-						<div>
-							<div class="text-dark">Grant</div>
-							<div class="small text-secondary role-label">?</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card flex-basis-sm-25rem d-none">
-				<div class="card-body text-secondary">
-					<h3 class="card-title d-flex align-items-center justify-content-between text-dark">
-						<span>Unknown</span>
-					</h3>
-					
-				</div>
-			</div>
-
-
-		</div>
+		
 <? include "{$_SERVER['DOCUMENT_ROOT']}/includes/footer.php"; ?>
 		<script src="/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 <? include "{$_SERVER['DOCUMENT_ROOT']}/includes/photoModal.php"; ?>				
