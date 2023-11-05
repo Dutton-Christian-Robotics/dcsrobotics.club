@@ -15,14 +15,14 @@
 		<div class="d-none bg-warning p-3 gap-4 justify-content-center">
 			<i class="fa-solid fa-tower-cell fa-3x"></i>
 			<div>
-				<div>Can't make it to the state championship at Calvin University, 12/16 &ndash; 12/17?</div>
-				<div><a href="https://www.twitch.tv/theorangealliance1" target="_blank" class="text-black">Watch us on the live event stream</a>, courtesy of the Orange Alliance.</div>
+				<div>Can't make it to the Kentwood Qualifier on November 4?</div>
+				<div><a href="https://theorangealliance.org/live" target="_blank" class="text-black">Watch us on the live event stream</a>, courtesy of the Orange Alliance. Select the "Kentwood" stream.</div>
 			</div>
 		</div>
 		<div class="p-3 p-md-5 mt-3 mt-md-0 gap-3 d-flex flex-column flex-md-row text-white align-items-md-start justify-content-lg-center">
 			<div class="order-1 order-md-0 flex-basis-sm-40rem">
-				<img src="/images/fruitport_inspire_2022-11-19.jpg" class="w-100 rounded" style=""/>
-				<div class="mt-1 text-center text-white-50">Photo after winning the Inspire Award at the Fruitport Qualifier (November 19, 2022)</div>
+				<img src="/images/team_11-02-23.jpg" class="w-100 rounded" style=""/>
+				<div class="mt-1 text-center text-white-50 d-none">Photo after winning the Inspire Award at the Fruitport Qualifier (November 19, 2022)</div>
 			</div>
 			<div class="card bg-transparent border-0 flex-basis-auto flex-basis-sm-40rem order-0 order-md-1">
 				<div class="card-body p-0 p-lg-4 text-shadow-1">
@@ -51,6 +51,14 @@
 							<div class="small text-secondary">The game for the 23-24 season is "CenterStage." Use this page for access to official game materials.</div>
 						</div>
 					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a xhref="/2020-2021">Highlights</a></div>
+							<div class="small text-secondary">Finished third place after Kentwood qualification matches.</div>
+						</div>
+					</div>
+
 			
 				</div>
 			</div>
@@ -81,10 +89,12 @@
 				<a href="https://duttonchristianschool.org/about-dcs/school-circle/" target="_blank"><img src="/images/sponsor_logos/dcs_school_circle.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
 				<a href="https://buistelectric.com" target="_blank"><img src="/images/sponsor_logos/buist_electric.png" class="mh-5rem bg-white p-1 rounded"/></a>
 				<a href="https://burgessconcrete.com" target="_blank"><img src="/images/sponsor_logos/burgess_concrete.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
-				<a href="https://www.bykerk.com" target="_blank"><img src="/images/sponsor_logos/bykerk_landscape_management.png" class="mh-5rem bg-white p-1 rounded"/></a>
+				
 				<a href="https://www.cascade-cdc.com" target="_blank"><img src="/images/sponsor_logos/cascade_die_casting_group.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://teamfcc.com" target="_blank"><img src="/images/sponsor_logos/fcc.png" class="mh-5rem bg-white p-1 rounded"/></a>
 				<a href="https://mbiautomation.com" target="_blank"><img src="/images/sponsor_logos/mbi_automation.png" class="mh-5rem bg-white p-1 rounded"/></a>
 				<a href="https://www.railtownbrewing.com" target="_blank"><img src="/images/sponsor_logos/railtown_brewing.png" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://www.bykerk.com" target="_blank"><img src="/images/sponsor_logos/bykerk_landscape_management.png" class="mh-5rem bg-white p-1 rounded d-none"/></a>
 			</div>
 		</div>
 

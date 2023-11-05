@@ -140,6 +140,14 @@
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-compass fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://ftc-docs.firstinspires.org/programming_resources/imu/imu.html" target="_blank">Universal IMU Interface</a></div>
+							<div class="small text-secondary">Details about setting up and accessing the newer API that covers both old and new IMUs.</div>
+						</div>
+					</div>
+
+					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-ruler fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div><a href="https://openodometry.weebly.com" target="_blank">OpenOdometry</a></div>

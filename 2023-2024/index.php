@@ -39,7 +39,7 @@
 						</tr>
 						<tr>
 							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Tilt</span></td>
-							<td class="p-2">powered by twin REV HD Hex motors with UltraPlanetary Gearbox, geared at 60:1</td>
+							<td class="p-2">powered by twin REV HD Hex motors with UltraPlanetary Gearbox, geared at 240:1</td>
 						</tr>
 						<tr>
 							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Wrist</span></td>
@@ -49,9 +49,9 @@
 							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Manipulator</span></td>
 							<td class="p-2">adhesive-based "sticky pads" with dual servo-actuated release mechanisms</td>
 						</tr>
-						<tr class="d-none">
+						<tr class="t">
 							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Awards</span></td>
-							<td class="p-2">Design Award 1st place (Kentwood), Design Award 2nd place (Fruitport), Innovation Award 3rd place (Fruitport)</td>
+							<td class="p-2">Innovate Award 2nd place (Kentwood)</td>
 						</tr>
 
 					</tbody>
@@ -68,8 +68,19 @@
 			</div>
 			
 		</div>
+		
+		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5  bg-dark bg-opacity-50">
+			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Meet the Team</h5>
+			<div class="d-flex justify-content-center flex-column flex-md-row">
+				<div class="col-12 col-md-4 mt-3 p-2 bg-white">
+					<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/team_11-02-23.jpg" alt="Team photo taken on November 2, 2023." class="w-100"/></a>
+				</div>
+			</div>
+		</div>		
+		
 
-		<div class="d-flex flex-column p-3 p-md-5 gap-2 justify-content-center align-items-center bg-dark bg-opacity-50">
+
+		<div class="d-flex flex-column p-3 p-md-5 gap-2 justify-content-center align-items-center">
 			<h5 class="w-auto text-headline text-align-center text-md-start fw-normal fs-2 text-white fw-normal d-inline-block text-shadow-1">Our Season</h5>
 			
 			<div class="d-flex m-md-0 gap-3 flex-wrap justify-content-center w-100">
@@ -100,18 +111,18 @@
 						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
 						<div>
 							<div class="fw-bold text-black-50"><span class="fs-5">Kentwood Qualifier</span><br/><span>11/4/23</span></div>
-							<ul class="mt-2 mb-0 pb-0 d-none">
-								<li>Ranked 9th after 39 qualifying matches</li>
-								<li>Ranked 5th by OPR</li>
-								<li>First pick by Alliance 3</li>
-								<li>Design Award winner</li>
+							<ul class="mt-2 mb-0 pb-0">
+								<li>Ranked 3rd after 47 qualifying matches</li>
+								<li>Captain of Alliance 3</li>
+								<li>Second place, Innovate Award</li>
 							</ul>
 						</div>
 				
 					</div>
-					<div class="card-footer d-none">
-						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIKEQx');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
-						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MKFQ/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
+					<div class="card-footer d-flex gap-2">
+						<button onclick="window.open('https://theorangealliance.org/live');" target="_new" class="d-none btn btn-secondary btn-sm">Live Stream (Kentwood Stream)</button>
+						<button onclick="window.open('https://ftc-events.firstinspires.org/2023/USMIKEQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+						<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-KEQ/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
 		
 		
 					</div>
@@ -140,6 +151,8 @@
 				
 			</div>
 		</div>
+		
+		
 
 		<div class="p-3 py-md-4 d-none flex-row flex-wrap justify-content-center gap-3 bg-dark align-items-center">
 			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport22/picture_001.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
@@ -166,7 +179,7 @@
 		
 
 
-		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5">
+		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5 bg-dark bg-opacity-50">
 			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1">Meet the Game</h5>
 
 			<div class="d-flex gap-3 mt-3 flex-column flex-md-row align-items-md-start justify-content-md-center">
@@ -273,7 +286,8 @@
 			</div>
 		</div>
 		
-		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5 bg-dark bg-opacity-50">
+		
+		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5">
 			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1 mb-3">Our Team Organization</h5>
 			<div class="d-flex align-items-start flex-column flex-md-row">
 				<div class="col-12 col-md-4 mt-3 p-2 bg-white d-none">
