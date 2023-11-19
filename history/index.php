@@ -41,11 +41,11 @@
 							<div class="small text-secondary">More information about the season's game and the DCS team.</div>
 						</div>
 					</div>
-					<div class="d-flex gap-3 mt-4 d-none">
+					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div><a xhref="/2020-2021">Highlights</a></div>
-							<div class="small text-secondary">Our best season so far: two qualifying events, one where we finished with a first ranking and the Inspire award. And our second time at states, where we ranked fifth and were chosen first by the Alliance 1 captain.</div>
+							<div class="small text-secondary">A great season so far. Part of alliances in two different qualifying events, one where we served as an alliance captain.</div>
 						</div>
 					</div>
 			

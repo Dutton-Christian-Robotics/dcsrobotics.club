@@ -55,7 +55,7 @@
 						</tr>
 						<tr>
 							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Drivetrain</span></td>
-							<td class="p-2">four wheel mecanum, each wheel powered by a REV HD Hex motor with UltraPlanetary Gearbox, geared at 12:1</td>
+							<td class="p-2">four wheel mecanum, each wheel powered by a REV HD Hex motor with UltraPlanetary Gearbox and 90 Degree Gearbox, geared at 12:1</td>
 						</tr>
 						<tr>
 							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Lift</span></td>
@@ -73,19 +73,23 @@
 							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Manipulator</span></td>
 							<td class="p-2">adhesive-based "sticky pads" with dual servo-actuated release mechanisms</td>
 						</tr>
+						<tr>
+							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Vision</span></td>
+							<td class="p-2">triple detection zone with mean saturation comparison, powered by Aluratek Ultra 2K Live camera and VisionPortal</td>
+						</tr>
 						<tr class="t">
 							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Awards</span></td>
-							<td class="p-2">Innovate Award 2nd place (Kentwood)</td>
+							<td class="p-2">Innovate Award 2nd place (Kentwood), Motivate Award 3rd place (Fruitport)</td>
 						</tr>
 
 					</tbody>
 				</table>
 			</div>
 			<div class="d-flex flex-basis-sm-20rem p-2 flex-column bg-white align-items-center">				
-				<img src="/images/centerstage_bandit_cad1.jpg" class="w-100"/>
+				<img src="/images/centerstage_bandit_cad1.jpg" class="w-100 rounded"/>
 			</div>
-			<div class="d-none flex-basis-sm-20rem flex-column bg-white align-items-center">				
-				<img src="/images/edward_cad1.jpg" class="w-100"/>
+			<div class="d-flex flex-basis-sm-20rem flex-column bg-white align-items-center">				
+				<img src="/images/photos_kentwood23/img_5692.jpg" class="w-100 bg-white p-1 rounded"/>
 			</div>
 			<div class="d-none flex-basis-sm-20rem flex-column bg-white align-items-center">				
 				<img src="/images/edward_cad2.jpg" class="w-100"/>
@@ -113,20 +117,20 @@
 						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
 						<div>
 							<div class="fw-bold text-black-50"><span class="fs-5">Fruitport Qualifier</span><br/><span>11/18/23</span></div>
-							<ul class="mt-2 mb-0 pb-0 d-none">
-								<li>Ranked 1st after 43 qualifying matches</li>
-								<li>Ranked 2nd by OPR</li>
-								<li>Captain of Alliance 1</li>
-								<li>Innovation Award, 3rd place</li>
-								<li>Design Award, 2nd place</li>
-								<li>Inspire Award winner</li>
-								<li>Advanced to State Championship NW</li>
+							<ul class="mt-2 mb-0 pb-0">
+								<li>Ranked 5th after 45 qualifying matches</li>
+								<li>First pick of Alliance 4</li>
+								<li class="">Motivate Award, 3rd place</li>
+								<li class="d-none">Design Award, 2nd place</li>
+								<li class="d-none">Inspire Award winner</li>
+								<li class="d-none">Advanced to State Championship NW</li>
 							</ul>
 						</div>	
 					</div>
-					<div class="card-footer d-none">
-						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIFRQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
-						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MFFQ1/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
+					<div class="card-footer d-flex gap-2">
+						<button onclick="window.open('https://www.twitch.tv/theorangealliance3');" target="_new" class="btn btn-secondary btn-sm">Live Stream</button>
+						<button onclick="window.open('https://ftc-events.firstinspires.org/2023/USMIFRQ2');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+						<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-FRQ2/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
 		
 					</div>
 				</div>

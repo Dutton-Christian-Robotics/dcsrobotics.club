@@ -56,6 +56,14 @@
 							<div class="small text-secondary">The information on this site is not very current, but it does provide some insight into different parts of the hardware system.</div>
 						</div>
 					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-gears fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://docs.revrobotics.com/ultraplanetary/ultraplanetary-gearbox/cartridge-details#actual-cartridge-gear-ratios" target="_blank">Ultraplanetary Gear Ratios</a></div>
+							<div class="small text-secondary">This document from REV identifies the actual gear ratios for ultraplanetary gear cartridges. The naming of each type of cartridge is based on a nominal ratio, and using the exact ratio may be important for things like calculating distance based on motor encoders.</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 			<div class="card flex-basis-auto flex-basis-sm-40rem m-3 m-md-0">
@@ -75,6 +83,13 @@
 						<div>
 							<div><a href="https://ftctutorials.com/translations/en-us/Robot/Mechanisms.pdf" target="_blank">Mechanisms</a></div>
 							<div class="small text-secondary">A presentation from "The Bionic Tigers", team 10464, that explains different types of control and manipulation mechanisms.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-circle-play fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://www.youtube.com/watch?v=PJjFdsnw0uY&t=1s" target="_blank">Smart Robot Servo Demo</a></div>
+							<div class="small text-secondary">This brief video from REV Robotics shows how to program their Smart Robot Servo&mdash;including setting limits and switching to continuous rotation mode.</div>
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4">

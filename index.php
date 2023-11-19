@@ -15,8 +15,8 @@
 		<div class="d-none bg-warning p-3 gap-4 justify-content-center">
 			<i class="fa-solid fa-tower-cell fa-3x"></i>
 			<div>
-				<div>Can't make it to the Kentwood Qualifier on November 4?</div>
-				<div><a href="https://theorangealliance.org/live" target="_blank" class="text-black">Watch us on the live event stream</a>, courtesy of the Orange Alliance. Select the "Kentwood" stream.</div>
+				<div>Can't make it to the Fruitport Qualifier on November 18?</div>
+				<div><a href="https://theorangealliance.org/live" target="_blank" class="text-black">Watch us on the live event stream</a>, courtesy of the Orange Alliance. Select the "Fruitport" stream. <a href="https://www.twitch.tv/theorangealliance3" class="text-black" target="_blank">This link may take your directly to the stream.</a></div>
 			</div>
 		</div>
 		<div class="p-3 p-md-5 mt-3 mt-md-0 gap-3 d-flex flex-column flex-md-row text-white align-items-md-start justify-content-lg-center">
@@ -55,7 +55,12 @@
 						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div><a xhref="/2020-2021">Highlights</a></div>
-							<div class="small text-secondary">Finished third place after Kentwood qualification matches.</div>
+							<div class="small text-secondary">
+								<ul>
+									<li>Finished third place after Kentwood qualification matches. Captain of Alliance&nbsp;3.</li>
+									<li>Ranked fifth after Fruitport qualification matches. Part of Alliance&nbsp;4.</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 
