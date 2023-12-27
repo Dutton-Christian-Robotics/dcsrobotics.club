@@ -148,9 +148,7 @@
 				
 					</div>
 					<div class="card-footer d-flex gap-2">
-						<button onclick="window.open('https://theorangealliance.org/live');" target="_new" class="d-none btn btn-secondary btn-sm">Live Stream (Kentwood Stream)</button>
-						<button onclick="window.open('https://ftc-events.firstinspires.org/2023/USMIKEQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
-						<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-KEQ/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
+						<button onclick="self.location.href='/2023-2024/events/kentwood/';" target="_self" class="btn btn-secondary btn-sm">Event Details</button>
 		
 		
 					</div>
