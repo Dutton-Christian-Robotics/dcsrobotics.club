@@ -20,11 +20,12 @@
 			</div>
 		</div>
 		<div class="p-3 p-md-5 mt-3 mt-md-0 gap-3 d-flex flex-column flex-md-row text-white align-items-md-start justify-content-lg-center">
-			<div class="order-1 order-md-0 flex-basis-sm-40rem">
+			<div class="d-none order-1 order-md-0 flex-basis-sm-40rem">
 				<img src="/images/team_11-02-23.jpg" class="w-100 rounded" style=""/>
 				<div class="mt-1 text-center text-white-50 d-none">Photo after winning the Inspire Award at the Fruitport Qualifier (November 19, 2022)</div>
 			</div>
 			<div class="card bg-transparent border-0 flex-basis-auto flex-basis-sm-40rem order-0 order-md-1">
+				<img src="/images/team_11-02-23.jpg" class="w-100 rounded" style=""/>
 				<div class="card-body p-0 p-lg-4 text-shadow-1">
 					<i class="fa-duotone fa-house-chimney fa-5x float-end"></i>
 					<h5 class="card-title text-headline fw-normal fs-2 border-bottom w-75 mb-3">Welcome!</h5>
@@ -33,6 +34,15 @@
 				</div>
 				
 			</div>
+			<div class="card text-bg-warning order-md-2" style="max-width:clamp(40rem, 40rem, 98vw);">
+				<div class="card-body mt-3">
+					<div class="text-center"><i class="fa-duotone fa-clipboard-check fa-6x text-black-50 mb-3"></i></div>
+					<h5 class="card-title text-headline text-warning-emphasis fs-3 text-center mb-3">Sign-up for 2024-2025!</h5>
+					<p class="fs-5">Interested in joining the 7th and 8th grade DCS Robotics team for our 24-25 season? <a href="https://docs.google.com/forms/d/e/1FAIpQLScY9UjOUsNwUn-yc1jrXTPPrLZGZuhkU5UaKV7d8XMHLZCtJw/viewform?usp=sf_link" target="_blank" class="link-dark">Express your interest with this Google form</a>!</p>
+					<p class="fs-5">And parents, we are always looking for adult mentors to help our team. No previous robotics experience is necessary.</p>
+				</div>
+			</div>
+
 		</div>
 		
 
@@ -45,13 +55,13 @@
 						<i class="fa-duotone fa-calendar-star fa-3x text-secondary"></i>
 					</h5>
 					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-hexagon-image fa-3x text-secondary fa-fw"></i></div>
+						<div><i class="fa-duotone fa-octopus fa-3x text-secondary fa-fw"></i></div>
 						<div>
-							<div class="fw-bold"><a href="/2023-2024">CenterStage</a></div>
-							<div class="small text-secondary">The game for the 23-24 season is "CenterStage." Use this page for access to official game materials.</div>
+							<div class="fw-bold"><a href="/2024-2025">Into The Deep</a></div>
+							<div class="small text-secondary">The game for the 24-25 season is "Into The Deep." After September 7, 2024 this page will have details about the year's challenge.</div>
 						</div>
 					</div>
-					<div class="d-flex gap-3 mt-4">
+					<div class="d-flex gap-3 mt-4 d-none">
 						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div><a xhref="/2020-2021">Highlights</a></div>

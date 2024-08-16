@@ -1,14 +1,14 @@
-<?
+<?php
 	error_reporting(E_ERROR);
 	$private = $_GET['pwd'] == "6729";
 ?><html>
 	<head>
 		<title>DCS Defenders Robotics</title>
-		<? include "{$_SERVER['DOCUMENT_ROOT']}/includes/header.php"; ?>
+		<?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/header.php"; ?>
   
 	</head>
 	<body>
-		<? include "{$_SERVER['DOCUMENT_ROOT']}/includes/navbar.php"; ?>
+		<?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/navbar.php"; ?>
 
 		<div class="position-relative h-20rem">
 			<div class="img-header"></div>

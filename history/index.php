@@ -17,6 +17,47 @@
 		
 		<div class="p-3 p-md-5 d-flex gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center flex-wrap">
 			<div class="card flex-basis-auto flex-basis-sm-30rem">
+					<div class="card-body">
+						<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
+							<div>
+								<h5 class="text-dcs-blue mb-0">Season 7: 2024-2025</h5>
+								<div>Into The Deep</div>
+							</div>
+							<i class="fa-duotone fa-octopus fa-2x text-secondary"></i>
+						</h3>
+						
+						<div class="mt-4">
+							<p>More information on this season will be available after September 7, 2024.</p>
+							<p>If you or your student are interested in being part of the team (we love adult mentors too) <a href="https://docs.google.com/forms/d/e/1FAIpQLScY9UjOUsNwUn-yc1jrXTPPrLZGZuhkU5UaKV7d8XMHLZCtJw/viewform?usp=sf_link" target="_blank" class="">let us know by completing this Google form</a>!
+						</div>
+				
+						<div class="d-none gap-3 mt-4">
+							<div><i class="fa-duotone fa-file-pdf fa-3x text-secondary fa-fw"></i></div>
+							<div>
+								<div><a href="https://firstinspiresst01.blob.core.windows.net/first-in-show-ftc/game-one-page.pdf" target="_blank">Game Description</a></div>
+								<div class="small text-secondary">Learn more about the season's game by reading the one page game summary.</div>
+							</div>
+						</div>
+				
+						<div class="d-none gap-3 mt-4">
+							<div><i class="fa-duotone fa-sitemap fa-3x text-secondary fa-fw"></i></div>
+							<div>
+								<div><a href="/2023-2024">Season Website</a></div>
+								<div class="small text-secondary">More information about the season's game and the DCS team.</div>
+							</div>
+						</div>
+						<div class="d-none gap-3 mt-4">
+							<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
+							<div>
+								<div><a xhref="/2020-2021">Highlights</a></div>
+								<div class="small text-secondary">A great season. Part of alliances in two different qualifying events, one where we served as an alliance captain.</div>
+							</div>
+						</div>
+				
+					</div>
+			</div>
+
+			<div class="card flex-basis-auto flex-basis-sm-30rem">
 				<div class="card-body">
 					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
 						<div>
