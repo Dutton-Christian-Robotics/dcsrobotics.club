@@ -12,6 +12,13 @@
 				<h2>FTC Team #15815</h2>
 			</div>
 		</div>
+		<div class="d-none bg-warning p-3 gap-4 justify-content-center fs-4">
+			<i class="fa-solid fa-tower-cell fa-3x text-black-50"></i>
+			<div>
+				<div class="fw-bold">Want to watch the big reveal for "Into the Deep"?</div>
+				<div><a href="https://www.youtube.com/watch?v=gy6nh_1mA18" target="_blank" class="text-black">Watch the live reveal on Youtube</a> on Saturday September 7, 2024 at 12pm EDT.</div>
+			</div>
+		</div>
 		<div class="d-none bg-warning p-3 gap-4 justify-content-center">
 			<i class="fa-solid fa-tower-cell fa-3x"></i>
 			<div>
@@ -19,8 +26,8 @@
 				<div><a href="https://theorangealliance.org/live" target="_blank" class="text-black">Watch us on the live event stream</a>, courtesy of the Orange Alliance. Select the "Fruitport" stream. <a href="https://www.twitch.tv/theorangealliance3" class="text-black" target="_blank">This link may take your directly to the stream.</a></div>
 			</div>
 		</div>
-		<div class="p-3 p-md-5 mt-3 mt-md-0 gap-3 d-flex flex-column flex-md-row text-white align-items-md-start justify-content-lg-center">
-			<div class="d-none order-1 order-md-0 flex-basis-sm-40rem">
+		<div class="p-3 p-md-5 mt-3 mt-md-0 gap-5 d-flex flex-column flex-md-row text-white align-items-md-start justify-content-lg-center">
+			<div class="order-1 order-md-0 flex-basis-sm-40rem d-none">
 				<img src="/images/team_11-02-23.jpg" class="w-100 rounded" style=""/>
 				<div class="mt-1 text-center text-white-50 d-none">Photo after winning the Inspire Award at the Fruitport Qualifier (November 19, 2022)</div>
 			</div>
@@ -29,12 +36,50 @@
 				<div class="card-body p-0 p-lg-4 text-shadow-1">
 					<i class="fa-duotone fa-house-chimney fa-5x float-end"></i>
 					<h5 class="card-title text-headline fw-normal fs-2 border-bottom w-75 mb-3">Welcome!</h5>
-					<p class="fs-5">Welcome to the home for Dutton Christian School's FTC robotics team, #15815. The team is currently in its sixth season, having started in the 2018-2019 academic year. Our FIRST Tech Challenge team includes approximately twenty students in grades 7 and 8.</p>
+					<p class="fs-5">Welcome to the home for Dutton Christian School's FTC robotics team, #15815. The team is currently in its seventh season, having started in the 2018-2019 academic year. Our FIRST Tech Challenge team includes approximately twenty students in grades 7 and 8.</p>
 					<p class="fs-5"><a href="https://duttonchristianschool.org" target="_blank" class="text-white">Dutton Christian School</a> is a private Christian school located to the south of Grand Rapids, Michigan. The school offers pre-K through 8th grades.</p>
 				</div>
 				
 			</div>
-			<div class="card text-bg-warning order-md-2" style="max-width:clamp(40rem, 40rem, 98vw);">
+			<div class="card text-bg-warning order-md-2" style="max-width:clamp(40rem, 45rem, 98vw);">
+				<div class="card-body mt-3">
+					<h5 class="card-title text-headline text-warning-emphasis fs-3 text-center mb-3">Important Team Announcements</h5>
+					<div class="d-none gap-3 mt-4 fs-5">
+						<div><i class="fa-duotone fa-shirt fa-5x text-black-50 fa-fw"></i></div>
+						<div>
+							<div class="fs-4 fw-bold">Get Your Robotics Gear!</div>
+							<div class="">
+								
+								<div>Every team member needs their robotics apparel! Please complete this sign-up form by September 28.</div>
+								<div class="text-end mt-3"><a href="https://docs.google.com/spreadsheets/d/1gZst8G2aXRMLEenR24ZiOmU8dyFDc4XLFa1WDicvlHQ/edit?gid=0#gid=0" target="_new" class="link-dark">Sign-up for robotics apparel</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="d-none gap-3 mt-4 fs-5">
+						<div><i class="fa-duotone fa-pen-field fa-5x text-black-50 fa-fw"></i></div>
+						<div>
+							<div class="fs-4 fw-bold">Register Your Team Member</div>
+							<div class="">
+								<div class="">The FIRST organization requires all student team members to be formally registered by their parent or guardian. Only registered students may attend FTC competitions.</div>
+								<div class="text-end mt-3"><a href="https://my.firstinspires.org/JoinTeam/Welcome/6aa5fbca-7a8c-11ef-a561-00505699b848" target="_new" class="link-dark">Register Now</a>!</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4 fs-5">
+						<div><i class="fa-duotone fa-calendar-days fa-5x text-black-50 fa-fw"></i></div>
+						<div class="w-100">
+							<div class="fs-4 fw-bold">Practice Schedule for 2024-2025</div>
+							<div>
+								<div class="">Need the practice and competition schedule for the year?</div>
+								<div class="text-end  mt-3"><a href="/schedule/schedule_24-25.pdf" target="_new" class="link-dark">Download it right here</a>!</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+				
+			<div class="card text-bg-warning order-md-2 d-none" style="max-width:clamp(40rem, 40rem, 98vw);">
 				<div class="card-body mt-3">
 					<div class="text-center"><i class="fa-duotone fa-clipboard-check fa-6x text-black-50 mb-3"></i></div>
 					<h5 class="card-title text-headline text-warning-emphasis fs-3 text-center mb-3">Sign-up for 2024-2025!</h5>
@@ -58,7 +103,7 @@
 						<div><i class="fa-duotone fa-octopus fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div class="fw-bold"><a href="/2024-2025">Into The Deep</a></div>
-							<div class="small text-secondary">The game for the 24-25 season is "Into The Deep." After September 7, 2024 this page will have details about the year's challenge.</div>
+							<div class="small text-secondary">The game for the 24-25 season is "Into The Deep." Learn more about this year's challenge and how we're meeting it!</div>
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4 d-none">

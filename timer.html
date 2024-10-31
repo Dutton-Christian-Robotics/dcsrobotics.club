@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet"> 
+
+    <title>Countdown Timer</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: black;
+        }
+        #timer {
+            font-size: 50vw;
+            color: #7DF9FF;
+            font-family: 'Seven Segment', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<div id="timer">00</div>
+
+<script>
+    let minutes = 270; // Set the number of minutes for the countdown
+    let time = minutes * 60; // Convert minutes to seconds
+
+    const timerElement = document.getElementById('timer');
+
+    const updateTimer = () => {
+        const minutes = Math.ceil(time / 60);
+        const seconds = time % 60;
+        timerElement.textContent = `${String(minutes).padStart(2, '0')}`;
+
+        if (time > 0) {
+            time--;
+        } else {
+            clearInterval(interval);
+            alert("Time's up!");
+        }
+    };
+
+    const interval = setInterval(updateTimer, 1000);
+    updateTimer(); // Initial call to display the timer immediately
+</script>
+
+</body>
+</html>
