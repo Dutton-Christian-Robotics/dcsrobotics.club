@@ -31,7 +31,7 @@
 				<img src="/images/team_11-02-23.jpg" class="w-100 rounded" style=""/>
 				<div class="mt-1 text-center text-white-50 d-none">Photo after winning the Inspire Award at the Fruitport Qualifier (November 19, 2022)</div>
 			</div>
-			<div class="card bg-transparent border-0 flex-basis-auto flex-basis-sm-40rem order-0 order-md-1">
+			<div class="card bg-transparent text-white border-0 flex-basis-auto flex-basis-sm-40rem order-0 order-md-1">
 				<img src="/images/team_11-02-23.jpg" class="w-100 rounded" style=""/>
 				<div class="card-body p-0 p-lg-4 text-shadow-1">
 					<i class="fa-duotone fa-house-chimney fa-5x float-end"></i>
@@ -63,6 +63,15 @@
 								<div class="">The FIRST organization requires all student team members to be formally registered by their parent or guardian. Only registered students may attend FTC competitions.</div>
 								<div class="text-end mt-3"><a href="https://my.firstinspires.org/JoinTeam/Welcome/6aa5fbca-7a8c-11ef-a561-00505699b848" target="_new" class="link-dark">Register Now</a>!</div>
 							</div>
+						</div>
+					</div>
+					<div class="d-none gap-3 mt-4 fs-5">
+						<div><i class="fa-duotone fa-tower-cell fa-5x text-black-50 fa-fw"></i></div>
+						<div class="w-100">
+						<div class="fs-4 fw-bold">Can't make it to Kentwood on November 2?</div>
+							<div><a href="https://www.twitch.tv/theorangealliance3" target="_blank" class="text-black">Watch us on the live event stream</a>, courtesy of the Orange Alliance. You can also visit the <a href="https://ftc-events.firstinspires.org/2024/USMIKEQ" target="_blank" class="text-black">FTC Event page</button> for results.</div>
+							<div class="text-end  mt-3"><a href="/2024-2025/events/kentwood" class="link-dark">Details</a></div>
+
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4 fs-5">
@@ -106,14 +115,14 @@
 							<div class="small text-secondary">The game for the 24-25 season is "Into The Deep." Learn more about this year's challenge and how we're meeting it!</div>
 						</div>
 					</div>
-					<div class="d-flex gap-3 mt-4 d-none">
+					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div><a xhref="/2020-2021">Highlights</a></div>
 							<div class="small text-secondary">
 								<ul>
-									<li>Finished third place after Kentwood qualification matches. Captain of Alliance&nbsp;3.</li>
-									<li>Ranked fifth after Fruitport qualification matches. Part of Alliance&nbsp;4.</li>
+									<li>Finished ninth place and part of Alliance 3 at the <a href="/2024-2025/events/kentwood">Kentwood qualification event</a>.</li>
+									<li>Winner of the Design Award at Kentwood.</li>
 								</ul>
 							</div>
 						</div>

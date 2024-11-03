@@ -46,11 +46,11 @@
 						</div>
 				
 				
-						<div class="d-none gap-3 mt-4">
+						<div class="d-flex gap-3 mt-4">
 							<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
 							<div>
 								<div><a xhref="/2020-2021">Highlights</a></div>
-								<div class="small text-secondary">A great season. Part of alliances in two different qualifying events, one where we served as an alliance captain.</div>
+								<div class="small text-secondary">Alliance 3 partner at Kentwood, and winner of the Design Award.</div>
 							</div>
 						</div>
 				

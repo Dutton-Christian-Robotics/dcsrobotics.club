@@ -126,15 +126,22 @@
 						<div>
 							<div class="fw-bold text-black-50"><span class="fs-5">Kentwood Qualifier</span><br/><span>11/2/24</span></div>
 							<ul class="mt-2 mb-0 pb-0">
-								<li>Stay tuned!</li>
+								<li>Ranked ninth at the end of qualifying matches</li>
+								<li>Chosen as partner for Alliance 3</li>
+								<li>Advanced to Playoff Round 5</li>
+								<li>Winner of the Design Award</li>
 							</ul>
 						</div>
 				
 					</div>
-					<div class="card-footer d-flex gap-2">
-						<button onclick="window.open('https://www.twitch.tv/theorangealliance3');" target="_new" class="btn btn-secondary btn-sm">Live Stream</button>
-						<button onclick="window.open('https://ftc-events.firstinspires.org/2024/USMIKEQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
-						<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-FRQ2/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
+					<div class="card-footer d-flex justify-content-between gap-2">
+						<a href="/2024-2025/events/kentwood" class="btn btn-dark btn-sm text-white" role="button">Details</a>
+
+						<div class="d-flex gap-2">
+							<button onclick="window.open('https://www.twitch.tv/theorangealliance3');" target="_new" class="btn btn-secondary btn-sm">Live Stream</button>
+							<button onclick="window.open('https://ftc-events.firstinspires.org/2024/USMIKEQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+							<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-FRQ2/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
+						</div>
 					
 					</div>
 
@@ -425,13 +432,6 @@
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">Joslyn D.H.</div>
-									<div class="small text-secondary role-label">?th Grade</div>
-								</div>
-							</div>
-							<div class="team-member">
-								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
-								<div>
 									<div class="text-dark">Abby D.V.</div>
 									<div class="small text-secondary role-label">7th Grade</div>
 								</div>
@@ -489,6 +489,14 @@
 						</div>
 						<? if ($private) { ?>
 						<div class="card-footer pt-3 team-members">
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Joslyn D.H.</div>
+									<div class="small text-secondary role-label">?th Grade</div>
+								</div>
+							</div>
+
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
