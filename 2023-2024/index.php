@@ -127,7 +127,11 @@
 							</ul>
 						</div>	
 					</div>
-					<div class="card-footer d-flex gap-2">
+					<div class="card-footer d-flex gap-2 justify-content-end">
+						<a href="/2023-2024/events/fruitport" class="btn btn-dark btn-sm text-white" role="button">Details</a>
+					</div>
+
+					<div class="card-footer d-flex gap-2 d-none">
 						<button onclick="window.open('https://www.twitch.tv/theorangealliance3');" target="_new" class="btn btn-secondary btn-sm">Live Stream</button>
 						<button onclick="window.open('https://ftc-events.firstinspires.org/2023/USMIFRQ2');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
 						<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-FRQ2/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
@@ -147,10 +151,8 @@
 						</div>
 				
 					</div>
-					<div class="card-footer d-flex gap-2">
-						<button onclick="self.location.href='/2023-2024/events/kentwood/';" target="_self" class="btn btn-secondary btn-sm">Event Details</button>
-		
-		
+					<div class="card-footer d-flex gap-2 justify-content-end">
+						<a href="/2023-2024/events/kentwood" class="btn btn-dark btn-sm text-white" role="button">Details</a>
 					</div>
 				</div>
 				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-30rem">

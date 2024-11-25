@@ -105,9 +105,11 @@
 							</ul>
 						</div>	
 					</div>
-					<div class="card-footer">
-						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIFRQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
-						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MFFQ1/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
+					<div class="card-footer d-flex justify-content-end">
+						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIFRQ');" target="_new" class="btn btn-secondary btn-sm d-none">FTC Event Results</button>
+						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MFFQ1/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
+						<a href="/2022-2023/events/fruitport" class="btn btn-dark btn-sm text-white" role="button">Details</a>
+
 
 					</div>
 				</div>
@@ -125,9 +127,10 @@
 						</div>
 				
 					</div>
-					<div class="card-footer">
-						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIKEQx');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
-						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MKFQ/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
+					<div class="card-footer d-flex justify-content-end">
+						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMIKEQx');" target="_new" class="btn btn-secondary btn-sm d-none">FTC Event Results</button>
+						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MKFQ/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
+						<a href="/2022-2023/events/kentwood" class="btn btn-dark btn-sm text-white" role="button">Details</a>
 
 
 					</div>

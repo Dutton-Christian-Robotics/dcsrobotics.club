@@ -50,6 +50,8 @@
 							<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
 							<div>
 								<div><a xhref="/2020-2021">Highlights</a></div>
+								<div class="small text-secondary">Advanced to the Michigan state championship.</div>
+								<div class="small text-secondary">Member of the 2nd place alliance, third place for the Inspire award at Fruitport.</div>
 								<div class="small text-secondary">Alliance 3 partner at Kentwood, and winner of the Design Award.</div>
 							</div>
 						</div>

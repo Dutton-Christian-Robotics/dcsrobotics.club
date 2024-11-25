@@ -51,6 +51,27 @@
 							<div class="small text-secondary">This simple site allows you to quickly run basic Java code.</div>
 						</div>
 					</div>
+					
+				</div>
+			</div>
+			<div class="card flex-basis-auto flex-basis-sm-40rem m-3 m-md-0">
+				<div class="card-body">
+					<h3 class="card-title fw-bold">The Basics</h3>
+
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-compass fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a xhref="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/onbot-java-guide.pdf" target="_blank">OnBot Java Guide</a></div>
+							<div class="small text-secondary">This official guide from FTC covers the basics of setting up a robot and then programming it using the Java tools built into the Robot Controller.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-compass fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a xhref="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/android-studio-guide.pdf" target="_blank">Android Studio Guide</a></div>
+							<div class="small text-secondary">The FTC also provides this guide, which also covers the very basics of setting up a robot. For this guide, programming examples presume you will be using the Android studio IDE.</div>
+						</div>
+					</div>
 					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-presentation-screen fa-3x text-secondary fa-fw"></i></div>
 						<div>
@@ -58,12 +79,6 @@
 							<div class="small text-secondary">Some of the content in these slides is slightly out-of-date, but it contains a good overview of basic ideas involved in programming FTC robots.</div>
 						</div>
 					</div>
-					
-				</div>
-			</div>
-			<div class="card flex-basis-auto flex-basis-sm-40rem m-3 m-md-0">
-				<div class="card-body">
-					<h3 class="card-title fw-bold">The Basics</h3>
 
 					<div class="d-none gap-3 mt-4">
 						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
@@ -82,20 +97,7 @@
 					</div>
 
 
-					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-compass fa-3x text-secondary fa-fw"></i></div>
-						<div>
-							<div><a xhref="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/onbot-java-guide.pdf" target="_blank">OnBot Java Guide</a></div>
-							<div class="small text-secondary">This official guide from FTC covers the basics of setting up a robot and then programming it using the Java tools built into the Robot Controller.</div>
-						</div>
-					</div>
-					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-compass fa-3x text-secondary fa-fw"></i></div>
-						<div>
-							<div><a xhref="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/android-studio-guide.pdf" target="_blank">Android Studio Guide</a></div>
-							<div class="small text-secondary">The FTC also provides this guide, which also covers the very basics of setting up a robot. For this guide, programming examples presume you will be using the Android studio IDE.</div>
-						</div>
-					</div>
+
 
 					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-circle-play fa-3x text-secondary fa-fw"></i></div>
@@ -104,6 +106,38 @@
 							<div class="small text-secondary">These short YouTube videos, created by FTC, explore how to use various REV robotics components.</div>
 						</div>
 					</div>
+					
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://github.com/FIRST-Tech-Challenge/FtcRobotController" target="_blank">FtcRobotController repository</a></div>
+							<div class="small text-secondary">This repository contains the code for the FTC Robot Controller app. Version 10 is the official version for Into the Deep in 2024-2025.</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="card flex-basis-auto flex-basis-sm-40rem m-3 m-md-0 d-flex">
+				<div class="card-body">
+					<h3 class="card-title fw-bold">Team Resources</h3>
+	
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://github.com/Dutton-Christian-Robotics/FtcRobotController-DCS-IntoTheDeep" target="_blank">DCS IntoTheDeep repository</a></div>
+							<div class="small text-secondary">This repository contains our team's version of the FtcRobotController app, including our programming frameworks and opmodes.</div>
+						</div>
+					</div>
+
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://github.com/Dutton-Christian-Robotics/FtcRobotController-DCS-IntoTheDeep" target="_blank">OutreachBot repository</a></div>
+							<div class="small text-secondary">This repository contains the robot controller app for the separate robot used for community outreach events.</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 
@@ -112,10 +146,10 @@
 					<h3 class="card-title fw-bold">Advanced</h3>
 
 					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
+						<div><i class="fa-duotone fa-book-open-cover fa-3x text-secondary fa-fw"></i></div>
 						<div>
-							<div><a href="https://github.com/FIRST-Tech-Challenge/FtcRobotController" target="_blank">FtcRobotController repository</a></div>
-							<div class="small text-secondary">This repository contains the code for the FTC Robot Controller app. Version 10 is the official version for Into the Deep in 2024-2025.</div>
+							<div><a href="https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Advanced-Topics" target="_blank">FTC "Advanced Topics" Tutorials</a></div>
+							<div class="small text-secondary">These tutorials cover topics like object detection, managing electrostatic discharge, etc.</div>
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4">
@@ -126,20 +160,6 @@
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-book-open-cover fa-3x text-secondary fa-fw"></i></div>
-						<div>
-							<div><a href="https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Advanced-Topics" target="_blank">FTC "Advanced Topics" Tutorials</a></div>
-							<div class="small text-secondary">These tutorials cover topics like object detection, managing electrostatic discharge, etc.</div>
-						</div>
-					</div>
-					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-road fa-3x text-secondary fa-fw"></i></div>
-						<div>
-							<div><a href="https://learnroadrunner.com" target="_blank">RoadRunner</a></div>
-							<div class="small text-secondary">RoadRunner is a motion planning library that can be used for precision navigation.</div>
-						</div>
-					</div>
-					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-compass fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div><a href="https://ftc-docs.firstinspires.org/programming_resources/imu/imu.html" target="_blank">Universal IMU Interface</a></div>
@@ -147,13 +167,6 @@
 						</div>
 					</div>
 
-					<div class="d-flex gap-3 mt-4">
-						<div><i class="fa-duotone fa-ruler fa-3x text-secondary fa-fw"></i></div>
-						<div>
-							<div><a href="https://openodometry.weebly.com" target="_blank">OpenOdometry</a></div>
-							<div class="small text-secondary">Information about building "dead wheel" odometry pods for more precise motion control.</div>
-						</div>
-					</div>
 
 					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-arrow-trend-up fa-3x text-secondary fa-fw"></i></div>
@@ -172,7 +185,29 @@
 
 				</div>
 			</div>
+
+			<div class="card flex-basis-auto flex-basis-sm-40rem m-3 m-md-0 d-flex">
+				<div class="card-body">
+					<h3 class="card-title fw-bold">Localization and Odometry</h3>
 			
+				<div class="d-flex gap-3 mt-4">
+					<div><i class="fa-duotone fa-road fa-3x text-secondary fa-fw"></i></div>
+					<div>
+						<div><a href="https://learnroadrunner.com" target="_blank">RoadRunner</a></div>
+						<div class="small text-secondary">RoadRunner is a motion planning library that can be used for precision navigation.</div>
+					</div>
+				</div>
+				<div class="d-flex gap-3 mt-4">
+					<div><i class="fa-duotone fa-ruler fa-3x text-secondary fa-fw"></i></div>
+					<div>
+						<div><a href="https://openodometry.weebly.com" target="_blank">OpenOdometry</a></div>
+						<div class="small text-secondary">Information about building "dead wheel" odometry pods for more precise motion control.</div>
+					</div>
+				</div>
+
+			
+				</div>
+			</div>			
 			<div class="card flex-basis-auto flex-basis-sm-40rem m-3 m-md-0 d-flex">
 				<div class="card-body">
 					<h3 class="card-title fw-bold">Vision</h3>

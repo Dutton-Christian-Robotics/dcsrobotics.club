@@ -107,17 +107,50 @@
 					<div class="card-body p-4 d-flex gap-3">
 						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
 						<div>
-							<div class="fw-bold text-black-50"><span class="fs-5">Fruitport Qualifier</span><br/><span>11/23/24</span></div>
+							<div class="fw-bold text-black-50"><span class="fs-5">MI State Championship</span><br/><span>12/13/24 &ndash; 12/14/24</span></div>
 							<ul class="mt-2 mb-0 pb-0">
-								<li>Stay tuned!</li>
+								<li>Stay Tuned!</li>
+				
 							</ul>
 						</div>	
 					</div>
-					<div class="card-footer d-none gap-2">
-						<button onclick="window.open('https://www.twitch.tv/theorangealliance3');" target="_new" class="btn btn-secondary btn-sm">Live Stream</button>
-						<button onclick="window.open('https://ftc-events.firstinspires.org/2023/USMIFRQ2');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
-						<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-FRQ2/');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
-		
+					<div class="card-footer d-flex justify-content-between gap-2">
+					
+						<div class="d-flex gap-2">
+							<button onclick="window.open('https://www.twitch.tv/theorangealliance3');" target="_new" class="btn btn-secondary btn-sm d-none">Live Stream</button>
+							<button onclick="window.open('https://ftc-events.firstinspires.org/2024/USMICMP');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+							<button onclick="window.open('https://docs.google.com/document/d/1VY1JWbrDPFXlznyh6ETuRHf18rO2PrGK2RrdO6pnHGg/pub');" target="_new" class="btn btn-secondary btn-sm d-none">Event Info</button>
+							<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-FRQ2/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
+						</div>
+						<a href="/2024-2025/events/mistate" class="btn btn-dark btn-sm text-white" role="button">Details</a>
+					
+					</div>
+				</div>
+				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-30rem">
+					<div class="card-body p-4 d-flex gap-3">
+						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
+						<div>
+							<div class="fw-bold text-black-50"><span class="fs-5">Fruitport Qualifier</span><br/><span>11/23/24</span></div>
+							<ul class="mt-2 mb-0 pb-0">
+								<li>Ranked 10th at the end of qualifying matches</li>
+								<li>Chosen as partner for Alliance 3</li>
+								<li>Third place, Inspire Award</li>
+								<li>Member of 2nd place alliance</li>
+								<li>Advanced to state championship</li>
+
+							</ul>
+						</div>	
+					</div>
+					<div class="card-footer d-flex justify-content-between gap-2">
+					
+						<div class="d-flex gap-2">
+							<button onclick="window.open('https://www.twitch.tv/theorangealliance3');" target="_new" class="btn btn-secondary btn-sm d-none">Live Stream</button>
+							<button onclick="window.open('https://ftc-events.firstinspires.org/2024/USMIFRQ2');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+							<button onclick="window.open('https://docs.google.com/document/d/1VY1JWbrDPFXlznyh6ETuRHf18rO2PrGK2RrdO6pnHGg/pub');" target="_new" class="btn btn-secondary btn-sm d-none">Event Info</button>
+							<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-FRQ2/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
+						</div>
+						<a href="/2024-2025/events/fruitport" class="btn btn-dark btn-sm text-white" role="button">Details</a>
+					
 					</div>
 				</div>
 				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-30rem">
@@ -135,13 +168,13 @@
 				
 					</div>
 					<div class="card-footer d-flex justify-content-between gap-2">
-						<a href="/2024-2025/events/kentwood" class="btn btn-dark btn-sm text-white" role="button">Details</a>
-
 						<div class="d-flex gap-2">
 							<button onclick="window.open('https://www.twitch.tv/theorangealliance3');" target="_new" class="btn btn-secondary btn-sm">Live Stream</button>
 							<button onclick="window.open('https://ftc-events.firstinspires.org/2024/USMIKEQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
 							<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-FRQ2/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
 						</div>
+						<a href="/2024-2025/events/kentwood" class="btn btn-dark btn-sm text-white" role="button">Details</a>
+
 					
 					</div>
 

@@ -19,20 +19,13 @@
 				<div><a href="https://www.youtube.com/watch?v=gy6nh_1mA18" target="_blank" class="text-black">Watch the live reveal on Youtube</a> on Saturday September 7, 2024 at 12pm EDT.</div>
 			</div>
 		</div>
-		<div class="d-none bg-warning p-3 gap-4 justify-content-center">
-			<i class="fa-solid fa-tower-cell fa-3x"></i>
-			<div>
-				<div>Can't make it to the Fruitport Qualifier on November 18?</div>
-				<div><a href="https://theorangealliance.org/live" target="_blank" class="text-black">Watch us on the live event stream</a>, courtesy of the Orange Alliance. Select the "Fruitport" stream. <a href="https://www.twitch.tv/theorangealliance3" class="text-black" target="_blank">This link may take your directly to the stream.</a></div>
-			</div>
-		</div>
 		<div class="p-3 p-md-5 mt-3 mt-md-0 gap-5 d-flex flex-column flex-md-row text-white align-items-md-start justify-content-lg-center">
 			<div class="order-1 order-md-0 flex-basis-sm-40rem d-none">
 				<img src="/images/team_11-02-23.jpg" class="w-100 rounded" style=""/>
 				<div class="mt-1 text-center text-white-50 d-none">Photo after winning the Inspire Award at the Fruitport Qualifier (November 19, 2022)</div>
 			</div>
 			<div class="card bg-transparent text-white border-0 flex-basis-auto flex-basis-sm-40rem order-0 order-md-1">
-				<img src="/images/team_11-02-23.jpg" class="w-100 rounded" style=""/>
+				<img src="/images/dcsrobotics_2425.jpg" class="w-100 rounded" style=""/>
 				<div class="card-body p-0 p-lg-4 text-shadow-1">
 					<i class="fa-duotone fa-house-chimney fa-5x float-end"></i>
 					<h5 class="card-title text-headline fw-normal fs-2 border-bottom w-75 mb-3">Welcome!</h5>
@@ -43,7 +36,7 @@
 			</div>
 			<div class="card text-bg-warning order-md-2" style="max-width:clamp(40rem, 45rem, 98vw);">
 				<div class="card-body mt-3">
-					<h5 class="card-title text-headline text-warning-emphasis fs-3 text-center mb-3">Important Team Announcements</h5>
+					<h5 class="card-title text-headline text-warning-emphasis fs-3 text-center mb-3">Team Announcements</h5>
 					<div class="d-none gap-3 mt-4 fs-5">
 						<div><i class="fa-duotone fa-shirt fa-5x text-black-50 fa-fw"></i></div>
 						<div>
@@ -68,10 +61,18 @@
 					<div class="d-none gap-3 mt-4 fs-5">
 						<div><i class="fa-duotone fa-tower-cell fa-5x text-black-50 fa-fw"></i></div>
 						<div class="w-100">
-						<div class="fs-4 fw-bold">Can't make it to Kentwood on November 2?</div>
-							<div><a href="https://www.twitch.tv/theorangealliance3" target="_blank" class="text-black">Watch us on the live event stream</a>, courtesy of the Orange Alliance. You can also visit the <a href="https://ftc-events.firstinspires.org/2024/USMIKEQ" target="_blank" class="text-black">FTC Event page</button> for results.</div>
-							<div class="text-end  mt-3"><a href="/2024-2025/events/kentwood" class="link-dark">Details</a></div>
+						<div class="fs-4 fw-bold">Can't make it to Fruitport on November 23?</div>
+							<div><a href="https://www.twitch.tv/theorangealliance3" target="_blank" class="text-black">Watch us on the live event stream</a>, courtesy of the Orange Alliance. You can also visit the <a href="https://ftc-events.firstinspires.org/2024/USMIFRQ2" target="_blank" class="text-black">FTC Event page</button> for results.</div>
+							<div class="text-end  mt-3"><a href="/2024-2025/events/fruitport" class="link-dark">Details</a></div>
 
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4 fs-5">
+						<div><i class="fa-duotone fa-circle-exclamation fa-5x text-black-50 fa-fw"></i></div>
+						<div class="w-100">
+						<div class="fs-4 fw-bold">We're Headed to States!</div>
+							<div>From earning third place for the Inspire Award at our Fruitport competition, we're headed to the Michigan state championship in December. More details to come!</div>
+					
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4 fs-5">
@@ -121,6 +122,7 @@
 							<div><a xhref="/2020-2021">Highlights</a></div>
 							<div class="small text-secondary">
 								<ul>
+									<li>Finished in 10th place and were part of Alliance 3 at the <a href="/2024-2025/events/fruitport">Fruitport qualification event</a> <b>and advanced to state championship!</b></li>
 									<li>Finished ninth place and part of Alliance 3 at the <a href="/2024-2025/events/kentwood">Kentwood qualification event</a>.</li>
 									<li>Winner of the Design Award at Kentwood.</li>
 								</ul>
@@ -251,5 +253,6 @@
 <? include "{$_SERVER['DOCUMENT_ROOT']}/includes/footer.php"; ?>
 		<script src="/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 <? include "{$_SERVER['DOCUMENT_ROOT']}/includes/photoModal.php"; ?>		
+
 	</body>
 </html>
