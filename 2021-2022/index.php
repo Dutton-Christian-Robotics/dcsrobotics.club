@@ -77,8 +77,9 @@
 							</ul>
 						</div>	
 					</div>
-					<div class="card-footer d-flex">
-						<button onclick="window.open('https://theorangealliance.org/events/2122-FIM-MKQ/rankings');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
+					<div class="card-footer d-flex justify-content-end">
+						<a href="/2021-2022/events/kentwood" class="btn btn-dark btn-sm text-white" role="button">Details</a>
+
 		
 					</div>
 				</div>

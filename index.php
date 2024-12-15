@@ -63,19 +63,21 @@
 						<div class="w-100">
 						<div class="fs-4 fw-bold">Can't make it to Fruitport on November 23?</div>
 							<div><a href="https://www.twitch.tv/theorangealliance3" target="_blank" class="text-black">Watch us on the live event stream</a>, courtesy of the Orange Alliance. You can also visit the <a href="https://ftc-events.firstinspires.org/2024/USMIFRQ2" target="_blank" class="text-black">FTC Event page</button> for results.</div>
-							<div class="text-end  mt-3"><a href="/2024-2025/events/fruitport" class="link-dark">Details</a></div>
+							<div class="text-end mt-3"><a href="/2024-2025/events/fruitport" class="link-dark">Details</a></div>
 
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4 fs-5">
 						<div><i class="fa-duotone fa-circle-exclamation fa-5x text-black-50 fa-fw"></i></div>
 						<div class="w-100">
-						<div class="fs-4 fw-bold">We're Headed to States!</div>
-							<div>From earning third place for the Inspire Award at our Fruitport competition, we're headed to the Michigan state championship in December. More details to come!</div>
+						<div class="fs-4 fw-bold">The State Championship is here!</div>
+							<div>From earning third place for the Inspire Award at our Fruitport competition, we're headed to the Michigan state championship in December.</div>
+							<div class="text-end mt-3"><a href="/2024-2025/events/mistate" class="link-dark">Event Details, with Results</a> &bull; <a href="/2024-2025/events/mistate/schedule.php" class="link-dark">Schedule</a> &bull; <a href="https://www.twitch.tv/theorangealliance1" target="_new">Live Stream</a></div>
+
 					
 						</div>
 					</div>
-					<div class="d-flex gap-3 mt-4 fs-5">
+					<div class="d-none gap-3 mt-4 fs-5">
 						<div><i class="fa-duotone fa-calendar-days fa-5x text-black-50 fa-fw"></i></div>
 						<div class="w-100">
 							<div class="fs-4 fw-bold">Practice Schedule for 2024-2025</div>
@@ -122,6 +124,7 @@
 							<div><a xhref="/2020-2021">Highlights</a></div>
 							<div class="small text-secondary">
 								<ul>
+									<li>Finished in 18th place in our division during our third time at the Michigan State Championship; selected as a partner for Alliance 4.</li>
 									<li>Finished in 10th place and were part of Alliance 3 at the <a href="/2024-2025/events/fruitport">Fruitport qualification event</a> <b>and advanced to state championship!</b></li>
 									<li>Finished ninth place and part of Alliance 3 at the <a href="/2024-2025/events/kentwood">Kentwood qualification event</a>.</li>
 									<li>Winner of the Design Award at Kentwood.</li>
@@ -158,14 +161,23 @@
 			<div class="d-flex flex-row flex-wrap justify-content-center gap-3">
 				<a href="http://duttonchristianschool.org" target="_blank"><img src="/images/sponsor_logos/dscs.png" class="mh-5rem bg-white p-1 rounded"/></a>
 				<a href="https://duttonchristianschool.org/about-dcs/school-circle/" target="_blank"><img src="/images/sponsor_logos/dcs_school_circle.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://bvmechanical.com" target="_blank"><img src="/images/sponsor_logos/bv_mechanical.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://branns.com" target="_blank"><img src="/images/sponsor_logos/branns.png" class="mh-5rem bg-white p-1 rounded"/></a>
 				<a href="https://buistelectric.com" target="_blank"><img src="/images/sponsor_logos/buist_electric.png" class="mh-5rem bg-white p-1 rounded"/></a>
 				<a href="https://burgessconcrete.com" target="_blank"><img src="/images/sponsor_logos/burgess_concrete.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
 				
-				<a href="https://www.cascade-cdc.com" target="_blank"><img src="/images/sponsor_logos/cascade_die_casting_group.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://eaglecreekhomes.net" target="_blank"><img src="/images/sponsor_logos/eagle_creek_homes.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
 				<a href="https://teamfcc.com" target="_blank"><img src="/images/sponsor_logos/fcc.png" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://gainespediatricdentistry.com" target="_blank"><img src="/images/sponsor_logos/gaines_pediatric_dentistry.png" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://www.facebook.com/handsonhomerepair/" target="_blank"><img src="/images/sponsor_logos/hands_on_home_repair.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
 				<a href="https://mbiautomation.com" target="_blank"><img src="/images/sponsor_logos/mbi_automation.png" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="javascript:void(0);" target="_blank"><img src="/images/sponsor_logos/parker.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="javascript:void(0);" target="_blank"><img src="/images/sponsor_logos/pcr.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://www.pmsi.cc" target="_blank"><img src="/images/sponsor_logos/prism.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
 				<a href="https://www.railtownbrewing.com" target="_blank"><img src="/images/sponsor_logos/railtown_brewing.png" class="mh-5rem bg-white p-1 rounded"/></a>
-				<a href="https://www.bykerk.com" target="_blank"><img src="/images/sponsor_logos/bykerk_landscape_management.png" class="mh-5rem bg-white p-1 rounded d-none"/></a>
+				<a href="javascript:void(0);" target="_blank"><img src="/images/sponsor_logos/savy.jpg" class="mh-5rem bg-white p-1 rounded"/></a>
+				<a href="https://www.bykerk.com" target="_blank"><img src="/images/sponsor_logos/trubuilt.png" class="mh-5rem bg-white p-1 rounded "/></a>
+				<a href="https://www.trubuiltbuildersmi.com" target="_blank"><img src="/images/sponsor_logos/bykerk_landscape_management.png" class="mh-5rem bg-white p-1 rounded d-none"/></a>
 			</div>
 		</div>
 

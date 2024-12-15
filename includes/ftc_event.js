@@ -49,15 +49,16 @@ function teamEntryForMatch(t) {
 	return li().append(
 		a('', `https://ftc-events.firstinspires.org/${ftcSeason}/team/${t.team_key}`)
 			.addClass('link-dark link-underline-opacity-25 link-underline-opacity-100-hover link-underline-dark')
+			.setAttribute('target', '_blank')
 			.setValue(
-				`${t.team.team_number} &nbsp; ${t.team.team_name_short} (${t.team.city})`
+				`${t.team.team_number} &ndash; ${t.team.team_name_short} (${t.team.city})`
 			),
 		span(` &ndash; ${rankForTeam(t.team_key)}`)
 	)
 
 }
 
-export function loadData(eventKey, highlights = {}, links = null) {
+export function loadData(eventKey, highlights = {}, links = null, videos = {}) {
 	toaEventKey = eventKey;
 	if (!!links && !!links.ftcEventKey) {
 		ftcEventKey = links.ftcEventKey;
@@ -67,9 +68,20 @@ export function loadData(eventKey, highlights = {}, links = null) {
 	}
 	
 	const firstDiv = el('body > div');
+	
+	const navHeader = div().addClass('p-3 pb-md-2 d-flex flex-wrap justify-content-center align-items-start bg-dark text-white gap-4').append(
+		div().addClass('d-flex flex-column align-items-center gap-1 col-1 cursor-pointer').append(
+			i('fa-solid fa-left fa-2x'),
+			span('Back').addClass('d-none d-md-block')
+		)
+	).onClick(() => {
+		self.location.href = '../../index.php';
+	});
+	
+	firstDiv.appendAfter(navHeader);
 		
-	const highlightsEl = div().addClass('d-flex flex-column').append(
-		div().setId('loading-highlights').addClass('d-flex gap-3 mt-4 align-items-center').append(
+	const highlightsEl = div().addClass('d-flex flex-column gap-4').append(
+		div().setId('loading-highlights').addClass('d-flex gap-3 align-items-center').append(
 			div().append(i('fa-solid fa-cog fa-spin fa-3x text-black-50 fa-fw')),
 			div().append(
 				div('One moment&hellip;').addClass("small text-dark fs-5")
@@ -77,21 +89,23 @@ export function loadData(eventKey, highlights = {}, links = null) {
 		)
 	);
 	const eventSummaryBody = div().addClass('card-body p-lg-4').append(
-		h(3, 'Event Summary').addClass('card-title fw-bold'),
 		highlightsEl
 	);
 	
 	
 	const pageContent = div().addClass('d-flex p-4 gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center flex-wrap').append(
-		div().addClass('card bg-warning flex-basis-auto flex-basis-sm-30rem m-3 m-md-0 rounded-4').append(
+		div().addClass('card bg-warning flex-basis-auto flex-basis-sm-30rem m-3 m-md-0 rounded-4 overflow-hidden').append(
+			div().addClass('card-header py-3 bg-black-10').append(
+				h(3, 'Event Summary').addClass('card-title fw-bold text-center p-0 m-0 text-warning-emphasis'),
+			),
 			eventSummaryBody
 		)
 	)
 	
 	// firstDiv.parent().insertAfter(pageContent, firstDiv);
-	firstDiv.appendAfter(pageContent);
+	navHeader.appendAfter(pageContent);
 	
-	const loadingMatches = div().setId('loadingMatches').addClass('card align-self-center bg-black-10').append(
+	const loadingMatches = div().setId('loadingMatches').addClass('card align-self-center bg-black-10 rounded-4').append(
 		div().addClass('card-body d-flex flex-column align-items-center text-black-25').append(
 			i('fa-solid fa-cog fa-spin fa-3x fa-fw'),
 			div("Loading matches...").addClass('fs-3')
@@ -114,6 +128,8 @@ export function loadData(eventKey, highlights = {}, links = null) {
 			icon = "fa-duotone fa-trophy";
 		} else if (key == "advancement") {
 			icon = "fa-duotone fa-up";
+		} else if (/^info/.test(key)) {
+			icon = "fa-duotone fa-circle-info";
 		} else {
 			icon = "";
 		}
@@ -125,7 +141,7 @@ export function loadData(eventKey, highlights = {}, links = null) {
 		
 		value.forEach((t) => 
 			highlightsEl.append(
-				div().addClass('d-flex gap-3 mt-4 align-items-center').append(
+				div().addClass('d-flex gap-3 align-items-center d-none').append(
 					div().append(i(`${icon} fa-3x text-black-50 fa-fw`)),
 					div().append(
 						div(t).addClass("small text-dark fs-5")
@@ -136,15 +152,25 @@ export function loadData(eventKey, highlights = {}, links = null) {
 		
 	})
 	if (!!links) {
-		highlightsEl.append(
-			div().addClass('d-flex gap-3 mt-4 align-items-center').append(
-				div().append(i(`fa-duotone fa-link fa-3x text-black-50 fa-fw`)),
-				div().addClass('small text-dark gap-2 d-flex').append(
-					!!ftcEventKey ? button('btn btn-dark btn-sm').setValue('FTC Event Results').onClick(() => window.open(`https://ftc-events.firstinspires.org/${ftcSeason}/${ftcEventKey}`)) : null,
-					!!links.streamUrl ? button('btn btn-dark btn-sm').setValue('Live Stream').onClick(() => window.open(links.streamUrl)) : null
-				)
+		eventSummaryBody.appendAfter(
+			div().addClass('card-footer d-flex gap-2 py-3 align-items-center justify-content-center bg-black-10').append(
+				!!ftcEventKey ? button('btn btn-dark btn-sm').setValue('FTC Event Results').onClick(() => window.open(`https://ftc-events.firstinspires.org/${ftcSeason}/${ftcEventKey}`)) : null,
+				!!links.streamUrl ? button('btn btn-dark btn-sm').setValue('Live Stream').onClick(() => window.open(links.streamUrl)) : null,
+				!!links.eventInfo ? button('btn btn-dark btn-sm').setValue('Event Info').onClick(() => window.open(links.eventInfo)) : null,
+				!!links.schedule ? a('Schedule', links.schedule).addClass('btn btn-dark text-white btn-sm') : null
 			)
 		)
+// 		highlightsEl.append(
+// 			div().addClass('d-flex gap-3 mt-4 align-items-center').append(
+// 				div().append(i(`fa-duotone fa-link fa-3x text-black-50 fa-fw`)),
+// 				div().addClass('small text-dark gap-2 d-flex').append(
+// 					!!ftcEventKey ? button('btn btn-dark btn-sm').setValue('FTC Event Results').onClick(() => window.open(`https://ftc-events.firstinspires.org/${ftcSeason}/${ftcEventKey}`)) : null,
+// 					!!links.streamUrl ? button('btn btn-dark btn-sm').setValue('Live Stream').onClick(() => window.open(links.streamUrl)) : null,
+// 					!!links.eventInfo ? button('btn btn-dark btn-sm').setValue('Event Info').onClick(() => window.open(links.eventInfo)) : null
+// 
+// 				),
+// 			)
+// 		)
 	}
 
 	
@@ -167,22 +193,27 @@ export function loadData(eventKey, highlights = {}, links = null) {
 			currentRank = match[0].rank;
 		}
 		
+		let eventStart = null;
+		if (!!links && !!links.eventStart) {
+			eventStart = luxon.DateTime.fromISO(links.eventStart);
+			// console.debug(eventStart);
+		}
+		
 		if (!!match && match.length > 0) {
 			// document.querySelector("#rank").innerText = toOrdinal(match[0].rank);
 			
 			// document.querySelector("#rank-row").classList.remove('loading');
 		} else {
 			loadingHighlights.appendAfter(
-				div().addClass('d-flex gap-3 mt-4 align-items-center').append(
+				div().addClass('d-flex gap-3 align-items-center').append(
 					div().append(i('fa-duotone fa-chart-simple fa-3x text-black-50 fa-fw')),
 					div().append(
-						div("Rankings and results aren't yet available.")
+						div(!!eventStart && luxon.DateTime.now() < eventStart ? "This event hasn't started yet. Check back later." : "Rankings and results aren't available yet.")
 					)
 				)
 			);
 			// document.querySelector("#rank-message").innerText = "Rankings and results are not yet available";
 			// document.querySelector("#rank-row").classList.remove('loading');
-			loadingHighlights.hide();
 			
 		}
 		// highlightsEl.removeClass('loading');
@@ -201,7 +232,7 @@ export function loadData(eventKey, highlights = {}, links = null) {
 					
 			if (numberOfMatchesPlayed > 0) {	
 				loadingHighlights.appendAfter(
-					div().addClass('d-flex gap-3 mt-4 align-items-center').append(
+					div().addClass('d-flex gap-3 align-items-center').append(
 						div().append(i('fa-duotone fa-chart-simple fa-3x text-black-50 fa-fw')),
 						div().append(
 							div(`Ranked ${toOrdinal(currentRank)} after ${numberOfMatchesPlayed} qualifying matches`).addClass('text-dark fs-5')
@@ -209,9 +240,9 @@ export function loadData(eventKey, highlights = {}, links = null) {
 					)
 				);
 			} else {
-				el('#loadingMatches').hide();
+				loadingMatches.hide();
 			}
-			loadingHighlights.hide();
+			// loadingHighlights.hide();
 
 
 			// document.querySelector("#num-quals").innerText = numberOfMatchesPlayed;
@@ -244,6 +275,7 @@ export function loadData(eventKey, highlights = {}, links = null) {
 							r.winning_alliance = "blue";
 						}
 						r.participants.splice(r.participants.indexOf(q), 1);
+
 						return true;
 					}
 				}),
@@ -255,24 +287,26 @@ export function loadData(eventKey, highlights = {}, links = null) {
 				let partners, opponents, matchUrl;
 				const cardBody = div().addClass('card-body p-lg-4')
 				const matchEl = div().addClass('card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0 rounded-4').append(cardBody);
-				const matchSummary = h(5).append(
-					span(`${capitalize(m.alliance_color)} Alliance`).addClass('alliance-color')
-				);
-				const outcomeIcon = i().addClass('float-end fa-3x fa-duotone');
+
+				const matchSummary = h(5)
+					.addClass('py-2 px-4 mt-4 text-secondary')
+					.setStyle([['marginLeft', '-1.5rem'], ['marginRight', '-1.5rem']])
+					.append(
+						span(`${capitalize(m.alliance_color)} Alliance`).addClass('alliance-color')
+					);
+
+				const outcomeIcon = i().addClass('fa-2x fa-duotone');
 				cardBody.append(
-					outcomeIcon,
-					h(3, m.match_name.replace("Quals", "Qualification Match")).addClass('card-title fw-bold pb-0 mb-0'),
+					h(3).addClass('card-title fw-bold pb-0 mb-0 d-flex justify-content-between align-items-center').append(
+						span(m.match_name.replace("Quals", "Qualification Match")),
+						outcomeIcon
+					),
 					matchSummary
 				)
 				
 				
 				
-				// let matchEl = document.querySelector('#match-template').cloneNode(true);
-				// matchEl.setAttribute('id', '');
-				// matchEl.querySelector('.match-number').innerText = m.match_name.replace("Quals", "Qualification Match");
-				
-				// matchEl.querySelector('.alliance-color').innerText = capitalize(m.alliance_color);
-				
+					
 				if (m.tournament_level > 1) {
 					const _ = m.match_key.match(/E(\d{1,2})\d{2}-/);
 					matchUrl = `https://ftc-events.firstinspires.org/${ftcSeason}/${ftcEventKey}/playoff/${_[1]}/1`;
@@ -280,7 +314,32 @@ export function loadData(eventKey, highlights = {}, links = null) {
 				} else {
 					matchUrl = `https://ftc-events.firstinspires.org/${ftcSeason}/${ftcEventKey}/qualifications/`+m.match_name.replace("Quals ", "");
 				}
-				// matchEl.querySelector('.match-link').setAttribute('href', matchUrl);
+				
+				if (m.alliance_color == "red") {
+					matchSummary.addClass('bg-danger-subtle');
+					partners = sortObjectArray(
+						m.participants.filter((p) => /R[123]$/.test(p.match_participant_key)),
+						(t) => +t.team_key
+					);
+					opponents = sortObjectArray(
+						m.participants.filter((p) => /B[123]$/.test(p.match_participant_key)),
+						(t) => +t.team_key
+					);
+
+
+				} else {
+					matchSummary.addClass('bg-primary-subtle');
+					partners = sortObjectArray(
+						m.participants.filter((p) => /B[123]$/.test(p.match_participant_key)),
+						(t) => +t.team_key
+					);
+					opponents = sortObjectArray(
+						m.participants.filter((p) => /R[123]$/.test(p.match_participant_key)),
+						(t) => +t.team_key
+					);
+
+
+				}
 		
 				if (m.red_score == -1) {
 					if (!!m.scheduled_time) {
@@ -314,6 +373,8 @@ export function loadData(eventKey, highlights = {}, links = null) {
 // 						matchEl.querySelector('.thumb-icon').classList.add('fa-thumbs-down');
 					}
 					
+					
+					
 					if (m.alliance_color == "red") {
 						// matchEl.addClass('border-danger');
 						outcomeIcon.addClass('text-danger');
@@ -327,14 +388,7 @@ export function loadData(eventKey, highlights = {}, links = null) {
 						// matchEl.querySelector('.score-1').innerText = m.red_score;
 						// matchEl.querySelector('.score-2').innerText = m.blue_score;
 			
-						partners = sortObjectArray(
-							m.participants.filter((p) => /R[123]$/.test(p.match_participant_key)),
-							(t) => +t.team_key
-						);
-						opponents = sortObjectArray(
-							m.participants.filter((p) => /B[123]$/.test(p.match_participant_key)),
-							(t) => +t.team_key
-						);
+						// console.debug(partners, opponents);
 
 			
 					} else {
@@ -343,21 +397,15 @@ export function loadData(eventKey, highlights = {}, links = null) {
 
 						matchSummary.append(
 							span(' &bull; '),
-							a(`${m.blue_score} to ${m.red_score}`, matchUrl).addClass('link-secondary link-underline-opacity-25 link-underline-opacity-100-hover link-underline-dark')
+							a(`${m.blue_score} to ${m.red_score}`, matchUrl)
+								.setAttribute('target', '_blank')	
+								.addClass('link-secondary link-underline-opacity-25 link-underline-opacity-100-hover link-underline-dark')
 						);
 						
 						// matchEl.classList.add('border-primary');
 						// matchEl.querySelector('.score-1').innerText = m.blue_score;
 						// matchEl.querySelector('.score-2').innerText = m.red_score;
 						
-						partners = sortObjectArray(
-							m.participants.filter((p) => /B[123]$/.test(p.match_participant_key)),
-							(t) => +t.team_key
-						);
-						opponents = sortObjectArray(
-							m.participants.filter((p) => /R[123]$/.test(p.match_participant_key)),
-							(t) => +t.team_key
-						);
 
 						// if (m.participants.length > 4) {
 						// } else {
@@ -369,24 +417,33 @@ export function loadData(eventKey, highlights = {}, links = null) {
 					
 					
 				}
-								
+					console.debug(partners, opponents);
 				cardBody.append(
 					div().append(
-						p('Partner' + (partners.length > 1 ? 's' : '')).addClass('fw-bold'),
+						p('Partner' + (!!partners && partners.length > 1 ? 's' : '')).addClass('fw-bold'),
 						ul().append(
-							partners.map((t) => 
+							(partners ?? []).map((t) => 
 								teamEntryForMatch(t)
 							)
 						),
 						p('Opponents').addClass('fw-bold'),
 						ul().append(
-							opponents.map((t) => 
+							(opponents ?? []).map((t) => 
 								teamEntryForMatch(t)
 							)
 						)
-
 					)
 				);
+				if (!!videos[m.match_key]) {
+					cardBody.append(
+						DomElement.create('iframe')
+							.setStyle([['width', '100%'], ['height', 'auto'], ['aspectRatio', '560/315']])
+							.setAttribute('src', videos[m.match_key])
+							.setAttribute('frameborder', '0')
+							.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share')
+							.setAttribute('allowfullscreen', 'true')
+					)
+				}
 				
 				// matchEl.querySelector('.partner .team-name').innerText = partner.team.team_name_short;
 				// matchEl.querySelector('.partner .team-number').innerText = partner.team.team_number;
@@ -407,7 +464,7 @@ export function loadData(eventKey, highlights = {}, links = null) {
 				// matchEl.classList.remove('d-none');
 				// console.debug(m.participants);
 				
-				el('#loadingMatches').hide();
+				loadingMatches.hide();
 				pageContent.append(matchEl);
 				const additionalMatches = el('#additional-matches');
 				if (additionalMatches.isValid) {
@@ -417,6 +474,9 @@ export function loadData(eventKey, highlights = {}, links = null) {
 				}
 				// document.querySelector('#matches').append(matchEl);
 			});
+			highlightsEl.children().forEach((e) => e.show());
+			loadingHighlights.hide();
+
 			
 			
 			
@@ -442,6 +502,8 @@ function toOrdinal(n) {
 		return '11th';
 	} else if (/1$/.test(n)) {
 		return `${n}st`;
+	} else if (n == 12) {
+		return '12th';
 	} else if (/2$/.test(n)) {
 		return `${n}nd`;
 	} else if (/3$/.test(n)) {

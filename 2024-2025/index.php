@@ -23,7 +23,7 @@
 				<i class="fa-solid fa-robot-astromech fa-2x"></i>
 				<span class="d-none d-md-block">Bot</span>
 			</div>
-			<div class="d-none flex-column align-items-center gap-1 col-1 cursor-pointer" onclick="self.location.href='#team'">
+			<div class="d-flex flex-column align-items-center gap-1 col-1 cursor-pointer" onclick="self.location.href='#team'">
 				<i class="fa-solid fa-users fa-2x"></i>
 				<span class="d-none d-md-block">Team</span>
 			</div>
@@ -99,7 +99,17 @@
 			
 		</div>
 		
-		<div class="d-flex flex-column p-3 p-md-5 gap-2 justify-content-center align-items-center bg-dark bg-opacity-50">
+		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5  bg-dark bg-opacity-50">
+			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1"><a name="team">Meet the Team</a></h5>
+			<div class="d-flex justify-content-center flex-column flex-md-row">
+				<div class="col-12 col-md-4 mt-3 p-2 bg-white">
+					<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport24/team_11-23-24a.jpg" alt="Team photo taken on November 23, 2024" class="w-100"/></a>
+				</div>
+			</div>
+		</div>		
+
+		
+		<div class="d-flex flex-column p-3 p-md-5 gap-2 justify-content-center align-items-center">
 			<h5 class="w-auto text-headline text-align-center text-md-start fw-normal fs-2 text-white fw-normal d-inline-block text-shadow-1"><a name="season">Our Season</a></h5>
 			
 			<div class="d-flex m-md-0 gap-3 flex-wrap justify-content-center w-100">
@@ -107,9 +117,12 @@
 					<div class="card-body p-4 d-flex gap-3">
 						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
 						<div>
-							<div class="fw-bold text-black-50"><span class="fs-5">MI State Championship</span><br/><span>12/13/24 &ndash; 12/14/24</span></div>
+							<div class="fw-bold text-black-50"><span class="fs-5">MI State Championship NW</span><br/><span>12/13/24 &ndash; 12/14/24</span></div>
 							<ul class="mt-2 mb-0 pb-0">
-								<li>Stay Tuned!</li>
+								<li>After two days of competition, 4 wins and 3 losses.</li>
+								<li>Ranked 18th after the qualification matches.</li>
+								<li>Picked to be a member of Alliance 4!</li>
+								<li>Made it to Match 6 of the tournament</li>
 				
 							</ul>
 						</div>	
@@ -119,6 +132,7 @@
 						<div class="d-flex gap-2">
 							<button onclick="window.open('https://www.twitch.tv/theorangealliance3');" target="_new" class="btn btn-secondary btn-sm d-none">Live Stream</button>
 							<button onclick="window.open('https://ftc-events.firstinspires.org/2024/USMICMP');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+							<button onclick="window.open('https://firstinmichigan.us/FTC/states-nw/');" target="_new" class="btn btn-secondary btn-sm">Event Info</button>
 							<button onclick="window.open('https://docs.google.com/document/d/1VY1JWbrDPFXlznyh6ETuRHf18rO2PrGK2RrdO6pnHGg/pub');" target="_new" class="btn btn-secondary btn-sm d-none">Event Info</button>
 							<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-FRQ2/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
 						</div>
@@ -209,7 +223,16 @@
 			</div>
 		</div>
 
-		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5">
+		<div class="p-3 py-md-4 d-flex flex-row flex-wrap justify-content-center gap-3 bg-dark align-items-center">
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport24/photo_01.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport24/photo_02.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport24/photo_03.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport24/photo_04.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+			<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport24/photo_05.jpg" class="mh-6rem border border-3 border-white rounded"/></a>
+		</div>
+
+
+		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5 bg-dark bg-opacity-50">
 			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1"><a name="game">Meet the Game</a></h5>
 		
 			<div class="d-flex gap-3 mt-3 flex-column flex-md-row align-items-md-start justify-content-md-center">
@@ -316,7 +339,7 @@
 			</div>
 		</div>
 
-		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5 bg-dark bg-opacity-50">
+		<div class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5">
 			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1 mb-3"><a name="organization">Our Team Organization</a></h5>
 			<div class="d-flex align-items-start flex-column flex-md-row">
 				<div class="col-12 col-md-4 mt-3 p-2 bg-white d-none">

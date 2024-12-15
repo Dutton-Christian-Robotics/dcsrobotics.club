@@ -172,8 +172,11 @@ export class DomElement {
 		return this
 	}
 	
-	setStyle(key, val) {
-		this.el.style[key] = val;
+	setStyle(styles, value = null) {
+		if (!Array.isArray(styles)) {
+			styles = [[styles, value]];
+		}
+		styles.forEach(([k, v]) => this.el.style[k] = v);
 		return this;
 	}
 	

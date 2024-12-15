@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Michigan State Championship NW, 12/13/24 - 12/14/24</title>
+		<title>Kentwood Qualifier, 11/06/21</title>
 		<? include "{$_SERVER['DOCUMENT_ROOT']}/includes/header.php"; ?>
 		<style>
 			.if-loading {
@@ -27,9 +27,10 @@
 			<div class="img-header"></div>
 			<div class="position-absolute start-0 end-0 text-white text-center" style="bottom:1rem;">
 				<h2>DCS Defenders Robotics #15815</h2>
-				<h1 class="display-3 text-shadow-3">Michigan State Championship NW, 12/13/24 - 12/14/24</h1>			
+				<h1 class="display-3 text-shadow-3">Kentwood Qualifier, 11/06/21</h1>			
 			</div>
 		</div>
+		
 		
 	<? include "{$_SERVER['DOCUMENT_ROOT']}/includes/footer.php"; ?>
 	
@@ -37,19 +38,15 @@
 		
 		<script type="module">
 			import { loadData } from "/includes/ftc_event.js";
-			loadData("2425-FIM-CMP2",
-				{
-					"alliance": "Picked as partner for Alliance 4",					
-				},
-				{
-					"ftcSeason": "2024",
-					"ftcEventKey": "USMICMPFLWR",
-					"eventInfo": "https://firstinmichigan.us/FTC/states-nw/",
-					"eventStart": "2024-12-13T12:00",
-					"schedule": "/2024-2025/events/mistate/schedule.php",
-					"streamUrl": "https://www.twitch.tv/theorangealliance1"
-				}			
-			);
+			loadData("2122-FIM-MKQ", {
+				"info1": "First competition after COVID break",
+				"info2": "Because of COVID, no one on the team had ever been to a competition before"
+			}, {
+				"ftcSeason": "2021",
+				"ftcEventKey": "USMIKEQ"
+			}
+			
+		);
 		</script>
 
 	</body>

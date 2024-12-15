@@ -101,9 +101,8 @@
 							</ul>
 						</div>	
 					</div>
-					<div class="card-footer d-flex">
-						<button onclick="window.open('https://theorangealliance.org/events/1920-FIM-KFQ/rankings');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Results</button>
-		
+					<div class="card-footer d-flex gap-2 justify-content-end">
+						<a href="/2019-2020/events/kentwood" class="btn btn-dark btn-sm text-white" role="button">Details</a>
 					</div>
 				</div>
 			</div>

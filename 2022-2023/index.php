@@ -76,7 +76,7 @@
 					<div class="card-body p-4 d-flex gap-3">
 						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
 						<div>
-							<div class="fw-bold text-black-50"><span class="fs-5">MI State Championship NW</span><br/><span>12/16/2 &ndash; 12/17/22</span></div>
+							<div class="fw-bold text-black-50"><span class="fs-5">MI State Championship NW</span><br/><span>12/16/22 &ndash; 12/17/22</span></div>
 							<ul class="mt-2 mb-0 pb-0">
 								<li>Ranked 5th after two days and 54 qualifying matches</li>
 								<li>First pick of Alliance 1, which ultimately came in second after three hard-fought finals matches</li>
@@ -84,9 +84,8 @@
 						</div>	
 						
 					</div>
-					<div class="card-footer">
-						<button onclick="window.open('https://ftc-events.firstinspires.org/2022/USMICMP');" target="_new" class="btn btn-secondary btn-sm">FTC Event Page</button>
-						<button onclick="window.open('https://theorangealliance.org/events/2223-FIM-MFSC');" target="_new" class="btn btn-secondary btn-sm">Orange Alliance Page</button>
+					<div class="card-footer d-flex justify-content-end">
+						<a href="/2022-2023/events/mistate" class="btn btn-dark btn-sm text-white" role="button">Details</a>
 					</div>
 				</div>
 				<div class="card bg-warning flex-grow-0 flex-lg-grow-0 flex-basis-md-30rem">
