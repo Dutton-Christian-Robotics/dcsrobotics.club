@@ -67,7 +67,7 @@
 
 						</div>
 					</div>
-					<div class="d-flex gap-3 mt-4 fs-5">
+					<div class="d-none gap-3 mt-4 fs-5">
 						<div><i class="fa-duotone fa-circle-exclamation fa-5x text-black-50 fa-fw"></i></div>
 						<div class="w-100">
 						<div class="fs-4 fw-bold">The State Championship is here!</div>
@@ -87,6 +87,17 @@
 							</div>
 						</div>
 					</div>
+					<div class="d-flex gap-3 mt-4 fs-5">
+						<div><i class="fa-duotone fa-heart fa-5x text-black-50 fa-fw"></i></div>
+						<div class="w-100">
+							<div class="fs-4 fw-bold">Thanks for a great season!</div>
+							<div>
+								<div class="">Our 2024-2025 "Into the Deep" season has officially drawn to close. If we plan any post-season activities, we'll let you know through this page, our Facebook page, and the DCS app.</div>
+								<div class="d-none text-end  mt-3"><a href="/schedule/schedule_24-25.pdf" target="_new" class="link-dark">Download it right here</a>!</div>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 				
