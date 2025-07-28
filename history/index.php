@@ -15,51 +15,89 @@
 			</div>
 		</div>
 		
-		<div class="p-3 p-md-5 d-flex gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center flex-wrap">
-			<div class="card flex-basis-auto flex-basis-sm-30rem">
-					<div class="card-body">
-						<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
-							<div>
-								<h5 class="text-dcs-blue mb-0">Season 7: 2024-2025</h5>
-								<div>Into The Deep</div>
-							</div>
-							<i class="fa-duotone fa-octopus fa-2x text-secondary"></i>
-						</h3>
-						<div class="d-flex gap-3 mt-4">
-							<div><i class="fa-duotone fa-file-pdf fa-3x text-secondary fa-fw"></i></div>
-							<div>
-								<div><a href="https://ftc-resources.firstinspires.org/file/ftc/game/game-one-page" target="_blank">Game Description</a></div>
-								<div class="small text-secondary">Learn more about the season's game by reading the one page game summary.</div>
-							</div>
+		<main class="p-3 p-md-5 d-flex gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center flex-wrap">
+			<article class="card flex-basis-auto flex-basis-sm-30rem">
+				<div class="card-body">
+					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
+						<div>
+							<h5 class="text-dcs-blue mb-0">Season 8: 2025-2026</h5>
+							<div>DECODE</div>
 						</div>
-						<div class="d-flex gap-3 mt-4">
-							<div><i class="fa-duotone fa-sitemap fa-3x text-secondary fa-fw"></i></div>
-							<div>
-								<div><a href="/2024-2025">Season Website</a></div>
-								<div class="small text-secondary">More information about the season's game and the DCS team.</div>
-							</div>
+						<i class="fa-duotone fa-shovel fa-2x text-secondary"></i>
+					</h3>
+					<div class="d-none" xclass="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-file-pdf fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://ftc-resources.firstinspires.org/file/ftc/game/game-one-page" target="_blank">Game Description</a></div>
+							<div class="small text-secondary">Learn more about the season's game by reading the one page game summary.</div>
 						</div>
-						
-						<div class="mt-4 d-none">
-							<p>More information on this season will be available after September 7, 2024.</p>
-							<p class="d-none">If you or your student are interested in being part of the team (we love adult mentors too) <a href="https://docs.google.com/forms/d/e/1FAIpQLScY9UjOUsNwUn-yc1jrXTPPrLZGZuhkU5UaKV7d8XMHLZCtJw/viewform?usp=sf_link" target="_blank" class="">let us know by completing this Google form</a>!
-						</div>
-				
-				
-						<div class="d-flex gap-3 mt-4">
-							<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
-							<div>
-								<div><a xhref="/2020-2021">Highlights</a></div>
-								<div class="small text-secondary">Advanced to the Michigan state championship.</div>
-								<div class="small text-secondary">Member of the 2nd place alliance, third place for the Inspire award at Fruitport.</div>
-								<div class="small text-secondary">Alliance 3 partner at Kentwood, and winner of the Design Award.</div>
-							</div>
-						</div>
-				
 					</div>
-			</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-sitemap fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="/2025-2026">Season Website</a></div>
+							<div class="small text-secondary">More information about the season's game and the DCS team.</div>
+						</div>
+					</div>
+					
+					<div class="mt-4 d-none">
+						<p>More information on this season will be available after September 7, 2024.</p>
+						<p class="d-none">If you or your student are interested in being part of the team (we love adult mentors too) <a href="https://docs.google.com/forms/d/e/1FAIpQLScY9UjOUsNwUn-yc1jrXTPPrLZGZuhkU5UaKV7d8XMHLZCtJw/viewform?usp=sf_link" target="_blank" class="">let us know by completing this Google form</a>!
+					</div>
+			
+			
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a xhref="/2020-2021">Highlights</a></div>
+							<div class="small text-secondary">Robotics is increasingly popular at DCS. As a result, we'll be changing our team format this year. Details to come!</div>
+						</div>
+					</div>
+			
+				</div>
+			</article>
+			<article class="card flex-basis-auto flex-basis-sm-30rem">
+				<div class="card-body">
+					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
+						<div>
+							<h5 class="text-dcs-blue mb-0">Season 7: 2024-2025</h5>
+							<div>Into The Deep</div>
+						</div>
+						<i class="fa-duotone fa-octopus fa-2x text-secondary"></i>
+					</h3>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-file-pdf fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://ftc-resources.firstinspires.org/file/ftc/game/game-one-page" target="_blank">Game Description</a></div>
+							<div class="small text-secondary">Learn more about the season's game by reading the one page game summary.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-sitemap fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="/2024-2025">Season Website</a></div>
+							<div class="small text-secondary">More information about the season's game and the DCS team.</div>
+						</div>
+					</div>
+					
+					<div class="mt-4 d-none">
+						<p>More information on this season will be available after September 7, 2024.</p>
+						<p class="d-none">If you or your student are interested in being part of the team (we love adult mentors too) <a href="https://docs.google.com/forms/d/e/1FAIpQLScY9UjOUsNwUn-yc1jrXTPPrLZGZuhkU5UaKV7d8XMHLZCtJw/viewform?usp=sf_link" target="_blank" class="">let us know by completing this Google form</a>!
+					</div>
+			
+			
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a xhref="/2020-2021">Highlights</a></div>
+							<div class="small text-secondary">Advanced to the Michigan state championship. Member of the 2nd place alliance, third place for the Inspire award at Fruitport. Alliance 3 partner at Kentwood, and winner of the Design Award.</div>
+						</div>
+					</div>
+			
+				</div>
+			</article>
 
-			<div class="card flex-basis-auto flex-basis-sm-30rem">
+			<article class="card flex-basis-auto flex-basis-sm-30rem">
 				<div class="card-body">
 					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
 						<div>
@@ -93,9 +131,9 @@
 					</div>
 			
 				</div>
-		</div>
+			</article>
 
-			<div class="card flex-basis-auto flex-basis-sm-30rem">
+			<article class="card flex-basis-auto flex-basis-sm-30rem">
 				<div class="card-body">
 					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
 						<div>
@@ -129,9 +167,9 @@
 					</div>
 
 				</div>
-			</div>
+			</article>
 			
-			<div class="card flex-basis-auto flex-basis-sm-30rem">
+			<article class="card flex-basis-auto flex-basis-sm-30rem">
 				<div class="card-body">
 					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
 						<div>
@@ -164,9 +202,9 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</article>
 
-			<div class="card flex-basis-auto flex-basis-sm-30rem">
+			<article class="card flex-basis-auto flex-basis-sm-30rem">
 				<div class="card-body">
 					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
 						<div>
@@ -200,9 +238,9 @@
 					</div>
 
 				</div>
-			</div>
+			</article>
 			
-			<div class="card flex-basis-auto flex-basis-sm-30rem">
+			<article class="card flex-basis-auto flex-basis-sm-30rem">
 				<div class="card-body">
 					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
 						<div>
@@ -237,9 +275,9 @@
 
 
 				</div>
-			</div>
+			</article>
 
-			<div class="card flex-basis-auto flex-basis-sm-30rem">
+			<article class="card flex-basis-auto flex-basis-sm-30rem">
 				<div class="card-body">
 					<h3 class="card-title fw-bold d-flex align-items-center justify-content-between text-dark">
 						<div>
@@ -276,11 +314,11 @@
 
 
 				</div>
-			</div>
+			</article>
 
 
 
-		</div>
+		</main>
 <? include "{$_SERVER['DOCUMENT_ROOT']}/includes/footer.php"; ?>		
 		<script src="/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 	</body>

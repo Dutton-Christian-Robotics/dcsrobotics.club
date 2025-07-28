@@ -29,7 +29,7 @@
 				<div class="card-body p-0 p-lg-4 text-shadow-1">
 					<i class="fa-duotone fa-house-chimney fa-5x float-end"></i>
 					<h5 class="card-title text-headline fw-normal fs-2 border-bottom w-75 mb-3">Welcome!</h5>
-					<p class="fs-5">Welcome to the home for Dutton Christian School's FTC robotics team, #15815. The team is currently in its seventh season, having started in the 2018-2019 academic year. Our FIRST Tech Challenge team includes approximately twenty students in grades 7 and 8.</p>
+					<p class="fs-5">Welcome to the home for Dutton Christian School's FTC robotics team, #15815. The team is currently in its eighth season, having started in the 2018-2019 academic year. Our FIRST Tech Challenge team includes approximately twenty students in grades 7 and 8.</p>
 					<p class="fs-5"><a href="https://duttonchristianschool.org" target="_blank" class="text-white">Dutton Christian School</a> is a private Christian school located to the south of Grand Rapids, Michigan. The school offers pre-K through 8th grades.</p>
 				</div>
 				
@@ -77,17 +77,17 @@
 					
 						</div>
 					</div>
-					<div class="d-none gap-3 mt-4 fs-5">
+					<div class="d-flex gap-3 mt-4 fs-5">
 						<div><i class="fa-duotone fa-calendar-days fa-5x text-black-50 fa-fw"></i></div>
 						<div class="w-100">
-							<div class="fs-4 fw-bold">Practice Schedule for 2024-2025</div>
+							<div class="fs-4 fw-bold">Practice Schedule for 2025-2026</div>
 							<div>
 								<div class="">Need the practice and competition schedule for the year?</div>
-								<div class="text-end  mt-3"><a href="/schedule/schedule_24-25.pdf" target="_new" class="link-dark">Download it right here</a>!</div>
+								<div class="text-end mt-3"><a href="/2025-2026/practice_schedule_25-26.pdf" target="_new" class="link-dark">Download it right here</a>!</div>
 							</div>
 						</div>
 					</div>
-					<div class="d-flex gap-3 mt-4 fs-5">
+					<div class="d-none gap-3 mt-4 fs-5">
 						<div><i class="fa-duotone fa-heart fa-5x text-black-50 fa-fw"></i></div>
 						<div class="w-100">
 							<div class="fs-4 fw-bold">Thanks for a great season!</div>
@@ -119,14 +119,14 @@
 			<div class="card flex-basis-sm-25rem">
 				<div class="card-body text-secondary">
 					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
-						<span class="fs-4">Current Season</span>
+						<span class="fs-4">Previous Season</span>
 						<i class="fa-duotone fa-calendar-star fa-3x text-secondary"></i>
 					</h5>
 					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-octopus fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div class="fw-bold"><a href="/2024-2025">Into The Deep</a></div>
-							<div class="small text-secondary">The game for the 24-25 season is "Into The Deep." Learn more about this year's challenge and how we're meeting it!</div>
+							<div class="small text-secondary">The game for the 24-25 season was "Into The Deep." Learn more about this year's challenge and how we're meeting it!</div>
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4">

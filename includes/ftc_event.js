@@ -250,12 +250,18 @@ export function loadData(eventKey, highlights = {}, links = null, videos = {}) {
 			const matches = sortObjectArray(
 				data.filter((r, i) => {
 					let p = r.participants.filter((m) => m.team_key == 15815);
-					// if (r.tournament_level == 1) {
-
-						r.index = i;
-					// } else {
-						// r.index = `${r.tournament_level}`.split('')[0];
-					// }
+					if (!!r.match_start_time) {
+						r.index = luxon.DateTime.fromISO(r.match_start_time).toUnixInteger();	
+					} else {
+						if (r.tournament_level == 1) {
+							r.index = i;
+						} else if (r.tournament_level > 9) {
+							r.index = r.tournament_level * 10 + i;
+						} else {
+							r.index = r.tournament_level * 100 + i;
+							// r.index = `${r.tournament_level}`.split('')[0];
+						}
+					}
 					if (/FRQ2-E/.test(r.match_key)) {
 						r.match_key = r.match_key.replace(/-E/, '-ZE');
 					}
@@ -287,6 +293,7 @@ export function loadData(eventKey, highlights = {}, links = null, videos = {}) {
 				let partners, opponents, matchUrl;
 				const cardBody = div().addClass('card-body p-lg-4')
 				const matchEl = div().addClass('card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0 rounded-4').append(cardBody);
+					
 
 				const matchSummary = h(5)
 					.addClass('py-2 px-4 mt-4 text-secondary')

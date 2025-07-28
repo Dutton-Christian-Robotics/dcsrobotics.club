@@ -10,7 +10,7 @@
 					<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/2024-2025">Into The Deep</a>
+					<a class="nav-link" href="/2025-2026">DECODE</a>
 				</li>
 
 				<li class="nav-item">
