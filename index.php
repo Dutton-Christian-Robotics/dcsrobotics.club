@@ -12,11 +12,11 @@
 				<h2>FTC Team #15815</h2>
 			</div>
 		</div>
-		<div class="d-none bg-warning p-3 gap-4 justify-content-center fs-4">
+		<div class="d-flex bg-warning p-3 gap-4 justify-content-center fs-4">
 			<i class="fa-solid fa-tower-cell fa-3x text-black-50"></i>
 			<div>
-				<div class="fw-bold">Want to watch the big reveal for "Into the Deep"?</div>
-				<div><a href="https://www.youtube.com/watch?v=gy6nh_1mA18" target="_blank" class="text-black">Watch the live reveal on Youtube</a> on Saturday September 7, 2024 at 12pm EDT.</div>
+				<div class="fw-bold">Want to watch the big reveal for "DECODE"?</div>
+				<div><a href="https://www.youtube.com/watch?v=tRlcAwgMx5Q" target="_blank" class="text-black">Watch the live reveal on Youtube</a> on Saturday September 6, 2025 at 12pm EDT.</div>
 			</div>
 		</div>
 		<div class="p-3 p-md-5 mt-3 mt-md-0 gap-5 d-flex flex-column flex-md-row text-white align-items-md-start justify-content-lg-center">
@@ -75,6 +75,16 @@
 							<div class="text-end mt-3"><a href="/2024-2025/events/mistate" class="link-dark">Event Details, with Results</a> &bull; <a href="/2024-2025/events/mistate/schedule.php" class="link-dark">Schedule</a> &bull; <a href="https://www.twitch.tv/theorangealliance1" target="_new">Live Stream</a></div>
 
 					
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4 fs-5">
+						<div><i class="fa-duotone fa-file-pen fa-5x text-black-50 fa-fw"></i></div>
+						<div class="w-100">
+							<div class="fs-4 fw-bold">Official Registration Form</div>
+							<div>
+								<div class="">To be an official member of our team, FTC asks that all students be registered in the official FTC system. If you're interested, <a href="https://www.firstinspires.org/resource-library/youth-registration-system" target="_new" class="text-black">you can learn more about this process</a>.</div>
+								<div class="text-end mt-3"><a href="https://my.firstinspires.org/JoinTeam/Welcome/cbf89751-883c-11f0-b4d4-00505699b848" target="_new" class="link-dark">Register Now</a></div>
+							</div>
 						</div>
 					</div>
 					<div class="d-flex gap-3 mt-4 fs-5">

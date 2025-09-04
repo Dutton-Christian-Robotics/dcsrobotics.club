@@ -167,6 +167,29 @@
 					
 					</div>
 				</div>
+				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-30rem">
+					<div class="card-body p-4 d-flex gap-3">
+						<i class="fa-duotone fa-file-pen fa-3x text-dark"></i>
+						<div>
+							<div class="fw-bold text-black-50"><span class="fs-5">Official Registration Form</span></div>
+							<div class="mt-2">To be an official member of our team, FTC asks that all students be registered in the official FTC system. If you're interested, <a href="https://www.firstinspires.org/resource-library/youth-registration-system" target="_new" class="text-black">you can learn more about this process</a>.</div>
+							<div class="text-end mt-3"><a href="https://my.firstinspires.org/JoinTeam/Welcome/cbf89751-883c-11f0-b4d4-00505699b848" target="_new" class="link-dark">Register Now</a></div>
+
+						</div>	
+					</div>
+					<div class="d-none" xclass="card-footer d-flex justify-content-between gap-2">
+					
+						<div class="d-flex gap-2">
+							<button onclick="window.open('https://www.twitch.tv/theorangealliance3');" target="_new" class="btn btn-secondary btn-sm d-none">Live Stream</button>
+							<button onclick="window.open('https://ftc-events.firstinspires.org/2024/USMICMP');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+							<button onclick="window.open('https://firstinmichigan.us/FTC/states-nw/');" target="_new" class="btn btn-secondary btn-sm">Event Info</button>
+							<button onclick="window.open('https://docs.google.com/document/d/1VY1JWbrDPFXlznyh6ETuRHf18rO2PrGK2RrdO6pnHGg/pub');" target="_new" class="btn btn-secondary btn-sm d-none">Event Info</button>
+							<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-FRQ2/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
+						</div>
+						<a href="/2024-2025/events/mistate" class="btn btn-dark btn-sm text-white" role="button">Details</a>
+					
+					</div>
+				</div>
 
 				<div class="d-none" xclass="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-30rem">
 					<div class="card-body p-4 d-flex gap-3">
