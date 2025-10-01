@@ -394,6 +394,14 @@ x-div#front-img-header {
 		gap:1.5rem!important;
 	}
 	
+	.flex-basis-md-20rem {
+		flex-basis:20rem !important;
+	}
+
+	.flex-basis-md-25rem {
+		flex-basis:25rem !important;
+	}
+
 	.flex-basis-md-30rem {
 		flex-basis:30rem !important;
 	}

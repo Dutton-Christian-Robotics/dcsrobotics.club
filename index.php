@@ -12,7 +12,7 @@
 				<h2>FTC Team #15815</h2>
 			</div>
 		</div>
-		<div class="d-flex bg-warning p-3 gap-4 justify-content-center fs-4">
+		<div class="d-none bg-warning p-3 gap-4 justify-content-center fs-4">
 			<i class="fa-solid fa-tower-cell fa-3x text-black-50"></i>
 			<div>
 				<div class="fw-bold">Want to watch the big reveal for "DECODE"?</div>
@@ -129,6 +129,37 @@
 			<div class="card flex-basis-sm-25rem">
 				<div class="card-body text-secondary">
 					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+						<span class="fs-4">This Season</span>
+						<i class="fa-duotone fa-calendar-star fa-3x text-secondary"></i>
+					</h5>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-shovel fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div class="fw-bold"><a href="/2025-2026">DECODE</a></div>
+							<div class="small text-secondary">The game for the 25-26 season is "DECODE". Learn more about this year's challenge and how we're meeting it!</div>
+						</div>
+					</div>
+					<div class="d-none" xclass="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a xhref="/2020-2021">Highlights</a></div>
+							<div class="small text-secondary">
+								<ul>
+									<li>Finished in 18th place in our division during our third time at the Michigan State Championship; selected as a partner for Alliance 4.</li>
+									<li>Finished in 10th place and were part of Alliance 3 at the <a href="/2024-2025/events/fruitport">Fruitport qualification event</a> <b>and advanced to state championship!</b></li>
+									<li>Finished ninth place and part of Alliance 3 at the <a href="/2024-2025/events/kentwood">Kentwood qualification event</a>.</li>
+									<li>Winner of the Design Award at Kentwood.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+			
+				</div>
+			</div>
+			<div class="d-none" xclass="card flex-basis-sm-25rem">
+				<div class="card-body text-secondary">
+					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
 						<span class="fs-4">Previous Season</span>
 						<i class="fa-duotone fa-calendar-star fa-3x text-secondary"></i>
 					</h5>
@@ -157,6 +188,8 @@
 			
 				</div>
 			</div>
+			
+			
 			<div class="flex-basis-sm-30rem order-first order-md-0">
 				<img src="/images/logo_white.png" class="w-100"/>
 			</div>
@@ -280,8 +313,86 @@
 			
 				</div>
 			</div>
-	
+		</div>
+
+		<div class="d-none" xclass="p-3 p-md-5 gap-3 d-flex align-items-md-start justify-content-lg-center flex-column flex-md-row bg-dark bg-opacity-50">		
+			<div class="card flex-basis-auto flex-basis-sm-30rem">
+				<div class="card-body">
+					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+						<span class="fs-4">FIRST Robotics</span>
+						<i class="fa-duotone fa-robot-astromech fa-3x text-secondary"></i>
+					</h5>
 			
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-browser fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="http://firsttechchallenge.blogspot.com" target="_blank">Official FIRST Website</a></div>
+							<div class="small text-secondary">Home for all information about FIRST programs, including the FIRST LEGO League and FIRST Robotics Competition (high school).</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-mitten fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://firstinmichigan.us" target="_blank">FIRST in Michigan</a></div>
+							<div class="small text-secondary">FIRST in Michigan is the organization that oversees FIRST activities within the state.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="flex-basis-sm-30rem order-first order-md-0">
+				<img src="/images/first_lego_league_logo.png" class="w-100"/>
+			</div>
+
+			<div class="card flex-basis-auto flex-basis-sm-30rem">
+				<div class="card-body">
+					<h5 class="card-title d-flex align-items-center justify-content-between text-dark">
+						<span class="fs-4">The FTC Community</span>
+						<i class="fa-duotone fa-users fa-3x text-secondary"></i>
+					</h5>
+			
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-square-rss fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="http://firsttechchallenge.blogspot.com" target="_blank">Official FIRST Tech Challenge Blog</a></div>
+							<div class="small text-secondary">Good source for important announcements and FTC-related resources.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-comments fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://ftcforum.firstinspires.org" target="_blank">FIRST Tech Challenge Discussion Forum</a></div>
+							<div class="small text-secondary">These discussion boards are a great place to ask questions and get help with various aspects of building a robot.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-brands fa-reddit fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://www.reddit.com/r/FTC/" target="_blank">FTC Subreddit</a></div>
+							<div class="small text-secondary">This the place to find an active FTC community on the Reddit platform.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-brands fa-discord fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://www.reddit.com/r/FTC/" target="_blank">(Un)Official FTC Discord</a></div>
+							<div class="small text-secondary">This Discord server covers a lot of topics in the world of FTC.</div>
+						</div>
+					</div>
+					<div class="d-flex gap-3 mt-4">
+						<div><i class="fa-duotone fa-lightbulb-on fa-3x text-secondary fa-fw"></i></div>
+						<div>
+							<div><a href="https://ftctutorials.com/en/" target="_blank">FTC Tutorials</a></div>
+							<div class="small text-secondary">A website maintained by FRC 8027 and FTC 13380 that contains a number of excellent presentations on the basics of robot design, construction, and more. </div>
+						</div>
+					</div>
+
+			
+			
+			
+			
+				</div>
+			</div>
 		</div>
 <? include "{$_SERVER['DOCUMENT_ROOT']}/includes/footer.php"; ?>
 		<script src="/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
