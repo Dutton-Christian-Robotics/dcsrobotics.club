@@ -117,9 +117,10 @@
 					<div class="card-body p-4 d-flex gap-3">
 						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
 						<div>
-							<div class="fw-bold text-black-50"><span class="fs-5">Fruitport Qualifier</span><br/><span>11/22/25</span></div>
+							<div class="fw-bold text-black-50"><span class="fs-5">Fruitport Qualifier</span><br/><span>Saturday 11/22/25</span></div>
 							<ul class="mt-2 mb-0 pb-0">
-								<li>Details coming soon!</li>
+								<li>Fruitport High School</li>
+								<li>More details coming soon</li>
 							</ul>
 							<ul class="mt-2 mb-0 pb-0 d-none">
 								<li>Ranked ninth at the end of qualifying matches</li>
@@ -153,9 +154,10 @@
 					<div class="card-body p-4 d-flex gap-3">
 						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
 						<div>
-							<div class="fw-bold text-black-50"><span class="fs-5">Kentwood Qualifier</span><br/><span>11/1/25</span></div>
+							<div class="fw-bold text-black-50"><span class="fs-5">Kentwood Qualifier</span><br/><span>Saturday 11/1/25</span></div>
 							<ul class="mt-2 mb-0 pb-0">
-								<li>Details coming soon!</li>
+								<li>East Kentwood High School, Freshman Campus</li>
+								<li>More details coming soon</li>
 							</ul>
 							<ul class="mt-2 mb-0 pb-0 d-none">
 								<li>Ranked ninth at the end of qualifying matches</li>

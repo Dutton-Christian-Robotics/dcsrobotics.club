@@ -137,6 +137,7 @@
 						<div>
 							<div class="fw-bold"><a href="/2025-2026">DECODE</a></div>
 							<div class="small text-secondary">The game for the 25-26 season is "DECODE". Learn more about this year's challenge and how we're meeting it!</div>
+							<div class="small text-secondary mt-2">Our first competition will be Saturday November 1, 2025 at East Kentwood High School, Freshman Campus.</div>
 						</div>
 					</div>
 					<div class="d-none" xclass="d-flex gap-3 mt-4">
