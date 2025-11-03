@@ -18,12 +18,12 @@
 			</div>
 		</div>	
 		
-		<nav class="d-none" xclass="p-3 pb-md-2 d-flex flex-wrap justify-content-center align-items-start bg-dark text-white gap-4">
+		<nav xclass="d-none" class="p-3 pb-md-2 d-flex flex-wrap justify-content-center align-items-start bg-dark text-white gap-4">
 			<div class="d-flex flex-column align-items-center gap-1 col-1 cursor-pointer" onclick="self.location.href='#bot'">
 				<i class="fa-solid fa-robot-astromech fa-2x"></i>
 				<span class="d-none d-md-block">Bot</span>
 			</div>
-			<div class="d-flex flex-column align-items-center gap-1 col-1 cursor-pointer" onclick="self.location.href='#team'">
+			<div xclass="d-none" class="d-flex flex-column align-items-center gap-1 col-1 cursor-pointer" onclick="self.location.href='#team'">
 				<i class="fa-solid fa-users fa-2x"></i>
 				<span class="d-none d-md-block">Team</span>
 			</div>
@@ -42,65 +42,61 @@
 		
 		</nav>
 		
-		<article class="d-none" xclass="p-3 p-md-5 mt-0 gap-3 d-flex flex-column flex-sm-row justify-content-sm-center align-items-start ">
+		<article xclass="d-none" class="p-3 p-md-5 mt-0 gap-3 d-flex flex-column flex-sm-row justify-content-sm-center align-items-start ">
 			
 			<div class="d-flex flex-column text-white rounded rounded-4 bg-black-10 p-4 align-items-center" style="max-width: 50rem;">
 				<h5 class="w-auto text-headline fw-normal fs-2 fw-normal text-align-center d-inline-block text-shadow-1"><a name="bot">Meet Our Bot</a></h5>
 				<table class="mt-md-3">
 					<tbody class="text-white fs-5 align-text-top">
 						<tr class="t">
-							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Name</span></td>
-							<td class="p-2">The Nautilus</td>
+							<td class="p-2 ps-0 text-end"><div class="bg-dark d-flex flex-column align-items-center justify-content-center rounded-3 gap-4 pt-4 pb-2 px-2"><i class="fa-solid fa-hand-wave fa-lg text-warning"></i><span class="small">Name</span></div></td>
+							<td class="p-2">Little Tut</td>
 						</tr>
 						<tr>
-							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Drivetrain</span></td>
-							<td class="p-2">four wheel mecanum, each wheel powered by a REV HD Hex motor with UltraPlanetary Gearbox and 90 Degree Gearbox</td>
+							<td class="p-2 ps-0 text-end"><div class="bg-dark d-flex flex-column align-items-center justify-content-center rounded-3 gap-4 pt-4 pb-2 px-2"><i class="fa-solid fa-conveyor-belt fa-lg text-warning"></i><span class="small">Drivetrain</span></div></td>
+							<td class="p-2">four wheel mecanum, each wheel powered by a REV HD Hex motor with UltraPlanetary Gearbox and per-wheel drive belts</td>
 						</tr>
 						<tr>
-							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Shoulder</span></td>
-							<td class="p-2">double-sided gear and chain-driven rotation joint, powered by twin REV HD Hex motors with UltraPlanetary Gearbox and 90 Degree Gearbox</td>
+							<td class="p-2 ps-0 text-end"><div class="bg-dark d-flex flex-column align-items-center justify-content-center rounded-3 gap-4 pt-4 pb-2 px-2"><i class="fa-solid fa-star-shooting fa-lg text-warning"></i><span class="small">Shooter</span></div></td>
+							<td class="p-2">double custom-molded compliant wheels powered by per-wheel REV HD Hex motors with UltraPlanetary Gearbox, with a double GoBilda SuperSpeed servo scissor lift mechanism</td>
 						</tr>
 						<tr>
-							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Arm</span></td>
-							<td class="p-2">double-sided chain-driven linear extension powered by twin REV HD Hex motors with UltraPlanetary Gearbox</td>
+							<td class="p-2 ps-0 text-end"><div class="bg-dark d-flex flex-column align-items-center justify-content-center rounded-3 gap-4 pt-4 pb-2 px-2"><i class="fa-solid fa-arrow-right-to-bracket fa-lg text-warning"></i><span class="small">Intake</span></div></td>
+							<td class="p-2">horizontally-mounted lower intake with custom-molded compliant wheels powered by a GoBilda continuous rotation servo; two vertically-mounted middle intakes with custom-molded compliant wheels each powered by a GoBilda continuous rotation servo; upper horizontally-mounted intake wheel with surgical tubing, powered by double GoBilda continuous rotation servos</td>
 						</tr>
 						<tr>
-							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Wrist</span></td>
-							<td class="p-2">single servo and spring pivot joint, with physical limits</td>
+							<td class="p-2 ps-0 text-end"><div class="bg-dark d-flex flex-column align-items-center justify-content-center rounded-3 gap-4 pt-4 pb-2 px-2"><i class="fa-solid fa-rotate-right fa-lg text-warning"></i><span class="small">Carousel</span></div></td>
+							<td class="p-2">plexiglass and wire spring wheel for moving artifacts throughout the bot, powered by a REV HD Hex motor with UltraPlantary Gearbox and 90 Degree Gearbox</td>
 						</tr>
 						<tr>
-							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Intake</span></td>
-							<td class="p-2">dual continuous-rotation servos powering compliant wheels</td>
-						</tr>
-						<tr>
-							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Ascent</span></td>
-							<td class="p-2">double set of 3D-printed rung hooks, attached to the robot's arm</td>
+							<td class="p-2 ps-0 text-end"><div class="bg-dark d-flex flex-column align-items-center justify-content-center rounded-3 gap-4 pt-4 pb-2 px-2"><i class="fa-solid fa-lightbulb-on fa-lg text-warning"></i><span class="small">Lighting</span></div></td>
+							<td class="p-2">full-color LED light strip powered by REV Blinkin Driver, capable of indicating alliance and bot status by way of color and light patterns</td>
 						</tr>
 						
 						<tr class="d-none">
 							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Vision</span></td>
 							<td class="p-2">triple detection zone with mean saturation comparison, powered by Aluratek Ultra 2K Live camera and VisionPortal</td>
 						</tr>
-						<tr class="t d-none">
-							<td class="p-2 ps-0 text-end"><span class="badge bg-dark">Awards</span></td>
-							<td class="p-2">Innovate Award 2nd place (Kentwood), Motivate Award 3rd place (Fruitport)</td>
+						<tr class="">
+							<td class="p-2 ps-0 text-end"><div class="bg-dark d-flex flex-column align-items-center justify-content-center rounded-3 gap-4 pt-4 pb-2 px-2"><i class="fa-solid fa-trophy fa-lg text-warning"></i><span class="small">Awards</span></div></td>
+							<td class="p-2">Think Award, 1st Place (Kentwood); Advanced to MI State Championship (Kentwood)</td>
 						</tr>
 		
 					</tbody>
 				</table>
 			</div>
 			<div class="d-flex flex-basis-sm-20rem p-2 flex-column  align-items-center">				
-				<img src="/images/robots/intothedeep/front_perspective.png" class="w-100 rounded"/>
+				<img src="/images/robots/decode/decode_render_1.png" class="w-100 rounded"/>
 			</div>
-			<div class="d-flex flex-basis-sm-20rem flex-column  align-items-center">				
+			<div class="d-none" xclass="d-flex flex-basis-sm-20rem flex-column  align-items-center">				
 				<img src="/images/robots/intothedeep/back_perspective.png" class="w-100 bg-white p-1 rounded"/>
 			</div>
 			
 		</article>
 		
-		<article class="d-none" xclass="d-flex align-items-center justify-content-center flex-column p-3 p-md-5  bg-dark bg-opacity-50">
+		<article xclass="d-none" class="d-flex align-items-center justify-content-center flex-column p-3 p-md-5  bg-dark bg-opacity-50">
 			<h5 class="w-auto text-headline fw-normal fs-2 text-white fw-normal text-align-center d-inline-block text-shadow-1"><a name="team">Meet the Team</a></h5>
-			<div class="d-flex justify-content-center flex-column flex-md-row">
+			<div class="d-none" xclass="d-flex justify-content-center flex-column flex-md-row">
 				<div class="col-12 col-md-4 mt-3 p-2 bg-white">
 					<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_fruitport24/team_11-23-24a.jpg" alt="Team photo taken on November 23, 2024" class="w-100"/></a>
 				</div>
@@ -113,7 +109,40 @@
 			
 			<div class="d-flex m-md-0 gap-3 flex-wrap justify-content-center w-100">
 				
-				<div xclass="d-none" class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-25rem">
+				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-30rem">
+					<div class="card-body p-4 d-flex gap-3">
+						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
+						<div>
+							<div class="fw-bold text-black-50"><span class="fs-5">MI State Championship NW</span><br/><span>12/12/25 &ndash; 12/13/25</span></div>
+							<ul class="mt-2 mb-0 pb-0">
+								<li>Trinity Health Arena; Muskegon, MI</li>
+								<li>Details coming soon!</li>
+				
+							</ul>
+							<ul class="mt-2 mb-0 pb-0 d-none">
+								<li>After two days of competition, 4 wins and 3 losses.</li>
+								<li>Ranked 18th after the qualification matches.</li>
+								<li>Picked to be a member of Alliance 4!</li>
+								<li>Made it to Match 6 of the tournament</li>
+				
+							</ul>
+						</div>	
+					</div>
+					<div class="card-footer d-flex justify-content-between gap-2 d-none">
+					
+						<div class="d-flex gap-2">
+							<button onclick="window.open('https://www.twitch.tv/theorangealliance3');" target="_new" class="btn btn-secondary btn-sm d-none">Live Stream</button>
+							<button onclick="window.open('https://ftc-events.firstinspires.org/2024/USMICMP');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+							<button onclick="window.open('https://firstinmichigan.us/FTC/states-nw/');" target="_new" class="btn btn-secondary btn-sm">Event Info</button>
+							<button onclick="window.open('https://docs.google.com/document/d/1VY1JWbrDPFXlznyh6ETuRHf18rO2PrGK2RrdO6pnHGg/pub');" target="_new" class="btn btn-secondary btn-sm d-none">Event Info</button>
+							<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-FRQ2/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
+						</div>
+						<a href="/2024-2025/events/mistate" class="btn btn-dark btn-sm text-white" role="button">Details</a>
+					
+					</div>
+				</div>
+				
+				<div class="d-none" xclass="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-25rem">
 					<div class="card-body p-4 d-flex gap-3">
 						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
 						<div>
@@ -131,13 +160,48 @@
 						</div>
 				
 					</div>
-					<div class="d-none" xclass="card-footer d-flex justify-content-between gap-2">
+					<div xclass="d-none" class="card-footer d-flex justify-content-between gap-2">
 						<div class="d-flex gap-2">
-							<button onclick="window.open('https://www.twitch.tv/theorangealliance3');" target="_new" class="btn btn-secondary btn-sm">Live Stream</button>
-							<button onclick="window.open('https://ftc-events.firstinspires.org/2024/USMIKEQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
-							<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-FRQ2/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
+							<button onclick="window.open('https://www.youtube.com/watch?v=rNXn5fO0kLs');" target="_new" class="btn btn-secondary btn-sm">Live Stream</button>
+							<button onclick="window.open('https://ftc-events.firstinspires.org/2025/USMIKEQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+							<button onclick="window.open('https://theorangealliance.org/events/2526-FIM-KEQ/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
 						</div>
 						<a href="/2024-2025/events/kentwood" class="btn btn-dark btn-sm text-white" role="button">Details</a>
+				
+					
+					</div>
+				
+					<div class="card-footer d-none gap-2">
+						<button onclick="self.location.href='/2023-2024/events/kentwood/';" target="_self" class="btn btn-secondary btn-sm">Event Details</button>
+				
+				
+					</div>
+				</div>
+				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-25rem">
+					<div class="card-body p-4 d-flex gap-3">
+						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
+						<div>
+							<div class="fw-bold text-black-50"><span class="fs-5">Grand Rapids Qualifier</span><br/><span>Saturday 11/8/25</span></div>
+							<ul class="mt-2 mb-0 pb-0">
+								<li>Ottawa Hills High School</li>
+								<li>More details coming soon</li>
+							</ul>
+							<ul class="mt-2 mb-0 pb-0 d-none">
+								<li>Ranked ninth at the end of qualifying matches</li>
+								<li>Chosen as partner for Alliance 2</li>
+								<li>Winner of the Think Award</li>
+								<li>Advanced to State Championship</li>
+							</ul>
+						</div>
+				
+					</div>
+					<div xclass="d-none" class="card-footer d-flex justify-content-between gap-2">
+						<div class="d-flex gap-2">
+							<button onclick="window.open('https://www.twitch.tv/theorangealliance3');" target="_new" class="btn btn-secondary btn-sm d-none">Live Stream</button>
+							<button onclick="window.open('https://ftc-events.firstinspires.org/2025/USMIGRQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+							<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-FRQ2/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
+						</div>
+						<a href="/2025-2026/events/grandrapids" class="btn btn-dark btn-sm text-white" role="button">Details</a>
 				
 					
 					</div>
@@ -155,26 +219,26 @@
 						<i class="fa-duotone fa-calendar-star fa-3x text-dark"></i>
 						<div>
 							<div class="fw-bold text-black-50"><span class="fs-5">Kentwood Qualifier</span><br/><span>Saturday 11/1/25</span></div>
-							<ul class="mt-2 mb-0 pb-0">
+							<ul class="mt-2 mb-0 pb-0 d-none">
 								<li>East Kentwood High School, Freshman Campus</li>
 								<li>More details coming soon</li>
 							</ul>
-							<ul class="mt-2 mb-0 pb-0 d-none">
+							<ul class="mt-2 mb-0 pb-0">
 								<li>Ranked ninth at the end of qualifying matches</li>
-								<li>Chosen as partner for Alliance 3</li>
-								<li>Advanced to Playoff Round 5</li>
-								<li>Winner of the Design Award</li>
+								<li>Chosen as partner for Alliance 2</li>
+								<li>Winner of the Think Award</li>
+								<li>Advanced to State Championship</li>
 							</ul>
 						</div>
 				
 					</div>
-					<div class="d-none" xclass="card-footer d-flex justify-content-between gap-2">
+					<div xclass="d-none" class="card-footer d-flex justify-content-between gap-2">
 						<div class="d-flex gap-2">
-							<button onclick="window.open('https://www.twitch.tv/theorangealliance3');" target="_new" class="btn btn-secondary btn-sm">Live Stream</button>
-							<button onclick="window.open('https://ftc-events.firstinspires.org/2024/USMIKEQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
-							<button onclick="window.open('https://theorangealliance.org/events/2324-FIM-FRQ2/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
+							<button onclick="window.open('https://www.youtube.com/watch?v=rNXn5fO0kLs');" target="_new" class="btn btn-secondary btn-sm d-none">Live Stream</button>
+							<button onclick="window.open('https://ftc-events.firstinspires.org/2025/USMIKEQ');" target="_new" class="btn btn-secondary btn-sm">FTC Event Results</button>
+							<button onclick="window.open('https://theorangealliance.org/events/2526-FIM-KEQ/');" target="_new" class="btn btn-secondary btn-sm d-none">Orange Alliance Results</button>
 						</div>
-						<a href="/2024-2025/events/kentwood" class="btn btn-dark btn-sm text-white" role="button">Details</a>
+						<a href="/2025-2026/events/kentwood" class="btn btn-dark btn-sm text-white" role="button">Details</a>
 				
 					
 					</div>
@@ -240,7 +304,7 @@
 					
 					</div>
 				</div>
-				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-25rem">
+				<div class="card bg-warning flex-grow-1 flex-lg-grow-0 flex-basis-md-25rem d-none">
 					<div class="card-body p-4 d-flex gap-3">
 						<i class="fa-duotone fa-file-pen fa-3x text-dark"></i>
 						<div>
@@ -434,7 +498,7 @@
 						<div class="d-flex gap-3 mt-4">
 							<div><i class="fa-duotone fa-messages-question fa-3x text-secondary fa-fw"></i></div>
 							<div>
-								<div><a xhref="https://ftc-qa.firstinspires.org/" target="_blank">FTC Question and Answer System</a></div>
+								<div><a href="https://ftc-qa.firstinspires.org" target="_blank">FTC Question and Answer System</a></div>
 								<div class="small text-secondary role-label">This board is considered the official place to get answers to questions about the rules, gameplay, or strategy.</div>
 							</div>
 						</div>
@@ -509,7 +573,7 @@
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">Whit R.</div>
+									<div class="text-dark">Whit R</div>
 									<div class="small text-secondary role-label">8th Grade</div>
 								</div>
 							</div>
@@ -517,7 +581,7 @@
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">Colin V.</div>
+									<div class="text-dark">Colin VE</div>
 									<div class="small text-secondary role-label">7th Grade</div>
 								</div>
 							</div>
@@ -525,7 +589,7 @@
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">Kenny Z.</div>
+									<div class="text-dark">Kenny Z</div>
 									<div class="small text-secondary role-label">8th Grade</div>
 								</div>
 							</div>
@@ -558,7 +622,7 @@
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">Sam K.</div>
+									<div class="text-dark">Sam K</div>
 									<div class="small text-secondary role-label">7th Grade</div>
 								</div>
 							</div>
@@ -566,7 +630,7 @@
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">Royce</div>
+									<div class="text-dark">Royce D</div>
 									<div class="small text-secondary role-label">7th Grade</div>
 								</div>
 							</div>
@@ -574,7 +638,7 @@
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">Jay N.</div>
+									<div class="text-dark">Jay N</div>
 									<div class="small text-secondary role-label">7th Grade</div>
 								</div>
 							</div>
@@ -582,7 +646,7 @@
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user-vneck fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">Kevin</div>
+									<div class="text-dark">Kevin H</div>
 									<div class="small text-secondary role-label">7th Grade</div>
 								</div>
 							</div>
@@ -606,21 +670,21 @@
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">Abby D.V.</div>
+									<div class="text-dark">Abby DV</div>
 									<div class="small text-secondary role-label">8th Grade</div>
 								</div>
 							</div>
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">Ashlee</div>
+									<div class="text-dark">Ashlee VK</div>
 									<div class="small text-secondary role-label">7th Grade</div>
 								</div>
 							</div>
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">Betsy</div>
+									<div class="text-dark">Betsy DV</div>
 									<div class="small text-secondary role-label">7th Grade</div>
 								</div>
 							</div>
@@ -653,7 +717,7 @@
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">Connor G.</div>
+									<div class="text-dark">Connor G</div>
 									<div class="small text-secondary role-label">8th Grade</div>
 								</div>
 							</div>					
@@ -661,7 +725,7 @@
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">Jack R.</div>
+									<div class="text-dark">Jack R</div>
 									<div class="small text-secondary role-label">8th Grade</div>
 								</div>
 							</div>					
@@ -695,18 +759,25 @@
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">TBD</div>
-									<div class="small text-secondary role-label">8th Grade</div>
+									<div class="text-dark">Kevin H</div>
+									<div class="small text-secondary role-label">7th Grade</div>
 								</div>
-								
-							</div>					
+							</div>
 							<div class="team-member">
 								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 								<div>
-									<div class="text-dark">TBD</div>
-									<div class="small text-secondary role-label">8th Grade</div>
+									<div class="text-dark">Colin VE (backup</div>
+									<div class="small text-secondary role-label">7th Grade</div>
 								</div>
 							</div>
+							<div class="team-member">
+								<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+								<div>
+									<div class="text-dark">Ashlee VK</div>
+									<div class="small text-secondary role-label">7th Grade</div>
+								</div>
+								
+							</div>					
 
 						</div>
 						<? } ?>
@@ -728,21 +799,35 @@
 								<div class="team-member">
 									<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 									<div>
-										<div class="text-dark">Ellie B.</div>
+										<div class="text-dark">Elly B</div>
 										<div class="small text-secondary role-label">6th Grade</div>
 									</div>
 								</div>
 								<div class="team-member">
 									<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 									<div>
-										<div class="text-dark">Colin DV</div>
+										<div class="text-dark">Collin DV</div>
 										<div class="small text-secondary role-label">6th Grade</div>
 									</div>
 								</div>
 								<div class="team-member">
 									<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
 									<div>
-										<div class="text-dark">Mike</div>
+										<div class="text-dark">Maeli F</div>
+										<div class="small text-secondary role-label">6th Grade</div>
+									</div>
+								</div>
+								<div class="team-member">
+									<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+									<div>
+										<div class="text-dark">Trevor H</div>
+										<div class="small text-secondary role-label">6th Grade</div>
+									</div>
+								</div>
+								<div class="team-member">
+									<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+									<div>
+										<div class="text-dark">Mike R</div>
 										<div class="small text-secondary role-label">6th Grade</div>
 									</div>
 								</div>
@@ -765,6 +850,13 @@
 									<div>
 										<div class="text-dark">Mike VanLaan</div>
 										<div class="small text-secondary role-label">Mentor</div>
+									</div>
+								</div>
+								<div class="team-member">
+									<div><i class="fa-duotone fa-user fa-2x text-opacity-50 text-body fa-fw"></i></div>
+									<div>
+										<div class="text-dark">Mikayla VL</div>
+										<div class="small text-secondary role-label">6th Grade</div>
 									</div>
 								</div>
 							</div>

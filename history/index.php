@@ -50,7 +50,7 @@
 						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div><a xhref="/2020-2021">Highlights</a></div>
-							<div class="small text-secondary">Robotics is increasingly popular at DCS. As a result, we'll be changing our team format this year. Details to come!</div>
+							<div class="small text-secondary">Advanced to the Michigan state championship from the Kentwood Qualifier and won the Think Award.</div>
 						</div>
 					</div>
 			
@@ -162,7 +162,7 @@
 						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div><a xhref="/2020-2021">Highlights</a></div>
-							<div class="small text-secondary">Our best season so far: two qualifying events, one where we finished with a first ranking and the Inspire award. And our second time at states, where we ranked fifth and were chosen first by the Alliance 1 captain.</div>
+							<div class="small text-secondary">Our first season with two qualifying events, one where we finished with a first ranking and the Inspire award. Also our second time at states, where we ranked fifth and were chosen first by the Alliance 1 captain.</div>
 						</div>
 					</div>
 

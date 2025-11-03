@@ -116,7 +116,12 @@ export class DomElement {
 	}
 	
 	appendAfter(newEl) {
-		this.parent().el.insertBefore(newEl.el, this.el.nextSibling);
+		if (arguments.length > 1) {
+			newEl = [...arguments]
+		} else if (!Array.isArray(newEl)) {
+			newEl = [newEl]
+		}
+		newEl.forEach((el) => this.parent().el.insertBefore(el.el, this.el.nextSibling));
 
 	}
 
@@ -418,4 +423,24 @@ export function sortObjectArray(arr, key, reverse = false) {
 			}
 		});
 
+}
+
+export function capitalize(s) {
+	return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+export function toOrdinal(n) {
+	if (n == 11) {
+		return '11th';
+	} else if (/1$/.test(n)) {
+		return `${n}st`;
+	} else if (n == 12) {
+		return '12th';
+	} else if (/2$/.test(n)) {
+		return `${n}nd`;
+	} else if (/3$/.test(n)) {
+		return `${n}rd`;
+	} else {
+		return `${n}th`;
+	}
 }

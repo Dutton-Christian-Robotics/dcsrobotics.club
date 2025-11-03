@@ -125,12 +125,12 @@
 					<div class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
 						<div>
-							<div><a xhref="https://github.com/Dutton-Christian-Robotics/FtcRobotController-DCS-IntoTheDeep" target="_blank">DCS DECODE repository</a></div>
+							<div><a href="https://github.com/Dutton-Christian-Robotics/FtcRobotController-DCS-DECODE" target="_blank">DCS DECODE repository</a></div>
 							<div class="small text-secondary">This repository contains our team's version of the FtcRobotController app, including our programming frameworks and opmodes.</div>
 						</div>
 					</div>
 
-					<div class="d-one" xclass="d-flex gap-3 mt-4">
+					<div class="d-none" xclass="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-box fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div><a href="https://github.com/Dutton-Christian-Robotics/FtcRobotController-DCS-IntoTheDeep" target="_blank">OutreachBot repository</a></div>

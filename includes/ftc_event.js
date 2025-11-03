@@ -3,35 +3,11 @@ let toaEventKey = null;
 let ftcEventKey = null;
 let ftcSeason = null;
 const matchesEl = el('#matches');
-import { DomElement, el, div, p, button, i, ul, li, a, span, h } from "/includes/library.js";
+import { DomElement, el, div, p, button, i, ul, li, a, span, h, capitalize, toOrdinal } from "/includes/library.js";
+import { FtcScoutApi, FtcTeam } from "/includes/api_library.js";
 
+const api = new FtcScoutApi({seasonCode: "2025"});
 
-
-function capitalize(s) {
-	return s.charAt(0).toUpperCase() + s.slice(1);
-}
-function sortObjectArray(arr, key, reverse = false) {
-	const sortOrder = reverse ? -1 : 1;
-	return arr
-		.sort((a, b) => {
-			let aValue, bValue;
-			try {
-				if (typeof key == 'function') {
-					aValue = key(a);
-					bValue = key(b);
-				} else {
-					aValue = typeof (a)[key] == "string" ? (a)[key].toLowerCase() : (a)[key];
-					bValue = typeof (b)[key] == "string" ? (b)[key].toLowerCase() : (b)[key];
-				}
-				
-				if (aValue < bValue) return sortOrder * -1;
-				else if (aValue > bValue) return sortOrder * 1;
-				else return 0;
-			} catch (e) {
-				return 0;
-			}
-		});
-}
 
 function rankForTeam(n) {
 	const match = rankings.filter((r) => r.team_key == n);
@@ -43,22 +19,22 @@ function rankForTeam(n) {
 
 }
 
-let numberOfMatchesPlayed = 0;
-
 function teamEntryForMatch(t) {
+	
 	return li().append(
-		a('', `https://ftc-events.firstinspires.org/${ftcSeason}/team/${t.team_key}`)
-			.addClass('link-dark link-underline-opacity-25 link-underline-opacity-100-hover link-underline-dark')
+		a('', `https://ftc-events.firstinspires.org/${ftcSeason}/team/${t.teamNumber}`)
+			.addClass('link-dark link-underline-opacity-0 link-underline-opacity-100-hover link-underline-dark')
 			.setAttribute('target', '_blank')
 			.setValue(
-				`${t.team.team_number} &ndash; ${t.team.team_name_short} (${t.team.city})`
+				`${t.teamNumber} &ndash; <span class="t${t.teamNumber}-name">?</span> <span class="text-black-50"> &ndash; <span class="t${t.teamNumber}-city">?</span></span>`
+				// `${t.teamNumber} &ndash;`
 			),
-		span(` &ndash; ${rankForTeam(t.team_key)}`)
+		// span(` &ndash; ${rankForTeam(t.teamNumber)}`)
 	)
 
 }
 
-export function loadData(eventKey, highlights = {}, links = null, videos = {}) {
+export async function loadData(eventKey, highlights = {}, links = null, videos = {}) {
 	toaEventKey = eventKey;
 	if (!!links && !!links.ftcEventKey) {
 		ftcEventKey = links.ftcEventKey;
@@ -116,6 +92,7 @@ export function loadData(eventKey, highlights = {}, links = null, videos = {}) {
 	
 	Object.entries(highlights).forEach(([key, value]) => {
 		let icon;
+		if (key == "notStarted") return;
 		if (key == "alliance") {
 			icon = "fa-duotone fa-user-group";
 		} else if (key == "captain") {
@@ -160,48 +137,57 @@ export function loadData(eventKey, highlights = {}, links = null, videos = {}) {
 				!!links.schedule ? a('Schedule', links.schedule).addClass('btn btn-dark text-white btn-sm') : null
 			)
 		)
-// 		highlightsEl.append(
-// 			div().addClass('d-flex gap-3 mt-4 align-items-center').append(
-// 				div().append(i(`fa-duotone fa-link fa-3x text-black-50 fa-fw`)),
-// 				div().addClass('small text-dark gap-2 d-flex').append(
-// 					!!ftcEventKey ? button('btn btn-dark btn-sm').setValue('FTC Event Results').onClick(() => window.open(`https://ftc-events.firstinspires.org/${ftcSeason}/${ftcEventKey}`)) : null,
-// 					!!links.streamUrl ? button('btn btn-dark btn-sm').setValue('Live Stream').onClick(() => window.open(links.streamUrl)) : null,
-// 					!!links.eventInfo ? button('btn btn-dark btn-sm').setValue('Event Info').onClick(() => window.open(links.eventInfo)) : null
-// 
-// 				),
-// 			)
-// 		)
 	}
+	
+	
+	const event = await api.loadEvent(links.ftcEventKey);
+	// console.debug(event);
+	
+	const teamMatches = event.matchesForTeam("15815");
 
 	
-	fetch(`https://theorangealliance.org/api/event/${toaEventKey}/rankings?type=quals`, {
-		"method": "GET",
-		"headers": {
-			"Content-Type": "text/json",
-			"X-TOA-Key": "9ZoJXFY6GdKBQ50B0RktugDym0EHUXT5eCx5uf5X8tw=",
-			"X-Application-Origin": "tester"
-		}
-	})
-	.then((res) => res.json())
-	.then((data) => {
-		rankings = data;
 		const loadingHighlights = el('#loading-highlights');
-		const match = data.filter((r) => r.team_key == 15815);
-		
+		if (!event.hasStarted) {
+			loadingHighlights.appendAfter(
+				div().addClass('d-flex gap-3 align-items-center').append(
+					div().append(i('fa-duotone fa-hourglass-clock fa-3x text-black-50 fa-fw')),
+					div().append(
+						div("This event hasn't started yet. Check back later.")
+					)
+				)
+			);
+			if (Object.hasOwn(highlights, "notStarted")) {
+				loadingHighlights.appendAfter(
+					...Object.entries(highlights['notStarted']).map(([key, value]) => {
+						return div().addClass('d-flex gap-3 align-items-center').append(
+							div().append(i(`fa-duotone ${key} fa-3x text-black-50 fa-fw`)),
+							div().append(
+								div(value)
+							)
+						)
+
+					})
+				)
+			}
+			loadingMatches.hide();
+			loadingHighlights.hide();
+
+			return;
+		}
 		let currentRank;
-		if (!!match && match.length > 0) {
-			currentRank = match[0].rank;
+		if (!!teamMatches && teamMatches.length > 0) {
+			// console.debug(event.teams.get('15815'));
+			currentRank = event.rankForTeam('15815');
 		}
 		
 		let eventStart = null;
 		if (!!links && !!links.eventStart) {
 			eventStart = luxon.DateTime.fromISO(links.eventStart);
-			// console.debug(eventStart);
 		}
 		
-		if (!!match && match.length > 0) {
-			// document.querySelector("#rank").innerText = toOrdinal(match[0].rank);
-			
+		if (!!teamMatches && teamMatches.length > 0) {
+			// document.querySelector("#rank").innerText = toOrdinal(teamMatches[0].rank);
+			// 
 			// document.querySelector("#rank-row").classList.remove('loading');
 		} else {
 			loadingHighlights.appendAfter(
@@ -212,100 +198,41 @@ export function loadData(eventKey, highlights = {}, links = null, videos = {}) {
 					)
 				)
 			);
-			// document.querySelector("#rank-message").innerText = "Rankings and results are not yet available";
-			// document.querySelector("#rank-row").classList.remove('loading');
-			
+
 		}
-		// highlightsEl.removeClass('loading');
-		
-		fetch(`https://theorangealliance.org/api/event/${toaEventKey}/matches`, {
-			"method": "GET",
-			"headers": {
-				"Content-Type": "text/json",
-				"X-TOA-Key": "9ZoJXFY6GdKBQ50B0RktugDym0EHUXT5eCx5uf5X8tw=",
-				"X-Application-Origin": "tester"
-			}
-		})
-		.then((res) => res.json())
-		.then((data) => {
-			numberOfMatchesPlayed = data.filter((m) => m.red_score !== -1 && m.tournament_level == 1).length;
-					
-			if (numberOfMatchesPlayed > 0) {	
-				loadingHighlights.appendAfter(
-					div().addClass('d-flex gap-3 align-items-center').append(
-						div().append(i('fa-duotone fa-chart-simple fa-3x text-black-50 fa-fw')),
-						div().append(
-							div(`Ranked ${toOrdinal(currentRank)} after ${numberOfMatchesPlayed} qualifying matches`).addClass('text-dark fs-5')
-						)
+		let numberOfQualMatchesPlayed = teamMatches.filter((m) => m.hasBeenPlayed && m.isQualification()).length;
+		if (numberOfQualMatchesPlayed > 0) {	
+			loadingHighlights.appendAfter(
+				div().addClass('d-flex gap-3 align-items-center').append(
+					div().append(i('fa-duotone fa-chart-simple fa-3x text-black-50 fa-fw')),
+					div().append(
+						div(`Ranked ${toOrdinal(currentRank)} after ${numberOfQualMatchesPlayed} qualifying matches`).addClass('text-dark fs-5')
 					)
-				);
-			} else {
-				loadingMatches.hide();
-			}
-			// loadingHighlights.hide();
-
-
-			// document.querySelector("#num-quals").innerText = numberOfMatchesPlayed;
-		
-			const matches = sortObjectArray(
-				data.filter((r, i) => {
-					let p = r.participants.filter((m) => m.team_key == 15815);
-					if (!!r.match_start_time) {
-						r.index = luxon.DateTime.fromISO(r.match_start_time).toUnixInteger();	
-					} else {
-						if (r.tournament_level == 1) {
-							r.index = i;
-						} else if (r.tournament_level > 9) {
-							r.index = r.tournament_level * 10 + i;
-						} else {
-							r.index = r.tournament_level * 100 + i;
-							// r.index = `${r.tournament_level}`.split('')[0];
-						}
-					}
-					if (/FRQ2-E/.test(r.match_key)) {
-						r.match_key = r.match_key.replace(/-E/, '-ZE');
-					}
-					if (p.length == 0) {
-						return false;
-					} else {
-						let q = p[0];
-						if (/R[12]$/.test(q.match_participant_key)) {
-							r.alliance_color = "red";
-						} else {
-							r.alliance_color = "blue";
-						}
-						if (r.red_score > r.blue_score) {
-							r.winning_alliance = "red";
-							
-						} else {
-							r.winning_alliance = "blue";
-						}
-						r.participants.splice(r.participants.indexOf(q), 1);
-
-						return true;
-					}
-				}),
-				"index"
+				)
 			);
-				
+		} else {
+			loadingMatches.hide();
+		}
+
 			
-			matches.forEach((m) => {
+			teamMatches.forEach((m) => {
 				let partners, opponents, matchUrl;
+				const team = m.team('15815')[0];
 				const cardBody = div().addClass('card-body p-lg-4')
-				const matchEl = div().addClass('card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0 rounded-4').append(cardBody);
+				const matchEl = div().addClass('card flex-basis-auto flex-basis-sm-30rem m-3 m-md-0 rounded-4 border-0').append(cardBody);
 					
 
 				const matchSummary = h(5)
-					.addClass('py-2 px-4 mt-4 text-secondary')
+					.addClass(`py-2 px-4 mt-4 ${team.isRed() ? "text-danger-emphasis" : "text-primary-emphasis"}`)
 					.setStyle([['marginLeft', '-1.5rem'], ['marginRight', '-1.5rem']])
 					.append(
-						span(`${capitalize(m.alliance_color)} Alliance`).addClass('alliance-color')
+						span(`${capitalize(team.alliance)} Alliance`).addClass('alliance-color')
 					);
 
 				const outcomeIcon = i().addClass('fa-2x fa-duotone');
 				cardBody.append(
 					h(3).addClass('card-title fw-bold pb-0 mb-0 d-flex justify-content-between align-items-center').append(
-						span(m.match_name.replace("Quals", "Qualification Match")),
+						span(m.matchName()),
 						outcomeIcon
 					),
 					matchSummary
@@ -313,46 +240,53 @@ export function loadData(eventKey, highlights = {}, links = null, videos = {}) {
 				
 				
 				
-					
-				if (m.tournament_level > 1) {
+				
+				// QUESTION: does this work any more?
+				if (m.tournamentLevel > 1) {
 					const _ = m.match_key.match(/E(\d{1,2})\d{2}-/);
 					matchUrl = `https://ftc-events.firstinspires.org/${ftcSeason}/${ftcEventKey}/playoff/${_[1]}/1`;
 
 				} else {
-					matchUrl = `https://ftc-events.firstinspires.org/${ftcSeason}/${ftcEventKey}/qualifications/`+m.match_name.replace("Quals ", "");
+					matchUrl = `https://ftc-events.firstinspires.org/${ftcSeason}/${ftcEventKey}/qualifications/`+m.matchName().replace("Quals ", "");
 				}
 				
-				if (m.alliance_color == "red") {
+				if (team.isRed()) {
 					matchSummary.addClass('bg-danger-subtle');
-					partners = sortObjectArray(
-						m.participants.filter((p) => /R[123]$/.test(p.match_participant_key)),
-						(t) => +t.team_key
-					);
-					opponents = sortObjectArray(
-						m.participants.filter((p) => /B[123]$/.test(p.match_participant_key)),
-						(t) => +t.team_key
-					);
+					partners = m.partners(15815);
+					opponents = m.opponents(15815);
+					// partners = sortObjectArray(
+					// 	m.participants.filter((p) => /R[123]$/.test(p.match_participant_key)),
+					// 	(t) => +t.team_key
+					// );
+					// opponents = sortObjectArray(
+					// 	m.participants.filter((p) => /B[123]$/.test(p.match_participant_key)),
+					// 	(t) => +t.team_key
+					// );
 
 
 				} else {
 					matchSummary.addClass('bg-primary-subtle');
-					partners = sortObjectArray(
-						m.participants.filter((p) => /B[123]$/.test(p.match_participant_key)),
-						(t) => +t.team_key
-					);
-					opponents = sortObjectArray(
-						m.participants.filter((p) => /R[123]$/.test(p.match_participant_key)),
-						(t) => +t.team_key
-					);
+					partners = m.partners(15815);
+					opponents = m.opponents(15815);
+
+					// partners = sortObjectArray(
+					// 	m.participants.filter((p) => /B[123]$/.test(p.match_participant_key)),
+					// 	(t) => +t.team_key
+					// );
+					// opponents = sortObjectArray(
+					// 	m.participants.filter((p) => /R[123]$/.test(p.match_participant_key)),
+					// 	(t) => +t.team_key
+					// );
 
 
 				}
 		
-				if (m.red_score == -1) {
-					if (!!m.scheduled_time) {
-						let scheduledTime = luxon.DateTime.fromISO(m.scheduled_time);//.plus({hours:5});
+				// if (m.red_score == -1) {
+				if (!m.hasBeenPlayed) {
+					if (!!m.scheduledStartTime) {
+						// let scheduledTime = luxon.DateTime.fromISO(m.scheduledStartTime);//.plus({hours:5});
 						cardBody.addClass('text-secondary mb-3').append(
-							h(5, `Scheduled for ${scheduledTime.toFormat('t')}`)
+							h(5, `Scheduled for ${m.scheduledStartTimeAsLuxon.toFormat('t')}`)
 						);
 						outcomeIcon.addClass('fa-question');
 
@@ -363,18 +297,19 @@ export function loadData(eventKey, highlights = {}, links = null, videos = {}) {
 					
 				} else {
 					
-					if (m.alliance_color == m.winning_alliance) {
+					if (team.isWinningAlliance()) {
+					// if (m.alliance_color == m.winning_alliance) {
 						matchSummary.append(
-							span(' &bull; Win')
+							span(` <span class="text-black-25">&bull;</span> Win`),
 						);
-						outcomeIcon.addClass('fa-thumbs-up');
+						outcomeIcon.addClass(`fa-thumbs-up ${team.isRed() ? "text-danger-emphasis" : "text-primary-emphasis"}`);
 						// matchEl.querySelector('.match-outcome').innerText = "Win";
 						// matchEl.querySelector('.thumb-icon').classList.add('fa-thumbs-up');
 					} else {
 						matchSummary.append(
-							span(' &bull; Loss')
+							span(` <span class="text-black-25">&bull;</span> Loss`),
 						);
-						outcomeIcon.addClass('fa-thumbs-down');
+						outcomeIcon.addClass(`fa-thumbs-down ${team.isRed() ? "text-danger-emphasis" : "text-primary-emphasis"}`);
 // 
 // 						matchEl.querySelector('.match-outcome').innerText = "Loss";
 // 						matchEl.querySelector('.thumb-icon').classList.add('fa-thumbs-down');
@@ -382,14 +317,14 @@ export function loadData(eventKey, highlights = {}, links = null, videos = {}) {
 					
 					
 					
-					if (m.alliance_color == "red") {
+					if (team.isRed()) {
 						// matchEl.addClass('border-danger');
 						outcomeIcon.addClass('text-danger');
 						matchSummary.append(
-							span(' &bull; '),
-							a(`${m.red_score} to ${m.blue_score}`, matchUrl)
+							span(` <span class="text-black-25">&bull;</span> `),
+							a(`${m.totalPointsRed()} to ${m.totalPointsBlue()}`, matchUrl)
 								.setAttribute('target', '_blank')
-								.addClass('link-secondary link-underline-opacity-25 link-underline-opacity-100-hover link-underline-dark')
+								.addClass('text-danger-emphasis link-underline-opacity-25 link-underline-opacity-100-hover link-underline-dark')
 						);
 						// matchEl.classList.add('border-danger');
 						// matchEl.querySelector('.score-1').innerText = m.red_score;
@@ -403,10 +338,10 @@ export function loadData(eventKey, highlights = {}, links = null, videos = {}) {
 						outcomeIcon.addClass('text-primary');
 
 						matchSummary.append(
-							span(' &bull; '),
-							a(`${m.blue_score} to ${m.red_score}`, matchUrl)
+							span(` <span class="text-black-25">&bull;</span> `),
+							a(`${m.totalPointsBlue()} to ${m.totalPointsRed()}`, matchUrl)
 								.setAttribute('target', '_blank')	
-								.addClass('link-secondary link-underline-opacity-25 link-underline-opacity-100-hover link-underline-dark')
+								.addClass('text-primary-emphasis link-underline-opacity-25 link-underline-opacity-100-hover link-underline-dark')
 						);
 						
 						// matchEl.classList.add('border-primary');
@@ -424,7 +359,7 @@ export function loadData(eventKey, highlights = {}, links = null, videos = {}) {
 					
 					
 				}
-					console.debug(partners, opponents);
+				// console.debug(partners, opponents);
 				cardBody.append(
 					div().append(
 						p('Partner' + (!!partners && partners.length > 1 ? 's' : '')).addClass('fw-bold'),
@@ -484,7 +419,17 @@ export function loadData(eventKey, highlights = {}, links = null, videos = {}) {
 			highlightsEl.children().forEach((e) => e.show());
 			loadingHighlights.hide();
 
-			
+			Array.from(event.teams.values()).forEach((t) => {
+				api.getTeamData(t.teamNumber).then((results) => results.json()).then((json) => {
+					t.name = json.name;
+					t.schoolName = json.name;
+					t.state = json.state;
+					t.city = json.city;
+					Array.from(document.querySelectorAll(`.t${t.teamNumber}-name`)).forEach((x) => x.innerHTML = t.name);
+					Array.from(document.querySelectorAll(`.t${t.teamNumber}-city`)).forEach((x) => x.innerHTML = `${t.city}, ${t.state}`);
+					// console.debug(`.t${t.teamNumber}-name`);
+				});
+			})
 			
 			
 			// if (!!match && match.length > 0) {
@@ -496,26 +441,11 @@ export function loadData(eventKey, highlights = {}, links = null, videos = {}) {
 			// 	document.querySelector("#rank-row").classList.remove('loading');
 			// 	
 			// }
-		})
-	})
-	.catch(error => console.error(error));
+		// }) from old toa code
+	// }) from old toa code
+	// .catch(error => console.error(error));
 	
 	
 
 }
 	
-function toOrdinal(n) {
-	if (n == 11) {
-		return '11th';
-	} else if (/1$/.test(n)) {
-		return `${n}st`;
-	} else if (n == 12) {
-		return '12th';
-	} else if (/2$/.test(n)) {
-		return `${n}nd`;
-	} else if (/3$/.test(n)) {
-		return `${n}rd`;
-	} else {
-		return `${n}th`;
-	}
-}

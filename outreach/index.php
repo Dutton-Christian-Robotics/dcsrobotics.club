@@ -21,7 +21,7 @@
 					<i class="fa-duotone fa-hands-holding-heart fa-5x float-end"></i>
 					<h5 class="card-title text-headline fw-normal fs-2 border-bottom w-75 mb-3">Giving Back</h5>
 					<p class="fs-5">We still remember our rookie season. None of us knew anything about robotics. Even the coaches! Our robot worked&mdash;except for when we forgot to turn it on, or when we flipped over on our side. But each year we've learned important lessons and we've grown.</p>
-					<p class="fs-5">DCS robotics is dedicated to sharing that knowledge with other teams who are just starting on their robotics journey, such as through pre-season scrimmage matches. Over the coming years we hope to help contribute to a vibrant robotics community in the southern Grand Rapids area.</p>
+					<p class="fs-5">DCS robotics is dedicated to sharing that knowledge with other teams who are just starting on their robotics journey, such as through pre-season scrimmage matches.</p>
 				</div>
 				
 			</div>
@@ -34,6 +34,7 @@
 
 
 		</div>
+		
 		<div class="p-3 p-md-5 d-flex gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center flex-wrap flex-md-nowrap bg-dark bg-opacity-25">
 			<div class="p-3 d-flex flex-row flex-wrap gap-3 flex-basis-auto justify-content-center order-1 order-md-0">
 				<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_outreach/picture_000.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
@@ -51,11 +52,33 @@
 				<div class="card-body p-0 p-lg-4 text-shadow-1">
 					<i class="fa-duotone fa-family fa-5x float-end"></i>
 					<h5 class="card-title text-headline fw-normal fs-2 border-bottom w-75 mb-3">Building the Future</h5>
-					<p class="fs-5">Even in 2022, competitive robotics doesn't have the visibility of traditional school activities, such as sports or fine arts. Since the team's beginning, DCS Robotics has worked to build awareness and excitement among the school's younger grades&mdash;our future teammates.</p>
-					<p class="fs-5">So far we've held family robotics open houses, demonstrations for younger grades, made appearances during halftime at school basketball games. We've even marched in parades. And if all goes well, we may be holding our first summer robotics camp!</p>
+					<p class="fs-5">Even in 2025, competitive robotics doesn't have the visibility of traditional school activities, such as sports or fine arts. Since the team's beginning, DCS Robotics has worked to build awareness and excitement among the school's younger grades&mdash;our future teammates. We've worked to build awareness through family robotics open houses, demonstrations for younger grades, and appearances during halftime at school basketball games.</p>
 				</div>				
 			</div>
 
+		
+		
+		</div>
+		
+		<div class="p-3 p-md-5 d-flex gap-3 flex-column flex-md-row align-items-md-start justify-content-md-center flex-wrap flex-md-nowrap">
+			<div class="p-3 p-md-0 card bg-black-25 border-0 flex-basis-auto flex-basis-sm-40rem flex-shrink-0 flex-grow-0 text-white">
+				<div class="card-body p-0 p-lg-4 text-shadow-1">
+					<i class="fa-duotone fa-arrows-maximize fa-5x float-end"></i>
+					<h5 class="card-title text-headline fw-normal fs-2 border-bottom w-75 mb-3">Reaching Beyond Campus</h5>
+					<p class="fs-5">DCS robotics isn't just part of the school community&mdash;we're part of the broader Dutton/Caledonia/South Grand Rapids community. We want to spread awareness about robotics and about our team by reaching out to our neighbors.</p>
+					
+					<p class="fs-5">We've marched in parades, participated in community Truck-or-Treat events, and someday soon we hope to hold our first summer robotics camp! We're committed to helping build a vibrant robotics community in the southern Grand Rapids area.</p>
+
+				</div>
+				
+			</div>
+			<div class="p-3 d-flex flex-row flex-wrap gap-3 flex-basis-auto justify-content-center">
+				<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_outreach/IMG_2916.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
+				<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_outreach/IMG_2918.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
+				<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_outreach/IMG_5210.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
+				<a data-bs-toggle="modal" data-bs-target="#photoModal" class="cursor-pointer"><img src="/images/photos_outreach/IMG_1139.jpg" class="mw-10rem border border-3 border-white rounded"/></a>
+			
+			</div>
 		
 		
 		</div>

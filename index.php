@@ -25,11 +25,11 @@
 				<div class="mt-1 text-center text-white-50 d-none">Photo after winning the Inspire Award at the Fruitport Qualifier (November 19, 2022)</div>
 			</div>
 			<div class="card bg-transparent text-white border-0 flex-basis-auto flex-basis-sm-40rem order-0 order-md-1">
-				<img src="/images/dcsrobotics_2425.jpg" class="w-100 rounded" style=""/>
+				<img src="/images/photos_kentwood25/team.jpg" class="w-100 rounded" style=""/>
 				<div class="card-body p-0 p-lg-4 text-shadow-1">
 					<i class="fa-duotone fa-house-chimney fa-5x float-end"></i>
 					<h5 class="card-title text-headline fw-normal fs-2 border-bottom w-75 mb-3">Welcome!</h5>
-					<p class="fs-5">Welcome to the home for Dutton Christian School's FTC robotics team, #15815. The team is currently in its eighth season, having started in the 2018-2019 academic year. Our FIRST Tech Challenge team includes approximately twenty students in grades 7 and 8.</p>
+					<p class="fs-5">Welcome to the home for Dutton Christian School's FTC robotics team, #15815. The team is currently in its eighth season, having started in the 2018-2019 academic year. Our FIRST Tech Challenge team includes approximately twenty students in grades 6, 7, and 8.</p>
 					<p class="fs-5"><a href="https://duttonchristianschool.org" target="_blank" class="text-white">Dutton Christian School</a> is a private Christian school located to the south of Grand Rapids, Michigan. The school offers pre-K through 8th grades.</p>
 				</div>
 				
@@ -37,6 +37,16 @@
 			<div class="card text-bg-warning order-md-2" style="max-width:clamp(40rem, 45rem, 98vw);">
 				<div class="card-body mt-3">
 					<h5 class="card-title text-headline text-warning-emphasis fs-3 text-center mb-3">Team Announcements</h5>
+					<div class="d-flex gap-3 mt-4 fs-5">
+						<div><i class="fa-duotone fa-tower-cell fa-5x text-black-50 fa-fw"></i></div>
+						<div class="w-100">
+						<div class="fs-4 fw-bold">Join us at Ottawa Hills, November 8&mdash;Live or Online</div>
+							<div><span xclass="d-none"><a href="https://www.youtube.com/watch?v=rNXn5fO0kLs" target="_blank" class="text-black">Watch us on the live event stream.</a></span> You can also visit the <a href="https://ftc-events.firstinspires.org/2025/USMIGRQ" target="_blank" class="text-black">FTC Event page</button> for results.</div>
+							<div class="text-end mt-3"><a href="/2025-2026/events/grandrapids" class="link-dark">Details</a></div>
+					
+						</div>
+					</div>
+
 					<div class="d-none gap-3 mt-4 fs-5">
 						<div><i class="fa-duotone fa-shirt fa-5x text-black-50 fa-fw"></i></div>
 						<div>
@@ -77,7 +87,7 @@
 					
 						</div>
 					</div>
-					<div class="d-flex gap-3 mt-4 fs-5">
+					<div class="d-none" xclass="d-flex gap-3 mt-4 fs-5">
 						<div><i class="fa-duotone fa-file-pen fa-5x text-black-50 fa-fw"></i></div>
 						<div class="w-100">
 							<div class="fs-4 fw-bold">Official Registration Form</div>
@@ -137,19 +147,18 @@
 						<div>
 							<div class="fw-bold"><a href="/2025-2026">DECODE</a></div>
 							<div class="small text-secondary">The game for the 25-26 season is "DECODE". Learn more about this year's challenge and how we're meeting it!</div>
-							<div class="small text-secondary mt-2">Our first competition will be Saturday November 1, 2025 at East Kentwood High School, Freshman Campus.</div>
+							<div class="small text-secondary mt-2">Our first competition will be Saturday November 1, 2025 at East Kentwood High School, Freshman Campus. <a href="/2025-2026/events/kentwood">Learn more and see results.</a></div>
 						</div>
 					</div>
-					<div class="d-none" xclass="d-flex gap-3 mt-4">
+					<div xclass="d-none" class="d-flex gap-3 mt-4">
 						<div><i class="fa-duotone fa-asterisk fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div><a xhref="/2020-2021">Highlights</a></div>
 							<div class="small text-secondary">
 								<ul>
-									<li>Finished in 18th place in our division during our third time at the Michigan State Championship; selected as a partner for Alliance 4.</li>
-									<li>Finished in 10th place and were part of Alliance 3 at the <a href="/2024-2025/events/fruitport">Fruitport qualification event</a> <b>and advanced to state championship!</b></li>
-									<li>Finished ninth place and part of Alliance 3 at the <a href="/2024-2025/events/kentwood">Kentwood qualification event</a>.</li>
-									<li>Winner of the Design Award at Kentwood.</li>
+									<li class="d-none">Finished in 18th place in our division during our third time at the Michigan State Championship; selected as a partner for Alliance 4.</li>
+									<li class="d-none">Finished in 10th place and were part of Alliance 3 at the <a href="/2024-2025/events/fruitport">Fruitport qualification event</a> <b>and advanced to state championship!</b></li>
+									<li>Finished ninth place, part of Alliance 2, and won the Think Award at the <a href="/2025-2026/events/kentwood">Kentwood qualification event</a>. All this together has earned us a trip to the State Championship in Muskegon!</li>
 								</ul>
 							</div>
 						</div>
@@ -255,7 +264,7 @@
 						<div><i class="fa-duotone fa-mitten fa-3x text-secondary fa-fw"></i></div>
 						<div>
 							<div><a href="https://firstinmichigan.us" target="_blank">FIRST in Michigan</a></div>
-							<div class="small text-secondary">FIRST in Michigan is the organization that oversees FIRST activities within the state.</div>
+							<div class="small text-secondary">FIRST in Michigan is the organization that oversees FIRST activities within the state. <a href="https://firstinmichigan.us/FTC/mi-ftc-team-list/" target="_new">You can find a team near you with the FTC team list</a>.</div>
 						</div>
 					</div>
 				</div>
